@@ -1,0 +1,330 @@
+{
+    "metadata": {
+        "name": "ZARI.ai Agricultural Knowledge Graph",
+        "version": "1.0",
+        "generated_at": "2026-07-31T00:14:36.620562"
+    },
+    "taxonomy": {
+        "Poaceae": {
+            "Corn": {
+                "Fungal": [
+                    "Blight",
+                    "Cercospora_Spot_Gray_Spot",
+                    "Common_Rust",
+                    "Gray_Spot",
+                    "Holcus_Spot",
+                    "Northern_Blight",
+                    "Rust"
+                ],
+                "Healthy": [
+                    "Healthy"
+                ],
+                "Unknown": [
+                    "Fungal",
+                    "Unknown"
+                ]
+            },
+            "Wheat": {
+                "Unknown": [
+                    "Aphid",
+                    "Blast",
+                    "Septoria",
+                    "Stem_Fly"
+                ],
+                "Fungal": [
+                    "Black_Rust",
+                    "Brown_Rust",
+                    "Common_Root_Rot",
+                    "Fusarium_Head_Blight",
+                    "Leaf_Blight",
+                    "Mildew",
+                    "Smut",
+                    "Tan_Spot"
+                ],
+                "Healthy": [
+                    "Healthy"
+                ],
+                "Pest": [
+                    "Mite"
+                ],
+                "Viral": [
+                    "Yellow_Rust"
+                ]
+            }
+        },
+        "Rosaceae": {
+            "Apple": {
+                "Fungal": [
+                    "Black_Rot",
+                    "Black_Spot",
+                    "Brown_Spot",
+                    "Cedar_Rust",
+                    "Rust",
+                    "Scab"
+                ],
+                "Healthy": [
+                    "Healthy"
+                ],
+                "Unknown": [
+                    "Unknown"
+                ]
+            },
+            "Peach": {
+                "Bacterial": [
+                    "Bacterial_Spot"
+                ],
+                "Healthy": [
+                    "Healthy"
+                ],
+                "Unknown": [
+                    "Unknown"
+                ]
+            },
+            "Cherry": {
+                "Fungal": [
+                    "Brown_Spot",
+                    "Powdery_Mildew",
+                    "Purple_Spot"
+                ],
+                "Healthy": [
+                    "Healthy"
+                ],
+                "Unknown": [
+                    "Scorch",
+                    "Shot_Hole",
+                    "Unknown"
+                ]
+            },
+            "Strawberry": {
+                "Unknown": [
+                    "Scorch",
+                    "Unknown"
+                ],
+                "Healthy": [
+                    "Healthy"
+                ]
+            },
+            "Raspberry": {
+                "Healthy": [
+                    "Healthy"
+                ],
+                "Unknown": [
+                    "Unknown"
+                ]
+            }
+        },
+        "Solanaceae": {
+            "Pepper": {
+                "Healthy": [
+                    "Healthy"
+                ],
+                "Bacterial": [
+                    "Bacterial_Spot"
+                ],
+                "Unknown": [
+                    "Unknown"
+                ],
+                "Fungal": [
+                    "Spot"
+                ]
+            },
+            "Tomato": {
+                "Fungal": [
+                    "Early_Blight",
+                    "Late_Blight",
+                    "Mold",
+                    "Septoria_Spot",
+                    "Spider_Mites_Two_Spotted_Spider_Mite",
+                    "Target_Spot",
+                    "Two_Spotted_Spider_Mites"
+                ],
+                "Bacterial": [
+                    "Bacterial_Spot"
+                ],
+                "Healthy": [
+                    "Healthy"
+                ],
+                "Viral": [
+                    "Curl",
+                    "Mosaic_Virus",
+                    "Yellow_Curl_Virus",
+                    "Yellow_Virus"
+                ],
+                "Pest": [
+                    "Miner",
+                    "Spider_Mites"
+                ],
+                "Unknown": [
+                    "Fusarium_Wilt",
+                    "Septoria",
+                    "Unknown",
+                    "Verticillium_Wilt"
+                ]
+            },
+            "Potato": {
+                "Fungal": [
+                    "Early_Blight",
+                    "Late_Blight"
+                ],
+                "Healthy": [
+                    "Healthy"
+                ]
+            }
+        },
+        "Fabaceae": {
+            "Soybean": {
+                "Healthy": [
+                    "Healthy"
+                ],
+                "Unknown": [
+                    "Unknown"
+                ]
+            }
+        },
+        "Unknown": {
+            "Unknown": {
+                "Unknown": [
+                    "0",
+                    "1",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "17",
+                    "18",
+                    "19",
+                    "2",
+                    "20",
+                    "21",
+                    "22",
+                    "23",
+                    "24",
+                    "25",
+                    "26",
+                    "27",
+                    "28",
+                    "29",
+                    "3",
+                    "30",
+                    "31",
+                    "32",
+                    "33",
+                    "34",
+                    "35",
+                    "36",
+                    "37",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "Generated_For_Paper",
+                    "Lokat",
+                    "Plantdoc"
+                ],
+                "Fungal": [
+                    "Lokat_Spot",
+                    "Persimmons_Brown_Spot"
+                ]
+            },
+            "Walnut": {
+                "Unknown": [
+                    "Anthracnose",
+                    "Blotch",
+                    "Shot_Hole",
+                    "Unknown"
+                ],
+                "Pest": [
+                    "Gall_Mite"
+                ]
+            },
+            "Orange": {
+                "Unknown": [
+                    "Haunglongbing_Greening"
+                ]
+            },
+            "Apricot": {
+                "Unknown": [
+                    "Shot_Hole",
+                    "Unknown"
+                ],
+                "Fungal": [
+                    "Blight"
+                ]
+            },
+            "Bean": {
+                "Unknown": [
+                    "Fungal",
+                    "Shot_Hole",
+                    "Unknown"
+                ],
+                "Fungal": [
+                    "Rust"
+                ]
+            },
+            "Fig": {
+                "Unknown": [
+                    "Unknown"
+                ],
+                "Fungal": [
+                    "Blight",
+                    "Brown_Spot",
+                    "Rust"
+                ]
+            },
+            "Pear": {
+                "Fungal": [
+                    "Black_Spot",
+                    "Fire_Blight"
+                ],
+                "Unknown": [
+                    "Unknown"
+                ]
+            }
+        },
+        "Cucurbitaceae": {
+            "Squash": {
+                "Fungal": [
+                    "Powdery_Mildew"
+                ]
+            }
+        },
+        "Vitaceae": {
+            "Grape": {
+                "Healthy": [
+                    "Healthy"
+                ],
+                "Fungal": [
+                    "Black_Rot",
+                    "Blight_Isariopsis_Spot",
+                    "Brown_Spot",
+                    "Downy_Mildew",
+                    "Powdery_Mildew"
+                ],
+                "Unknown": [
+                    "Anthracnose",
+                    "Esca_Black_Measles",
+                    "Shot_Hole",
+                    "Unknown"
+                ],
+                "Pest": [
+                    "Mites"
+                ]
+            }
+        },
+        "Ericaceae": {
+            "Blueberry": {
+                "Healthy": [
+                    "Healthy"
+                ],
+                "Unknown": [
+                    "Unknown"
+                ]
+            }
+        }
+    }
+}

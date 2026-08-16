@@ -1,0 +1,18 @@
+# ZARI AI Platform Core Dependencies
+torch
+torchvision
+timm
+sentence-transformers
+qdrant-client
+fastapi
+uvicorn
+python-multipart
+pandas
+numpy
+pillow
+scikit-learn
+matplotlib
+psycopg2-binary
+requests
+groq
+httpx

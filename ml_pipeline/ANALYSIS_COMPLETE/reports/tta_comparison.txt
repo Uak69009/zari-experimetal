@@ -1,0 +1,42 @@
+================================================================================
+ZARI.ai — TEST-TIME AUGMENTATION (TTA) COMPARISON REPORT
+================================================================================
+Date / Timestamp           : 2026-08-15T15:49:27.639551
+Evaluation Dataset         : Test Split (6,648 Field Images)
+Evaluated Model            : phase2_edl_model.pth
+TTA Configuration          : 5-View Dirichlet Evidence Averaging
+                             (Original, H-Flip, V-Flip, +10° Rotation, -10° Rotation)
+
+1. OVERALL SYSTEM METRICS COMPARISON
+--------------------------------------------------------------------------------
+Metric                    | No TTA       | With TTA     | Change      
+-----------------------------------------------------------------
+Overall Accuracy          |  97.32%      |  97.34%      |  +0.02%
+Macro F1 Score            |   0.9690     |   0.9693     |  +0.0002
+Error Detection AUROC     |   0.9527     |   0.9608     |  +0.0082
+
+2. WHEAT CLASSES ACCURACY BREAKDOWN
+--------------------------------------------------------------------------------
+Class Name                     | No TTA       | With TTA     | Change      
+----------------------------------------------------------------------
+Wheat_Aphid                    |  84.62%      |  85.58%      |  +0.96%
+Wheat_Black_Rust               |  77.14%      |  75.71%      |  -1.43%
+Wheat_Blast                    |  84.29%      |  85.71%      |  +1.43%
+Wheat_Brown_Rust               |  87.05%      |  87.77%      |  +0.72%
+Wheat_Common_Root_Rot          |  93.06%      |  93.06%      |  +0.00%
+Wheat_Fusarium_Head_Blight     |  98.48%      |  98.48%      |  +0.00%
+Wheat_Healthy                  |  99.07%      |  99.07%      |  +0.00%
+Wheat_Leaf_Blight              |  69.32%      |  68.18%      |  -1.14%
+Wheat_Mildew                   |  96.55%      |  96.55%      |  +0.00%
+Wheat_Mite                     |  81.40%      |  81.40%      |  +0.00%
+Wheat_Septoria                 |  89.08%      |  89.08%      |  +0.00%
+Wheat_Smut                     |  93.43%      |  93.43%      |  +0.00%
+Wheat_Stem_Fly                 |  89.66%      |  89.66%      |  +0.00%
+Wheat_Tan_Spot                 |  66.27%      |  65.06%      |  -1.20%
+Wheat_Yellow_Rust              | 100.00%      | 100.00%      |  +0.00%
+
+================================================================================
+SUMMARY VERDICT:
+Wheat Errors Characteristic : SPECIFIC (concentrated in 1-3 visually similar foliar diseases)
+TTA Impact                  : HELPFUL (+0.02% accuracy, +0.0002 F1)
+================================================================================

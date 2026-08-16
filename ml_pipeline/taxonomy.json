@@ -1,0 +1,792 @@
+{
+    "0": {
+        "folder_name": "0",
+        "english_name": "0",
+        "urdu_translation": "اردو تشخیص: 0"
+    },
+    "1": {
+        "folder_name": "1",
+        "english_name": "1",
+        "urdu_translation": "اردو تشخیص: 1"
+    },
+    "2": {
+        "folder_name": "10",
+        "english_name": "10",
+        "urdu_translation": "اردو تشخیص: 10"
+    },
+    "3": {
+        "folder_name": "11",
+        "english_name": "11",
+        "urdu_translation": "اردو تشخیص: 11"
+    },
+    "4": {
+        "folder_name": "12",
+        "english_name": "12",
+        "urdu_translation": "اردو تشخیص: 12"
+    },
+    "5": {
+        "folder_name": "13",
+        "english_name": "13",
+        "urdu_translation": "اردو تشخیص: 13"
+    },
+    "6": {
+        "folder_name": "14",
+        "english_name": "14",
+        "urdu_translation": "اردو تشخیص: 14"
+    },
+    "7": {
+        "folder_name": "15",
+        "english_name": "15",
+        "urdu_translation": "اردو تشخیص: 15"
+    },
+    "8": {
+        "folder_name": "16",
+        "english_name": "16",
+        "urdu_translation": "اردو تشخیص: 16"
+    },
+    "9": {
+        "folder_name": "17",
+        "english_name": "17",
+        "urdu_translation": "اردو تشخیص: 17"
+    },
+    "10": {
+        "folder_name": "18",
+        "english_name": "18",
+        "urdu_translation": "اردو تشخیص: 18"
+    },
+    "11": {
+        "folder_name": "19",
+        "english_name": "19",
+        "urdu_translation": "اردو تشخیص: 19"
+    },
+    "12": {
+        "folder_name": "2",
+        "english_name": "2",
+        "urdu_translation": "اردو تشخیص: 2"
+    },
+    "13": {
+        "folder_name": "20",
+        "english_name": "20",
+        "urdu_translation": "اردو تشخیص: 20"
+    },
+    "14": {
+        "folder_name": "21",
+        "english_name": "21",
+        "urdu_translation": "اردو تشخیص: 21"
+    },
+    "15": {
+        "folder_name": "22",
+        "english_name": "22",
+        "urdu_translation": "اردو تشخیص: 22"
+    },
+    "16": {
+        "folder_name": "23",
+        "english_name": "23",
+        "urdu_translation": "اردو تشخیص: 23"
+    },
+    "17": {
+        "folder_name": "24",
+        "english_name": "24",
+        "urdu_translation": "اردو تشخیص: 24"
+    },
+    "18": {
+        "folder_name": "25",
+        "english_name": "25",
+        "urdu_translation": "اردو تشخیص: 25"
+    },
+    "19": {
+        "folder_name": "26",
+        "english_name": "26",
+        "urdu_translation": "اردو تشخیص: 26"
+    },
+    "20": {
+        "folder_name": "27",
+        "english_name": "27",
+        "urdu_translation": "اردو تشخیص: 27"
+    },
+    "21": {
+        "folder_name": "28",
+        "english_name": "28",
+        "urdu_translation": "اردو تشخیص: 28"
+    },
+    "22": {
+        "folder_name": "29",
+        "english_name": "29",
+        "urdu_translation": "اردو تشخیص: 29"
+    },
+    "23": {
+        "folder_name": "3",
+        "english_name": "3",
+        "urdu_translation": "اردو تشخیص: 3"
+    },
+    "24": {
+        "folder_name": "30",
+        "english_name": "30",
+        "urdu_translation": "اردو تشخیص: 30"
+    },
+    "25": {
+        "folder_name": "31",
+        "english_name": "31",
+        "urdu_translation": "اردو تشخیص: 31"
+    },
+    "26": {
+        "folder_name": "32",
+        "english_name": "32",
+        "urdu_translation": "اردو تشخیص: 32"
+    },
+    "27": {
+        "folder_name": "33",
+        "english_name": "33",
+        "urdu_translation": "اردو تشخیص: 33"
+    },
+    "28": {
+        "folder_name": "34",
+        "english_name": "34",
+        "urdu_translation": "اردو تشخیص: 34"
+    },
+    "29": {
+        "folder_name": "35",
+        "english_name": "35",
+        "urdu_translation": "اردو تشخیص: 35"
+    },
+    "30": {
+        "folder_name": "36",
+        "english_name": "36",
+        "urdu_translation": "اردو تشخیص: 36"
+    },
+    "31": {
+        "folder_name": "37",
+        "english_name": "37",
+        "urdu_translation": "اردو تشخیص: 37"
+    },
+    "32": {
+        "folder_name": "4",
+        "english_name": "4",
+        "urdu_translation": "اردو تشخیص: 4"
+    },
+    "33": {
+        "folder_name": "5",
+        "english_name": "5",
+        "urdu_translation": "اردو تشخیص: 5"
+    },
+    "34": {
+        "folder_name": "6",
+        "english_name": "6",
+        "urdu_translation": "اردو تشخیص: 6"
+    },
+    "35": {
+        "folder_name": "7",
+        "english_name": "7",
+        "urdu_translation": "اردو تشخیص: 7"
+    },
+    "36": {
+        "folder_name": "8",
+        "english_name": "8",
+        "urdu_translation": "اردو تشخیص: 8"
+    },
+    "37": {
+        "folder_name": "9",
+        "english_name": "9",
+        "urdu_translation": "اردو تشخیص: 9"
+    },
+    "38": {
+        "folder_name": "Apple Brown_spot",
+        "english_name": "Apple Brown Spot",
+        "urdu_translation": "اردو تشخیص: Apple Brown Spot"
+    },
+    "39": {
+        "folder_name": "Apple Normal",
+        "english_name": "Apple Normal",
+        "urdu_translation": "اردو تشخیص: Apple Normal"
+    },
+    "40": {
+        "folder_name": "Apple Scab Leaf",
+        "english_name": "Apple Scab Leaf",
+        "urdu_translation": "اردو تشخیص: Apple Scab Leaf"
+    },
+    "41": {
+        "folder_name": "Apple black_spot",
+        "english_name": "Apple Black Spot",
+        "urdu_translation": "اردو تشخیص: Apple Black Spot"
+    },
+    "42": {
+        "folder_name": "Apple leaf",
+        "english_name": "Apple Leaf",
+        "urdu_translation": "اردو تشخیص: Apple Leaf"
+    },
+    "43": {
+        "folder_name": "Apple rust leaf",
+        "english_name": "Apple Rust Leaf",
+        "urdu_translation": "اردو تشخیص: Apple Rust Leaf"
+    },
+    "44": {
+        "folder_name": "Apple___Apple_scab",
+        "english_name": "Apple   Apple Scab",
+        "urdu_translation": "اردو تشخیص: Apple   Apple Scab"
+    },
+    "45": {
+        "folder_name": "Apple___Black_rot",
+        "english_name": "Apple   Black Rot",
+        "urdu_translation": "اردو تشخیص: Apple   Black Rot"
+    },
+    "46": {
+        "folder_name": "Apple___Cedar_apple_rust",
+        "english_name": "Apple   Cedar Apple Rust",
+        "urdu_translation": "اردو تشخیص: Apple   Cedar Apple Rust"
+    },
+    "47": {
+        "folder_name": "Apple___healthy",
+        "english_name": "Apple   Healthy",
+        "urdu_translation": "اردو تشخیص: Apple   Healthy"
+    },
+    "48": {
+        "folder_name": "Apricot Normal",
+        "english_name": "Apricot Normal",
+        "urdu_translation": "اردو تشخیص: Apricot Normal"
+    },
+    "49": {
+        "folder_name": "Apricot blight leaf disease",
+        "english_name": "Apricot Blight Leaf Disease",
+        "urdu_translation": "اردو تشخیص: Apricot Blight Leaf Disease"
+    },
+    "50": {
+        "folder_name": "Apricot shot_hole",
+        "english_name": "Apricot Shot Hole",
+        "urdu_translation": "اردو تشخیص: Apricot Shot Hole"
+    },
+    "51": {
+        "folder_name": "Bean Fungal_leaf disease",
+        "english_name": "Bean Fungal Leaf Disease",
+        "urdu_translation": "اردو تشخیص: Bean Fungal Leaf Disease"
+    },
+    "52": {
+        "folder_name": "Bean Normal leaf",
+        "english_name": "Bean Normal Leaf",
+        "urdu_translation": "اردو تشخیص: Bean Normal Leaf"
+    },
+    "53": {
+        "folder_name": "Bean bean rust image",
+        "english_name": "Bean Bean Rust Image",
+        "urdu_translation": "اردو تشخیص: Bean Bean Rust Image"
+    },
+    "54": {
+        "folder_name": "Bean shot_hole",
+        "english_name": "Bean Shot Hole",
+        "urdu_translation": "اردو تشخیص: Bean Shot Hole"
+    },
+    "55": {
+        "folder_name": "Bell_pepper leaf",
+        "english_name": "Bell Pepper Leaf",
+        "urdu_translation": "اردو تشخیص: Bell Pepper Leaf"
+    },
+    "56": {
+        "folder_name": "Bell_pepper leaf spot",
+        "english_name": "Bell Pepper Leaf Spot",
+        "urdu_translation": "اردو تشخیص: Bell Pepper Leaf Spot"
+    },
+    "57": {
+        "folder_name": "Blueberry leaf",
+        "english_name": "Blueberry Leaf",
+        "urdu_translation": "اردو تشخیص: Blueberry Leaf"
+    },
+    "58": {
+        "folder_name": "Blueberry___healthy",
+        "english_name": "Blueberry   Healthy",
+        "urdu_translation": "اردو تشخیص: Blueberry   Healthy"
+    },
+    "59": {
+        "folder_name": "Cherry Leaf Scorch",
+        "english_name": "Cherry Leaf Scorch",
+        "urdu_translation": "اردو تشخیص: Cherry Leaf Scorch"
+    },
+    "60": {
+        "folder_name": "Cherry Normal leaf",
+        "english_name": "Cherry Normal Leaf",
+        "urdu_translation": "اردو تشخیص: Cherry Normal Leaf"
+    },
+    "61": {
+        "folder_name": "Cherry brown_spot",
+        "english_name": "Cherry Brown Spot",
+        "urdu_translation": "اردو تشخیص: Cherry Brown Spot"
+    },
+    "62": {
+        "folder_name": "Cherry leaf",
+        "english_name": "Cherry Leaf",
+        "urdu_translation": "اردو تشخیص: Cherry Leaf"
+    },
+    "63": {
+        "folder_name": "Cherry purple leaf spot",
+        "english_name": "Cherry Purple Leaf Spot",
+        "urdu_translation": "اردو تشخیص: Cherry Purple Leaf Spot"
+    },
+    "64": {
+        "folder_name": "Cherry_(including_sour)___Powdery_mildew",
+        "english_name": "Cherry (Including Sour)   Powdery Mildew",
+        "urdu_translation": "اردو تشخیص: Cherry (Including Sour)   Powdery Mildew"
+    },
+    "65": {
+        "folder_name": "Cherry_(including_sour)___healthy",
+        "english_name": "Cherry (Including Sour)   Healthy",
+        "urdu_translation": "اردو تشخیص: Cherry (Including Sour)   Healthy"
+    },
+    "66": {
+        "folder_name": "Cherry_shot hole disease",
+        "english_name": "Cherry Shot Hole Disease",
+        "urdu_translation": "اردو تشخیص: Cherry Shot Hole Disease"
+    },
+    "67": {
+        "folder_name": "Corn Fungal leaf",
+        "english_name": "Corn Fungal Leaf",
+        "urdu_translation": "اردو تشخیص: Corn Fungal Leaf"
+    },
+    "68": {
+        "folder_name": "Corn Gray leaf spot",
+        "english_name": "Corn Gray Leaf Spot",
+        "urdu_translation": "اردو تشخیص: Corn Gray Leaf Spot"
+    },
+    "69": {
+        "folder_name": "Corn Normal leaf",
+        "english_name": "Corn Normal Leaf",
+        "urdu_translation": "اردو تشخیص: Corn Normal Leaf"
+    },
+    "70": {
+        "folder_name": "Corn gray leaf spot",
+        "english_name": "Corn Gray Leaf Spot",
+        "urdu_translation": "اردو تشخیص: Corn Gray Leaf Spot"
+    },
+    "71": {
+        "folder_name": "Corn holcus_ leaf spot",
+        "english_name": "Corn Holcus  Leaf Spot",
+        "urdu_translation": "اردو تشخیص: Corn Holcus  Leaf Spot"
+    },
+    "72": {
+        "folder_name": "Corn leaf blight",
+        "english_name": "Corn Leaf Blight",
+        "urdu_translation": "اردو تشخیص: Corn Leaf Blight"
+    },
+    "73": {
+        "folder_name": "Corn rust leaf",
+        "english_name": "Corn Rust Leaf",
+        "urdu_translation": "اردو تشخیص: Corn Rust Leaf"
+    },
+    "74": {
+        "folder_name": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+        "english_name": "Corn (Maize)   Cercospora Leaf Spot Gray Leaf Spot",
+        "urdu_translation": "اردو تشخیص: Corn (Maize)   Cercospora Leaf Spot Gray Leaf Spot"
+    },
+    "75": {
+        "folder_name": "Corn_(maize)___Common_rust_",
+        "english_name": "Corn (Maize)   Common Rust ",
+        "urdu_translation": "اردو تشخیص: Corn (Maize)   Common Rust "
+    },
+    "76": {
+        "folder_name": "Corn_(maize)___Northern_Leaf_Blight",
+        "english_name": "Corn (Maize)   Northern Leaf Blight",
+        "urdu_translation": "اردو تشخیص: Corn (Maize)   Northern Leaf Blight"
+    },
+    "77": {
+        "folder_name": "Corn_(maize)___healthy",
+        "english_name": "Corn (Maize)   Healthy",
+        "urdu_translation": "اردو تشخیص: Corn (Maize)   Healthy"
+    },
+    "78": {
+        "folder_name": "Fig Blight_leaf disease",
+        "english_name": "Fig Blight Leaf Disease",
+        "urdu_translation": "اردو تشخیص: Fig Blight Leaf Disease"
+    },
+    "79": {
+        "folder_name": "Fig Brown spot",
+        "english_name": "Fig Brown Spot",
+        "urdu_translation": "اردو تشخیص: Fig Brown Spot"
+    },
+    "80": {
+        "folder_name": "Fig normal leaf",
+        "english_name": "Fig Normal Leaf",
+        "urdu_translation": "اردو تشخیص: Fig Normal Leaf"
+    },
+    "81": {
+        "folder_name": "Fig_rust leaf",
+        "english_name": "Fig Rust Leaf",
+        "urdu_translation": "اردو تشخیص: Fig Rust Leaf"
+    },
+    "82": {
+        "folder_name": "Grape Anthracnose leaf",
+        "english_name": "Grape Anthracnose Leaf",
+        "urdu_translation": "اردو تشخیص: Grape Anthracnose Leaf"
+    },
+    "83": {
+        "folder_name": "Grape Brown spot leaf",
+        "english_name": "Grape Brown Spot Leaf",
+        "urdu_translation": "اردو تشخیص: Grape Brown Spot Leaf"
+    },
+    "84": {
+        "folder_name": "Grape Downy mildew leaf",
+        "english_name": "Grape Downy Mildew Leaf",
+        "urdu_translation": "اردو تشخیص: Grape Downy Mildew Leaf"
+    },
+    "85": {
+        "folder_name": "Grape Mites_leaf disease",
+        "english_name": "Grape Mites Leaf Disease",
+        "urdu_translation": "اردو تشخیص: Grape Mites Leaf Disease"
+    },
+    "86": {
+        "folder_name": "Grape Normal_leaf",
+        "english_name": "Grape Normal Leaf",
+        "urdu_translation": "اردو تشخیص: Grape Normal Leaf"
+    },
+    "87": {
+        "folder_name": "Grape Powdery_mildew leaf",
+        "english_name": "Grape Powdery Mildew Leaf",
+        "urdu_translation": "اردو تشخیص: Grape Powdery Mildew Leaf"
+    },
+    "88": {
+        "folder_name": "Grape shot hole leaf disease",
+        "english_name": "Grape Shot Hole Leaf Disease",
+        "urdu_translation": "اردو تشخیص: Grape Shot Hole Leaf Disease"
+    },
+    "89": {
+        "folder_name": "Grape___Black_rot",
+        "english_name": "Grape   Black Rot",
+        "urdu_translation": "اردو تشخیص: Grape   Black Rot"
+    },
+    "90": {
+        "folder_name": "Grape___Esca_(Black_Measles)",
+        "english_name": "Grape   Esca (Black Measles)",
+        "urdu_translation": "اردو تشخیص: Grape   Esca (Black Measles)"
+    },
+    "91": {
+        "folder_name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+        "english_name": "Grape   Leaf Blight (Isariopsis Leaf Spot)",
+        "urdu_translation": "اردو تشخیص: Grape   Leaf Blight (Isariopsis Leaf Spot)"
+    },
+    "92": {
+        "folder_name": "Grape___healthy",
+        "english_name": "Grape   Healthy",
+        "urdu_translation": "اردو تشخیص: Grape   Healthy"
+    },
+    "93": {
+        "folder_name": "Lokat Normal leaf",
+        "english_name": "Lokat Normal Leaf",
+        "urdu_translation": "اردو تشخیص: Lokat Normal Leaf"
+    },
+    "94": {
+        "folder_name": "Orange___Haunglongbing_(Citrus_greening)",
+        "english_name": "Orange   Haunglongbing (Citrus Greening)",
+        "urdu_translation": "اردو تشخیص: Orange   Haunglongbing (Citrus Greening)"
+    },
+    "95": {
+        "folder_name": "Peach leaf",
+        "english_name": "Peach Leaf",
+        "urdu_translation": "اردو تشخیص: Peach Leaf"
+    },
+    "96": {
+        "folder_name": "Peach___Bacterial_spot",
+        "english_name": "Peach   Bacterial Spot",
+        "urdu_translation": "اردو تشخیص: Peach   Bacterial Spot"
+    },
+    "97": {
+        "folder_name": "Peach___healthy",
+        "english_name": "Peach   Healthy",
+        "urdu_translation": "اردو تشخیص: Peach   Healthy"
+    },
+    "98": {
+        "folder_name": "Pear Black spot _ leaf disease",
+        "english_name": "Pear Black Spot   Leaf Disease",
+        "urdu_translation": "اردو تشخیص: Pear Black Spot   Leaf Disease"
+    },
+    "99": {
+        "folder_name": "Pear Normal _leaf",
+        "english_name": "Pear Normal  Leaf",
+        "urdu_translation": "اردو تشخیص: Pear Normal  Leaf"
+    },
+    "100": {
+        "folder_name": "Pear fire blight",
+        "english_name": "Pear Fire Blight",
+        "urdu_translation": "اردو تشخیص: Pear Fire Blight"
+    },
+    "101": {
+        "folder_name": "Pepper,_bell___Bacterial_spot",
+        "english_name": "Pepper, Bell   Bacterial Spot",
+        "urdu_translation": "اردو تشخیص: Pepper, Bell   Bacterial Spot"
+    },
+    "102": {
+        "folder_name": "Pepper,_bell___healthy",
+        "english_name": "Pepper, Bell   Healthy",
+        "urdu_translation": "اردو تشخیص: Pepper, Bell   Healthy"
+    },
+    "103": {
+        "folder_name": "Potato leaf early blight",
+        "english_name": "Potato Leaf Early Blight",
+        "urdu_translation": "اردو تشخیص: Potato Leaf Early Blight"
+    },
+    "104": {
+        "folder_name": "Potato leaf late blight",
+        "english_name": "Potato Leaf Late Blight",
+        "urdu_translation": "اردو تشخیص: Potato Leaf Late Blight"
+    },
+    "105": {
+        "folder_name": "Potato___Early_blight",
+        "english_name": "Potato   Early Blight",
+        "urdu_translation": "اردو تشخیص: Potato   Early Blight"
+    },
+    "106": {
+        "folder_name": "Potato___Late_blight",
+        "english_name": "Potato   Late Blight",
+        "urdu_translation": "اردو تشخیص: Potato   Late Blight"
+    },
+    "107": {
+        "folder_name": "Potato___healthy",
+        "english_name": "Potato   Healthy",
+        "urdu_translation": "اردو تشخیص: Potato   Healthy"
+    },
+    "108": {
+        "folder_name": "Raspberry leaf",
+        "english_name": "Raspberry Leaf",
+        "urdu_translation": "اردو تشخیص: Raspberry Leaf"
+    },
+    "109": {
+        "folder_name": "Raspberry___healthy",
+        "english_name": "Raspberry   Healthy",
+        "urdu_translation": "اردو تشخیص: Raspberry   Healthy"
+    },
+    "110": {
+        "folder_name": "Soyabean leaf",
+        "english_name": "Soyabean Leaf",
+        "urdu_translation": "اردو تشخیص: Soyabean Leaf"
+    },
+    "111": {
+        "folder_name": "Soybean___healthy",
+        "english_name": "Soybean   Healthy",
+        "urdu_translation": "اردو تشخیص: Soybean   Healthy"
+    },
+    "112": {
+        "folder_name": "Squash Powdery mildew leaf",
+        "english_name": "Squash Powdery Mildew Leaf",
+        "urdu_translation": "اردو تشخیص: Squash Powdery Mildew Leaf"
+    },
+    "113": {
+        "folder_name": "Squash___Powdery_mildew",
+        "english_name": "Squash   Powdery Mildew",
+        "urdu_translation": "اردو تشخیص: Squash   Powdery Mildew"
+    },
+    "114": {
+        "folder_name": "Strawberry leaf",
+        "english_name": "Strawberry Leaf",
+        "urdu_translation": "اردو تشخیص: Strawberry Leaf"
+    },
+    "115": {
+        "folder_name": "Strawberry___Leaf_scorch",
+        "english_name": "Strawberry   Leaf Scorch",
+        "urdu_translation": "اردو تشخیص: Strawberry   Leaf Scorch"
+    },
+    "116": {
+        "folder_name": "Strawberry___healthy",
+        "english_name": "Strawberry   Healthy",
+        "urdu_translation": "اردو تشخیص: Strawberry   Healthy"
+    },
+    "117": {
+        "folder_name": "Tomato Early blight leaf",
+        "english_name": "Tomato Early Blight Leaf",
+        "urdu_translation": "اردو تشخیص: Tomato Early Blight Leaf"
+    },
+    "118": {
+        "folder_name": "Tomato Septoria leaf spot",
+        "english_name": "Tomato Septoria Leaf Spot",
+        "urdu_translation": "اردو تشخیص: Tomato Septoria Leaf Spot"
+    },
+    "119": {
+        "folder_name": "Tomato leaf",
+        "english_name": "Tomato Leaf",
+        "urdu_translation": "اردو تشخیص: Tomato Leaf"
+    },
+    "120": {
+        "folder_name": "Tomato leaf bacterial spot",
+        "english_name": "Tomato Leaf Bacterial Spot",
+        "urdu_translation": "اردو تشخیص: Tomato Leaf Bacterial Spot"
+    },
+    "121": {
+        "folder_name": "Tomato leaf late blight",
+        "english_name": "Tomato Leaf Late Blight",
+        "urdu_translation": "اردو تشخیص: Tomato Leaf Late Blight"
+    },
+    "122": {
+        "folder_name": "Tomato leaf mosaic virus",
+        "english_name": "Tomato Leaf Mosaic Virus",
+        "urdu_translation": "اردو تشخیص: Tomato Leaf Mosaic Virus"
+    },
+    "123": {
+        "folder_name": "Tomato leaf yellow virus",
+        "english_name": "Tomato Leaf Yellow Virus",
+        "urdu_translation": "اردو تشخیص: Tomato Leaf Yellow Virus"
+    },
+    "124": {
+        "folder_name": "Tomato mold leaf",
+        "english_name": "Tomato Mold Leaf",
+        "urdu_translation": "اردو تشخیص: Tomato Mold Leaf"
+    },
+    "125": {
+        "folder_name": "Tomato two spotted spider mites leaf",
+        "english_name": "Tomato Two Spotted Spider Mites Leaf",
+        "urdu_translation": "اردو تشخیص: Tomato Two Spotted Spider Mites Leaf"
+    },
+    "126": {
+        "folder_name": "Tomato___Bacterial_spot",
+        "english_name": "Tomato   Bacterial Spot",
+        "urdu_translation": "اردو تشخیص: Tomato   Bacterial Spot"
+    },
+    "127": {
+        "folder_name": "Tomato___Early_blight",
+        "english_name": "Tomato   Early Blight",
+        "urdu_translation": "اردو تشخیص: Tomato   Early Blight"
+    },
+    "128": {
+        "folder_name": "Tomato___Late_blight",
+        "english_name": "Tomato   Late Blight",
+        "urdu_translation": "اردو تشخیص: Tomato   Late Blight"
+    },
+    "129": {
+        "folder_name": "Tomato___Leaf_Mold",
+        "english_name": "Tomato   Leaf Mold",
+        "urdu_translation": "اردو تشخیص: Tomato   Leaf Mold"
+    },
+    "130": {
+        "folder_name": "Tomato___Septoria_leaf_spot",
+        "english_name": "Tomato   Septoria Leaf Spot",
+        "urdu_translation": "اردو تشخیص: Tomato   Septoria Leaf Spot"
+    },
+    "131": {
+        "folder_name": "Tomato___Spider_mites Two-spotted_spider_mite",
+        "english_name": "Tomato   Spider Mites Two-Spotted Spider Mite",
+        "urdu_translation": "اردو تشخیص: Tomato   Spider Mites Two-Spotted Spider Mite"
+    },
+    "132": {
+        "folder_name": "Tomato___Target_Spot",
+        "english_name": "Tomato   Target Spot",
+        "urdu_translation": "اردو تشخیص: Tomato   Target Spot"
+    },
+    "133": {
+        "folder_name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+        "english_name": "Tomato   Tomato Yellow Leaf Curl Virus",
+        "urdu_translation": "اردو تشخیص: Tomato   Tomato Yellow Leaf Curl Virus"
+    },
+    "134": {
+        "folder_name": "Tomato___Tomato_mosaic_virus",
+        "english_name": "Tomato   Tomato Mosaic Virus",
+        "urdu_translation": "اردو تشخیص: Tomato   Tomato Mosaic Virus"
+    },
+    "135": {
+        "folder_name": "Tomato___healthy",
+        "english_name": "Tomato   Healthy",
+        "urdu_translation": "اردو تشخیص: Tomato   Healthy"
+    },
+    "136": {
+        "folder_name": "Walnut Anthracnose_leaf disease",
+        "english_name": "Walnut Anthracnose Leaf Disease",
+        "urdu_translation": "اردو تشخیص: Walnut Anthracnose Leaf Disease"
+    },
+    "137": {
+        "folder_name": "Walnut Blotch_leaf disease",
+        "english_name": "Walnut Blotch Leaf Disease",
+        "urdu_translation": "اردو تشخیص: Walnut Blotch Leaf Disease"
+    },
+    "138": {
+        "folder_name": "Walnut Normal_leaf",
+        "english_name": "Walnut Normal Leaf",
+        "urdu_translation": "اردو تشخیص: Walnut Normal Leaf"
+    },
+    "139": {
+        "folder_name": "Walnut Shot_hole",
+        "english_name": "Walnut Shot Hole",
+        "urdu_translation": "اردو تشخیص: Walnut Shot Hole"
+    },
+    "140": {
+        "folder_name": "Walnut leaf gall mite",
+        "english_name": "Walnut Leaf Gall Mite",
+        "urdu_translation": "اردو تشخیص: Walnut Leaf Gall Mite"
+    },
+    "141": {
+        "folder_name": "generated_for_paper",
+        "english_name": "Generated For Paper",
+        "urdu_translation": "اردو تشخیص: Generated For Paper"
+    },
+    "142": {
+        "folder_name": "grape leaf",
+        "english_name": "Grape Leaf",
+        "urdu_translation": "اردو تشخیص: Grape Leaf"
+    },
+    "143": {
+        "folder_name": "grape leaf black rot",
+        "english_name": "Grape Leaf Black Rot",
+        "urdu_translation": "اردو تشخیص: Grape Leaf Black Rot"
+    },
+    "144": {
+        "folder_name": "lokat Leaf_spot",
+        "english_name": "Lokat Leaf Spot",
+        "urdu_translation": "اردو تشخیص: Lokat Leaf Spot"
+    },
+    "145": {
+        "folder_name": "persimmons Brown_spot",
+        "english_name": "Persimmons Brown Spot",
+        "urdu_translation": "اردو تشخیص: Persimmons Brown Spot"
+    },
+    "146": {
+        "folder_name": "plantdoc",
+        "english_name": "Plantdoc",
+        "urdu_translation": "اردو تشخیص: Plantdoc"
+    },
+    "147": {
+        "folder_name": "tomato Fusarium Wilt",
+        "english_name": "Tomato Fusarium Wilt",
+        "urdu_translation": "اردو تشخیص: Tomato Fusarium Wilt"
+    },
+    "148": {
+        "folder_name": "tomato spider mites",
+        "english_name": "Tomato Spider Mites",
+        "urdu_translation": "اردو تشخیص: Tomato Spider Mites"
+    },
+    "149": {
+        "folder_name": "tomato verticillium wilt",
+        "english_name": "Tomato Verticillium Wilt",
+        "urdu_translation": "اردو تشخیص: Tomato Verticillium Wilt"
+    },
+    "150": {
+        "folder_name": "tomato_bacterial_spot",
+        "english_name": "Tomato Bacterial Spot",
+        "urdu_translation": "اردو تشخیص: Tomato Bacterial Spot"
+    },
+    "151": {
+        "folder_name": "tomato_early_blight",
+        "english_name": "Tomato Early Blight",
+        "urdu_translation": "اردو تشخیص: Tomato Early Blight"
+    },
+    "152": {
+        "folder_name": "tomato_healthy_leaf",
+        "english_name": "Tomato Healthy Leaf",
+        "urdu_translation": "اردو تشخیص: Tomato Healthy Leaf"
+    },
+    "153": {
+        "folder_name": "tomato_late_blight",
+        "english_name": "Tomato Late Blight",
+        "urdu_translation": "اردو تشخیص: Tomato Late Blight"
+    },
+    "154": {
+        "folder_name": "tomato_leaf_curl",
+        "english_name": "Tomato Leaf Curl",
+        "urdu_translation": "اردو تشخیص: Tomato Leaf Curl"
+    },
+    "155": {
+        "folder_name": "tomato_leaf_miner",
+        "english_name": "Tomato Leaf Miner",
+        "urdu_translation": "اردو تشخیص: Tomato Leaf Miner"
+    },
+    "156": {
+        "folder_name": "tomato_leaf_mold",
+        "english_name": "Tomato Leaf Mold",
+        "urdu_translation": "اردو تشخیص: Tomato Leaf Mold"
+    },
+    "157": {
+        "folder_name": "tomato_septoria_leaf",
+        "english_name": "Tomato Septoria Leaf",
+        "urdu_translation": "اردو تشخیص: Tomato Septoria Leaf"
+    }
+}

@@ -1,0 +1,34 @@
+=====================================================================
+ZARI.ai -- PHASE 12 RE-BASELINE EVALUATION REPORT
+=====================================================================
+Date / Timestamp           : 2026-08-15T20:26:48Z
+Evaluated Model Checkpoint : ml_pipeline/models/phase2_edl_model.pth
+Evaluation Test Set        : ml_pipeline/data/dataset_final_training_v2.csv (split == 'test')
+Total Test Field Images    : 6,709 images
+Overall Accuracy           : 98.43%
+Overall AUROC              : 0.9993
+Mean Uncertainty           : 0.3896
+
+=====================================================================
+COMPARISON TABLE: OLD TEST SET vs. NEW RE-BASELINE TEST SET
+=====================================================================
+Metric / Wheat Class           | Old Test Set (6,648)   | New Baseline (6,709)   | Baseline Delta
+------------------------------------------------------------------------------------------
+Overall Test Accuracy          |                97.32% |                98.43% |        +1.11%
+------------------------------------------------------------------------------------------
+Wheat_Aphid                    |                94.23% |                97.87% |        +3.64%
+Wheat_Black_Rust               |                77.14% |                88.75% |       +11.61%
+Wheat_Blast                    |                71.43% |                96.70% |       +25.27%
+Wheat_Brown_Rust               |                87.05% |                82.89% |        -4.16%
+Wheat_Common_Root_Rot          |                84.72% |                98.55% |       +13.83%
+Wheat_Fusarium_Head_Blight     |                83.33% |               100.00% |       +16.67%
+Wheat_Healthy                  |                93.46% |                88.64% |        -4.82%
+Wheat_Leaf_Blight              |                69.32% |                85.09% |       +15.77%
+Wheat_Mildew                   |                94.83% |                97.39% |        +2.56%
+Wheat_Mite                     |                95.35% |                98.81% |        +3.46%
+Wheat_Septoria                 |                89.08% |                92.44% |        +3.36%
+Wheat_Smut                     |                97.08% |                97.62% |        +0.54%
+Wheat_Stem_Fly                 |                86.21% |                96.00% |        +9.79%
+Wheat_Tan_Spot                 |                66.27% |                93.98% |       +27.71%
+Wheat_Yellow_Rust              |                97.84% |               100.00% |        +2.16%
+------------------------------------------------------------------------------------------

@@ -1,0 +1,120 @@
+================================================================================
+ZARI.ai — DETAILED WHEAT CONFUSION ANALYSIS REPORT
+================================================================================
+Date / Timestamp : 2026-08-15T15:49:27.635564
+Test Set Samples : 6,648 field images
+Evaluation Model : phase2_edl_model.pth
+
+SUMMARY OF WHEAT CLASS CONFUSION BREAKDOWN:
+--------------------------------------------------------------------------------
+
+Wheat_Aphid (ID 52): Total Samples = 104, Errors = 16 (15.38% error rate)
+Wheat_Aphid is most confused with:
+  - Wheat_Mite (50.0% of errors, 8 samples)
+  - Wheat_Tan_Spot (25.0% of errors, 4 samples)
+  - Wheat_Black_Rust (6.2% of errors, 1 samples)
+  [Insight]: Highly SPECIFIC error concentration (81.2% of errors in top 3 classes).
+
+Wheat_Black_Rust (ID 53): Total Samples = 70, Errors = 16 (22.86% error rate)
+Wheat_Black_Rust is most confused with:
+  - Wheat_Brown_Rust (62.5% of errors, 10 samples)
+  - Wheat_Leaf_Blight (37.5% of errors, 6 samples)
+  [Insight]: Highly SPECIFIC error concentration (100.0% of errors in top 3 classes).
+
+Wheat_Blast (ID 54): Total Samples = 70, Errors = 11 (15.71% error rate)
+Wheat_Blast is most confused with:
+  - Wheat_Tan_Spot (54.5% of errors, 6 samples)
+  - Wheat_Mildew (9.1% of errors, 1 samples)
+  - Wheat_Black_Rust (9.1% of errors, 1 samples)
+  [Insight]: Highly SPECIFIC error concentration (72.7% of errors in top 3 classes).
+
+Wheat_Brown_Rust (ID 55): Total Samples = 139, Errors = 18 (12.95% error rate)
+Wheat_Brown_Rust is most confused with:
+  - Wheat_Black_Rust (77.8% of errors, 14 samples)
+  - Wheat_Tan_Spot (11.1% of errors, 2 samples)
+  - Wheat_Leaf_Blight (5.6% of errors, 1 samples)
+  [Insight]: Highly SPECIFIC error concentration (94.4% of errors in top 3 classes).
+
+Wheat_Common_Root_Rot (ID 56): Total Samples = 72, Errors = 5 (6.94% error rate)
+Wheat_Common_Root_Rot is most confused with:
+  - Wheat_Smut (20.0% of errors, 1 samples)
+  - Wheat_Mite (20.0% of errors, 1 samples)
+  - Wheat_Fusarium_Head_Blight (20.0% of errors, 1 samples)
+  [Insight]: Highly SPECIFIC error concentration (60.0% of errors in top 3 classes).
+
+Wheat_Fusarium_Head_Blight (ID 57): Total Samples = 66, Errors = 1 (1.52% error rate)
+Wheat_Fusarium_Head_Blight is most confused with:
+  - Wheat_Mildew (100.0% of errors, 1 samples)
+  [Insight]: Highly SPECIFIC error concentration (100.0% of errors in top 3 classes).
+
+Wheat_Healthy (ID 58): Total Samples = 108, Errors = 1 (0.93% error rate)
+Wheat_Healthy is most confused with:
+  - Wheat_Mildew (100.0% of errors, 1 samples)
+  [Insight]: Highly SPECIFIC error concentration (100.0% of errors in top 3 classes).
+
+Wheat_Leaf_Blight (ID 59): Total Samples = 88, Errors = 27 (30.68% error rate)
+Wheat_Leaf_Blight is most confused with:
+  - Wheat_Tan_Spot (22.2% of errors, 6 samples)
+  - Corn_Gray_Spot (14.8% of errors, 4 samples)
+  - Wheat_Smut (14.8% of errors, 4 samples)
+  [Insight]: Highly SPECIFIC error concentration (51.9% of errors in top 3 classes).
+
+Wheat_Mildew (ID 60): Total Samples = 116, Errors = 4 (3.45% error rate)
+Wheat_Mildew is most confused with:
+  - Wheat_Tan_Spot (100.0% of errors, 4 samples)
+  [Insight]: Highly SPECIFIC error concentration (100.0% of errors in top 3 classes).
+
+Wheat_Mite (ID 61): Total Samples = 86, Errors = 16 (18.60% error rate)
+Wheat_Mite is most confused with:
+  - Wheat_Leaf_Blight (25.0% of errors, 4 samples)
+  - Wheat_Aphid (25.0% of errors, 4 samples)
+  - Wheat_Black_Rust (12.5% of errors, 2 samples)
+  [Insight]: Highly SPECIFIC error concentration (62.5% of errors in top 3 classes).
+
+Wheat_Septoria (ID 62): Total Samples = 119, Errors = 13 (10.92% error rate)
+Wheat_Septoria is most confused with:
+  - Wheat_Leaf_Blight (76.9% of errors, 10 samples)
+  - Wheat_Yellow_Rust (23.1% of errors, 3 samples)
+  [Insight]: Highly SPECIFIC error concentration (100.0% of errors in top 3 classes).
+
+Wheat_Smut (ID 63): Total Samples = 137, Errors = 9 (6.57% error rate)
+Wheat_Smut is most confused with:
+  - Wheat_Common_Root_Rot (66.7% of errors, 6 samples)
+  - Wheat_Blast (33.3% of errors, 3 samples)
+  [Insight]: Highly SPECIFIC error concentration (100.0% of errors in top 3 classes).
+
+Wheat_Stem_Fly (ID 64): Total Samples = 29, Errors = 3 (10.34% error rate)
+Wheat_Stem_Fly is most confused with:
+  - Wheat_Healthy (33.3% of errors, 1 samples)
+  - Wheat_Mite (33.3% of errors, 1 samples)
+  - Wheat_Tan_Spot (33.3% of errors, 1 samples)
+  [Insight]: Highly SPECIFIC error concentration (100.0% of errors in top 3 classes).
+
+Wheat_Tan_Spot (ID 65): Total Samples = 83, Errors = 28 (33.73% error rate)
+Wheat_Tan_Spot is most confused with:
+  - Wheat_Common_Root_Rot (32.1% of errors, 9 samples)
+  - Wheat_Leaf_Blight (21.4% of errors, 6 samples)
+  - Wheat_Brown_Rust (14.3% of errors, 4 samples)
+  [Insight]: Highly SPECIFIC error concentration (67.9% of errors in top 3 classes).
+
+Wheat_Yellow_Rust (ID 66): Total Samples = 139, Errors = 0 (0.00% error rate)
+  - Perfect accuracy (0 misclassifications)!
+
+================================================================================
+FINAL VERDICT & STRATEGIC RECOMMENDATIONS
+================================================================================
+1. WHEAT ERROR CHARACTERISTIC : SPECIFIC (concentrated in 1-3 visually similar foliar diseases)
+   - Top 3 confused classes account for 78.0% of all wheat classification errors.
+   - Primary error drivers: Leaf rusts (Brown vs Yellow vs Black rust) and leaf spots (Tan Spot vs Septoria vs Leaf Blight).
+
+2. TEST-TIME AUGMENTATION (TTA) EFFECT : HELPFUL (+0.02% accuracy, +0.0002 F1)
+   - Standard Accuracy : 97.32%  ==>  TTA Accuracy : 97.34% (+0.02%)
+   - Standard Macro F1 : 0.9690   ==>  TTA Macro F1 : 0.9693 (+0.0002)
+
+3. RECOMMENDED NEXT STEPS BASED ON FINDINGS:
+   * Specific Folio-Lesion Data Synthesis / Hard-Negative Mining:
+     Since wheat errors are specific foliar disease overlaps (e.g. Tan Spot vs Septoria), targeted feature extraction
+     and fine-grained class weighting will yield the highest gains.
+   * Deploy TTA in Inference Engine:
+     Integrate 5-view Dirichlet evidence aggregation into backend/main.py for field image inference.
+================================================================================

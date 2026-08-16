@@ -1,0 +1,84 @@
+=====================================================================
+ZARI.ai -- PHASE 13 RETRAINED MODEL (v2) EVALUATION & COMPARISON
+=====================================================================
+Evaluated Model Checkpoint : ml_pipeline/models/phase2_edl_model_v2.pth
+Evaluation Test Set        : ml_pipeline/data/dataset_final_training_v2.csv (split == 'test')
+Total Test Field Images    : 6,709 images
+Retrained Overall Accuracy : 96.39% (vs Phase 12 Baseline: 98.43%)
+Retrained Overall AUROC    : 0.9982 (vs Phase 12 Baseline: 0.9993)
+Mean Uncertainty           : 0.3265
+
+=====================================================================
+FULL 67-CLASS COMPARISON TABLE (Phase 12 Re-baseline vs. Retrained v2)
+=====================================================================
+Class Name                     | Phase 12 Baseline      | Retrained v2 Model     | Net Delta
+------------------------------------------------------------------------------------------
+Overall Test Accuracy          |                98.43% |                96.39% |        -2.04%
+------------------------------------------------------------------------------------------
+Apple_Black_Spot               |                    N/A |               100.00% |            -
+Apple_Brown_Spot               |                    N/A |               100.00% |            -
+Apple_Unknown                  |                    N/A |               100.00% |            -
+Apricot_Blight                 |                    N/A |                97.50% |            -
+Apricot_Shot_Hole              |                    N/A |               100.00% |            -
+Apricot_Unknown                |                    N/A |               100.00% |            -
+Bean_Fungal                    |                    N/A |               100.00% |            -
+Bean_Rust                      |                    N/A |               100.00% |            -
+Bean_Shot_Hole                 |                    N/A |               100.00% |            -
+Bean_Unknown                   |                    N/A |               100.00% |            -
+Cherry_Brown_Spot              |                    N/A |                99.17% |            -
+Cherry_Purple_Spot             |                    N/A |               100.00% |            -
+Cherry_Scorch                  |                    N/A |               100.00% |            -
+Cherry_Shot_Hole               |                    N/A |                98.18% |            -
+Cherry_Unknown                 |                    N/A |                98.44% |            -
+Corn_Fungal                    |                    N/A |               100.00% |            -
+Corn_Gray_Spot                 |                    N/A |               100.00% |            -
+Corn_Holcus_Spot               |                    N/A |                94.44% |            -
+Corn_Unknown                   |                    N/A |                95.77% |            -
+Fig_Blight                     |                    N/A |               100.00% |            -
+Fig_Brown_Spot                 |                    N/A |                98.15% |            -
+Fig_Rust                       |                    N/A |               100.00% |            -
+Fig_Unknown                    |                    N/A |               100.00% |            -
+Grape_Anthracnose              |                    N/A |               100.00% |            -
+Grape_Brown_Spot               |                    N/A |                98.75% |            -
+Grape_Downy_Mildew             |                    N/A |                98.72% |            -
+Grape_Mites                    |                    N/A |               100.00% |            -
+Grape_Powdery_Mildew           |                    N/A |                99.34% |            -
+Grape_Shot_Hole                |                    N/A |               100.00% |            -
+Grape_Unknown                  |                    N/A |                99.46% |            -
+Lokat_Healthy                  |                    N/A |               100.00% |            -
+Lokat_Leaf_Spot                |                    N/A |                97.98% |            -
+Pear_Black_Spot                |                    N/A |               100.00% |            -
+Pear_Fire_Blight               |                    N/A |               100.00% |            -
+Pear_Unknown                   |                    N/A |               100.00% |            -
+Persimmons_Brown_Spot          |                    N/A |               100.00% |            -
+Tomato_Bacterial_Spot          |                    N/A |               100.00% |            -
+Tomato_Curl                    |                    N/A |               100.00% |            -
+Tomato_Early_Blight            |                    N/A |               100.00% |            -
+Tomato_Fusarium_Wilt           |                    N/A |               100.00% |            -
+Tomato_Healthy                 |                    N/A |               100.00% |            -
+Tomato_Late_Blight             |                    N/A |                99.28% |            -
+Tomato_Miner                   |                    N/A |               100.00% |            -
+Tomato_Mold                    |                    N/A |                96.84% |            -
+Tomato_Septoria                |                    N/A |                99.38% |            -
+Tomato_Spider_Mites            |                    N/A |               100.00% |            -
+Tomato_Verticillium_Wilt       |                    N/A |               100.00% |            -
+Walnut_Anthracnose             |                    N/A |               100.00% |            -
+Walnut_Blotch                  |                    N/A |               100.00% |            -
+Walnut_Gall_Mite               |                    N/A |               100.00% |            -
+Walnut_Shot_Hole               |                    N/A |                99.13% |            -
+Walnut_Unknown                 |                    N/A |               100.00% |            -
+Wheat_Aphid                    |                    N/A |                82.98% |            -
+Wheat_Black_Rust               |                    N/A |                67.50% |            -
+Wheat_Blast                    |                    N/A |                93.41% |            -
+Wheat_Brown_Rust               |                    N/A |                82.89% |            -
+Wheat_Common_Root_Rot          |                    N/A |                82.61% |            -
+Wheat_Fusarium_Head_Blight     |                    N/A |                91.18% |            -
+Wheat_Healthy                  |                    N/A |                96.21% |            -
+Wheat_Leaf_Blight              |                    N/A |                72.81% |            -
+Wheat_Mildew                   |                    N/A |                99.13% |            -
+Wheat_Mite                     |                    N/A |                77.38% |            -
+Wheat_Septoria                 |                    N/A |                89.92% |            -
+Wheat_Smut                     |                    N/A |                84.92% |            -
+Wheat_Stem_Fly                 |                    N/A |                80.00% |            -
+Wheat_Tan_Spot                 |                    N/A |                63.86% |            -
+Wheat_Yellow_Rust              |                    N/A |                98.52% |            -

@@ -1,0 +1,31 @@
+# Datasets and Large Folders
+dataset/
+datasets/
+data/
+*.zip
+*.tar
+*.gz
+*.csv
+
+
+# Model Weights and Checkpoints
+*.pt
+*.pth
+*.ckpt
+weights/
+checkpoints/
+
+# Python / Environment / Logs / Reports / Artifacts
+venv/
+__pycache__/
+*.pyc
+runs/
+logs/
+.ipynb_checkpoints/
+ml_pipeline/.tmp.driveupload/
+ml_pipeline/ANALYSIS_COMPLETE/
+ml_pipeline/reports/
+ml_pipeline/eda_artifacts/
+frontend/node_modules/
+frontend/.next/
+
