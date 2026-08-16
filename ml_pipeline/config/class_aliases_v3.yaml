@@ -1,0 +1,138 @@
+# ZARI.ai Master Class Aliases V3
+# Maps raw dataset folder names to canonical class names
+
+# Tomato Classes
+Tomato_Early_Blight:
+  - tomatoearlyblight
+  - tomato_early_blight
+  - tomato early blight
+  - tomato_early_blight_leaf
+  - tomatoearlyblightleaf
+
+Tomato_Late_Blight:
+  - tomatolateblight
+  - tomato_late_blight
+  - tomato late blight
+  - tomato_leaf_late_blight
+  - tomatoleaflateblight
+
+Tomato_Healthy:
+  - tomatohealthy
+  - tomato_healthy
+  - tomato healthy
+  - tomato_healthy_leaf
+  - tomatohealthyleaf
+
+Tomato_Septoria_Leaf_Spot:
+  - tomatoseptorialeafspot
+  - tomato_septoria_leaf_spot
+  - tomato septoria leaf spot
+  - tomato_septora_leaf_spot
+  - tomatoseptoraleafspot
+
+Tomato_Leaf_Mold:
+  - tomatoleafmold
+  - tomato_leaf_mold
+  - tomato leaf mold
+  - tomato_mold_leaf
+  - tomatomoldleaf
+
+Tomato_Yellow_Leaf_Curl_Virus:
+  - tomatoyellowleafcurlvirus
+  - tomato_yellow_leaf_curl_virus
+  - tomato yellow leaf curl virus
+  - tomato_leaf_yellow_curl_virus
+  - tomatoleafyellowcurlvirus
+
+# Potato Classes
+Potato_Early_Blight:
+  - potatoearlyblight
+  - potato_early_blight
+  - potato early blight
+  - early_blight
+  - earlyblight
+
+Potato_Late_Blight:
+  - potatolateblight
+  - potato_late_blight
+  - potato late blight
+  - fungal_late_blight
+  - fungallateblight
+  - late_blight
+  - lateblight
+
+Potato_Healthy:
+  - potatohealthy
+  - potato_healthy
+  - potato healthy
+  - healthy
+
+Potato_Bacterial_Soft_Rot:
+  - potatobacterialsoftrot
+  - potato_bacterial_soft_rot
+  - potato bacterial soft rot
+  - bacterial_soft_rot
+  - bacterialsoftrot
+
+Potato_Viral_Leaf_Roll:
+  - potatoviralleafroll
+  - potato_viral_leaf_roll
+  - potato viral leaf roll
+  - viral_leaf_roll
+  - viralleafroll
+
+Potato_Viral_PVX:
+  - potatoviralpvx
+  - potato_viral_pvx
+  - potato viral pvx
+  - viral_pvx
+  - viralpvx
+
+Potato_Viral_PVY:
+  - potatoviralpvy
+  - potato_viral_pvy
+  - potato viral pvy
+  - viral_pvy
+  - viralpvy
+
+# Pepper Classes
+Pepper_Bacterial_Spot:
+  - pepperbacterialspot
+  - pepper_bacterial_spot
+  - pepper bacterial spot
+  - pepperbell_bacterial spot
+  - pepperbell_bacterialspot
+
+Pepper_Healthy:
+  - pepperhealthy
+  - pepper_healthy
+  - pepper healthy
+  - pepperbell_healthy
+
+Pepper_Cercospora_Leaf_Spot:
+  - peppercercosporaleafspot
+  - pepper_cercospora_leaf_spot
+  - pepper cercospora leaf spot
+  - pepperbell_cercospora leaf spot
+  - pepperbell_cercosporaleafspot
+
+Pepper_Leaf_Curl:
+  - pepperleafcurl
+  - pepper_leaf_curl
+  - pepper leaf curl
+  - pepperbell_leaf curl
+  - pepperbell_leafcurl
+
+Pepper_Nutrition_Deficiency:
+  - peppernutritiondeficiency
+  - pepper_nutrition_deficiency
+  - pepper nutrition deficiency
+  - pepperbell_nutrition deficiency
+  - pepperbell_nutritiondeficiency
+
+Pepper_Powdery_Mildew:
+  - pepperpowderymildew
+  - pepper_powdery_mildew
+  - pepper powdery mildew
+  - pepperbell_powdery mildew
+  - pepperbell_powderymildew

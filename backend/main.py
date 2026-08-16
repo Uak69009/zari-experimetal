@@ -222,6 +222,24 @@ def process_image_predict(image_bytes: bytes) -> tuple[str, int, float, float]:
     return disease_name, pred_class_id, confidence_val, uncertainty_val
 
 
+import json as _json
+from datetime import datetime as _dt
+
+MONITOR_LOG_PATH = BASE_DIR / "backend" / "monitor_log.jsonl"
+
+def _log_prediction(payload: dict, lang: str) -> None:
+    record = {
+        "timestamp": _dt.utcnow().isoformat(),
+        "disease_class": payload["disease_class"],
+        "confidence": payload["confidence"],
+        "uncertainty": payload["uncertainty"],
+        "status": payload["status"],
+        "language": lang,
+    }
+    with open(MONITOR_LOG_PATH, "a", encoding="utf-8") as f:
+        f.write(_json.dumps(record) + "\n")
+
+
 @app.post("/predict")
 @app.post("/api/diagnose")
 async def diagnose_crop(
@@ -300,10 +318,12 @@ async def diagnose_crop(
             "audio_url": None,
         }
 
+        _log_prediction(response_payload, language)
         return response_payload
 
     except Exception as err:
         raise HTTPException(status_code=500, detail=f"Diagnostic Pipeline Error: {str(err)}")
+
 
 
 @app.post("/api/diagnose/voice")
