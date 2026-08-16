@@ -1,0 +1,14 @@
+stages:
+  train_phase2:
+    cmd: python ml_pipeline/train_phase2.py
+    deps:
+      - ml_pipeline/data/dataset_final_training.csv
+      - ml_pipeline/models/phase1_backbone.pth
+    outs:
+      - ml_pipeline/models/phase2_best.pth
+  calibrate:
+    cmd: python ml_pipeline/evaluate_and_calibrate.py
+    deps:
+      - ml_pipeline/models/phase2_best.pth
+    outs:
+      - ml_pipeline/models/scrc_threshold.json

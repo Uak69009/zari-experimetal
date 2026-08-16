@@ -1,0 +1,5 @@
+outs:
+- md5: 5ac680d88101064aae6ed4c9a3a38e78
+  size: 81953902
+  hash: md5
+  path: phase2_edl_model_v2.pth

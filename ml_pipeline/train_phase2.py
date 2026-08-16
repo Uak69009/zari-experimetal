@@ -40,8 +40,16 @@ try:
 except ImportError:
     timm = None
 
+import mlflow
+
+os.environ["MLFLOW_ALLOW_FILE_STORE"] = "true"
+
 # Script and Directory Paths
 SCRIPT_DIR = Path(__file__).resolve().parent
+mlflow.set_tracking_uri("file:" + str(SCRIPT_DIR / "mlruns"))
+mlflow.set_experiment("zari-phase2")
+
+
 DATA_DIR = SCRIPT_DIR / "data"
 MODELS_DIR = SCRIPT_DIR / "models"
 LOGS_DIR = SCRIPT_DIR / "logs"
@@ -298,137 +306,165 @@ def main() -> None:
 
     start_time = time.time()
 
-    for epoch in range(epochs):
-        epoch_start = time.time()
+    with mlflow.start_run(run_name="phase2_cnn_baseline"):
+        mlflow.log_params({
+            "backbone": "tf_efficientnetv2_s.in21k_ft_in1k",
+            "NUM_CLASSES": NUM_CLASSES,
+            "batch_size": batch_size,
+            "learning_rate": learning_rate,
+            "epochs": epochs,
+            "weight_decay": 0.01,
+            "grad_accum_steps": grad_accum_steps,
+        })
 
-        # ============ TRAINING PHASE ============
-        model.train()
-        running_loss = 0.0
-        running_uncertainty = 0.0
-        optimizer.zero_grad()
+        for epoch in range(epochs):
+            epoch_start = time.time()
 
-        for batch_idx, (images, labels) in enumerate(train_loader):
-            images = images.to(device, non_blocking=True)
-            labels = labels.to(device, non_blocking=True)
+            # ============ TRAINING PHASE ============
+            model.train()
+            running_loss = 0.0
+            running_uncertainty = 0.0
+            optimizer.zero_grad()
 
-            with torch.amp.autocast("cuda", enabled=use_amp):
-                logits = model(images)
-                loss, batch_u = edl_loss_fn(logits, labels, epoch, epochs, weights=weights_tensor)
-                loss = loss / grad_accum_steps
-
-            scaler.scale(loss).backward()
-
-            if (batch_idx + 1) % grad_accum_steps == 0 or (batch_idx + 1) == len(train_loader):
-                scaler.step(optimizer)
-                scaler.update()
-                optimizer.zero_grad()
-
-            running_loss += loss.item() * grad_accum_steps
-            running_uncertainty += batch_u.item()
-
-            if (batch_idx + 1) % 100 == 0 or (batch_idx + 1) == len(train_loader):
-                current_avg_loss = running_loss / (batch_idx + 1)
-                current_avg_u = running_uncertainty / (batch_idx + 1)
-                print(
-                    f"Epoch [{epoch+1}/{epochs}] Batch [{batch_idx+1}/{len(train_loader)}] "
-                    f"Loss: {current_avg_loss:.4f} | Uncertainty: {current_avg_u:.4f}"
-                )
-
-        train_loss = running_loss / len(train_loader)
-        train_uncertainty = running_uncertainty / len(train_loader)
-
-        # ============ VALIDATION PHASE ============
-        model.eval()
-        correct = 0
-        total = 0
-        val_loss = 0.0
-        val_uncertainty = 0.0
-
-        with torch.no_grad():
-            for images, labels in val_loader:
+            for batch_idx, (images, labels) in enumerate(train_loader):
                 images = images.to(device, non_blocking=True)
                 labels = labels.to(device, non_blocking=True)
 
                 with torch.amp.autocast("cuda", enabled=use_amp):
                     logits = model(images)
-                    loss, batch_u = edl_loss_fn(logits, labels, epoch, epochs, weights=None)
+                    loss, batch_u = edl_loss_fn(logits, labels, epoch, epochs, weights=weights_tensor)
+                    loss = loss / grad_accum_steps
 
-                val_loss += loss.item()
-                val_uncertainty += batch_u.item()
+                scaler.scale(loss).backward()
 
-                evidence = F.softplus(logits)
-                alpha = evidence + 1.0
-                preds = alpha.argmax(dim=1)
-                correct += int((preds == labels).sum().item())
-                total += int(labels.size(0))
+                if (batch_idx + 1) % grad_accum_steps == 0 or (batch_idx + 1) == len(train_loader):
+                    scaler.step(optimizer)
+                    scaler.update()
+                    optimizer.zero_grad()
 
-        val_acc = correct / total if total > 0 else 0.0
-        val_avg_loss = val_loss / len(val_loader)
-        val_avg_u = val_uncertainty / len(val_loader)
-        epoch_duration = time.time() - epoch_start
-        current_lr = float(optimizer.param_groups[0]["lr"])
+                running_loss += loss.item() * grad_accum_steps
+                running_uncertainty += batch_u.item()
 
-        # Record metrics to training_history
-        training_history["epoch"].append(epoch + 1)
-        training_history["train_loss"].append(round(float(train_loss), 4))
-        training_history["val_loss"].append(round(float(val_avg_loss), 4))
-        training_history["val_accuracy"].append(round(float(val_acc), 4))
-        training_history["mean_uncertainty"].append(round(float(val_avg_u), 4))
-        training_history["learning_rate"].append(round(float(current_lr), 6))
-        training_history["time_seconds"].append(round(float(epoch_duration), 2))
+                if (batch_idx + 1) % 100 == 0 or (batch_idx + 1) == len(train_loader):
+                    current_avg_loss = running_loss / (batch_idx + 1)
+                    current_avg_u = running_uncertainty / (batch_idx + 1)
+                    print(
+                        f"Epoch [{epoch+1}/{epochs}] Batch [{batch_idx+1}/{len(train_loader)}] "
+                        f"Loss: {current_avg_loss:.4f} | Uncertainty: {current_avg_u:.4f}"
+                    )
 
-        # ============ SAVE & TRACKING ============
-        is_best = val_acc > best_val_acc
-        if is_best:
-            best_val_acc = val_acc
-            torch.save(model.state_dict(), BEST_MODEL_PATH)
-            torch.save(model.state_dict(), EDL_MODEL_PATH)
-            no_improvement = 0
-            best_tag = "⭐ BEST"
-        else:
-            no_improvement += 1
-            best_tag = ""
+            train_loss = running_loss / len(train_loader)
+            train_uncertainty = running_uncertainty / len(train_loader)
 
-        status_str = (
-            f"Epoch {epoch+1:02d}/{epochs:02d} | Train Loss: {train_loss:.4f} | "
-            f"Val Loss: {val_avg_loss:.4f} | Val Acc: {val_acc*100:.2f}% | "
-            f"Uncertainty: {val_avg_u:.4f} | LR: {current_lr:.6f} | Time: {epoch_duration:.1f}s {best_tag}"
+            # ============ VALIDATION PHASE ============
+            model.eval()
+            correct = 0
+            total = 0
+            val_loss = 0.0
+            val_uncertainty = 0.0
+
+            with torch.no_grad():
+                for images, labels in val_loader:
+                    images = images.to(device, non_blocking=True)
+                    labels = labels.to(device, non_blocking=True)
+
+                    with torch.amp.autocast("cuda", enabled=use_amp):
+                        logits = model(images)
+                        loss, batch_u = edl_loss_fn(logits, labels, epoch, epochs, weights=None)
+
+                    val_loss += loss.item()
+                    val_uncertainty += batch_u.item()
+
+                    evidence = F.softplus(logits)
+                    alpha = evidence + 1.0
+                    preds = alpha.argmax(dim=1)
+                    correct += int((preds == labels).sum().item())
+                    total += int(labels.size(0))
+
+            val_acc = correct / total if total > 0 else 0.0
+            val_avg_loss = val_loss / len(val_loader)
+            val_avg_u = val_uncertainty / len(val_loader)
+            epoch_duration = time.time() - epoch_start
+            current_lr = float(optimizer.param_groups[0]["lr"])
+
+            # Log metrics to MLflow per-epoch
+            mlflow.log_metrics({
+                "train_loss": train_loss,
+                "val_loss": val_avg_loss,
+                "val_accuracy": val_acc,
+                "mean_uncertainty": val_avg_u
+            }, step=epoch)
+
+            # Record metrics to training_history
+            training_history["epoch"].append(epoch + 1)
+            training_history["train_loss"].append(round(float(train_loss), 4))
+            training_history["val_loss"].append(round(float(val_avg_loss), 4))
+            training_history["val_accuracy"].append(round(float(val_acc), 4))
+            training_history["mean_uncertainty"].append(round(float(val_avg_u), 4))
+            training_history["learning_rate"].append(round(float(current_lr), 6))
+            training_history["time_seconds"].append(round(float(epoch_duration), 2))
+
+            # ============ SAVE & TRACKING ============
+            is_best = val_acc > best_val_acc
+            if is_best:
+                best_val_acc = val_acc
+                torch.save(model.state_dict(), BEST_MODEL_PATH)
+                torch.save(model.state_dict(), EDL_MODEL_PATH)
+                no_improvement = 0
+                best_tag = "⭐ BEST"
+            else:
+                no_improvement += 1
+                best_tag = ""
+
+            status_str = (
+                f"Epoch {epoch+1:02d}/{epochs:02d} | Train Loss: {train_loss:.4f} | "
+                f"Val Loss: {val_avg_loss:.4f} | Val Acc: {val_acc*100:.2f}% | "
+                f"Uncertainty: {val_avg_u:.4f} | LR: {current_lr:.6f} | Time: {epoch_duration:.1f}s {best_tag}"
+            )
+            print("-" * 75)
+            print(status_str)
+            print("-" * 75)
+            log_lines.append(status_str)
+
+            # Update learning rate scheduler
+            scheduler.step()
+
+            # Early Stopping Check
+            if no_improvement >= patience:
+                early_stop_str = f"Early stopping triggered at epoch {epoch+1} (no improvement for {patience} epochs)."
+                print(early_stop_str)
+                log_lines.append(early_stop_str)
+                break
+
+        total_training_time = time.time() - start_time
+
+        # Save training history JSON & CSV
+        HISTORY_JSON_PATH.write_text(json.dumps(training_history, indent=2), encoding="utf-8")
+        pd.DataFrame(training_history).to_csv(HISTORY_CSV_PATH, index=False)
+
+        summary_time_str = (
+            f"\nTraining completed in {total_training_time/60:.2f} minutes. "
+            f"Best Val Acc: {best_val_acc*100:.2f}%, Final Train Loss: {train_loss:.4f}, "
+            f"Final Val Loss: {val_avg_loss:.4f}, Final Uncertainty: {val_avg_u:.4f}"
         )
-        print("-" * 75)
-        print(status_str)
-        print("-" * 75)
-        log_lines.append(status_str)
+        print(summary_time_str)
+        log_lines.append(summary_time_str)
 
-        # Update learning rate scheduler
-        scheduler.step()
+        LOG_FILE_PATH.write_text("\n".join(log_lines), encoding="utf-8")
+        print(f"✓ Saved full checkpoint: {BEST_MODEL_PATH}")
+        print(f"✓ Saved EDL model checkpoint: {EDL_MODEL_PATH}")
+        print(f"✓ Saved training history JSON: {HISTORY_JSON_PATH}")
+        print(f"✓ Saved training history CSV : {HISTORY_CSV_PATH}")
+        print(f"✓ Training log saved to: {LOG_FILE_PATH}")
 
-        # Early Stopping Check
-        if no_improvement >= patience:
-            early_stop_str = f"Early stopping triggered at epoch {epoch+1} (no improvement for {patience} epochs)."
-            print(early_stop_str)
-            log_lines.append(early_stop_str)
-            break
+        # Log artifacts to MLflow
+        if HISTORY_JSON_PATH.exists():
+            mlflow.log_artifact(str(HISTORY_JSON_PATH))
+        if LOG_FILE_PATH.exists():
+            mlflow.log_artifact(str(LOG_FILE_PATH))
+        if BEST_MODEL_PATH.exists():
+            mlflow.log_artifact(str(BEST_MODEL_PATH))
 
-    total_training_time = time.time() - start_time
-
-    # Save training history JSON & CSV
-    HISTORY_JSON_PATH.write_text(json.dumps(training_history, indent=2), encoding="utf-8")
-    pd.DataFrame(training_history).to_csv(HISTORY_CSV_PATH, index=False)
-
-    summary_time_str = (
-        f"\nTraining completed in {total_training_time/60:.2f} minutes. "
-        f"Best Val Acc: {best_val_acc*100:.2f}%, Final Train Loss: {train_loss:.4f}, "
-        f"Final Val Loss: {val_avg_loss:.4f}, Final Uncertainty: {val_avg_u:.4f}"
-    )
-    print(summary_time_str)
-    log_lines.append(summary_time_str)
-
-    LOG_FILE_PATH.write_text("\n".join(log_lines), encoding="utf-8")
-    print(f"✓ Saved full checkpoint: {BEST_MODEL_PATH}")
-    print(f"✓ Saved EDL model checkpoint: {EDL_MODEL_PATH}")
-    print(f"✓ Saved training history JSON: {HISTORY_JSON_PATH}")
-    print(f"✓ Saved training history CSV : {HISTORY_CSV_PATH}")
-    print(f"✓ Training log saved to: {LOG_FILE_PATH}")
 
     print("\n" + "=" * 65)
     print("  FINAL PHASE 2 TRAINING SUMMARY")

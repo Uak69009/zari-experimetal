@@ -1,11 +1,14 @@
 # Datasets and Large Folders
 dataset/
 datasets/
-data/
+data/*
 *.zip
 *.tar
 *.gz
 *.csv
+!*.dvc
+
+
 
 
 # Model Weights and Checkpoints
@@ -21,8 +24,11 @@ __pycache__/
 *.pyc
 runs/
 logs/
+mlruns/
+ml_pipeline/mlruns/
 .ipynb_checkpoints/
 ml_pipeline/.tmp.driveupload/
+
 ml_pipeline/ANALYSIS_COMPLETE/
 ml_pipeline/reports/
 ml_pipeline/eda_artifacts/
