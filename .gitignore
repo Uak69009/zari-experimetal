@@ -29,6 +29,13 @@ weights/*.pth
 checkpoints/*.pth
 ml_pipeline/checkpoints/**/*.pth
 
+# Exception rules: Allow production EfficientNet model checkpoints under 100MB
+!ml_pipeline/checkpoints/model_a/best_model_a_efficientnetv2_b2.pth
+!ml_pipeline/checkpoints/model_b/best_model_b_tomato.pth
+!ml_pipeline/checkpoints/model_b/best_model_b_potato.pth
+!ml_pipeline/checkpoints/model_b/best_model_b_pepper.pth
+!ml_pipeline/models/distilled/distilled_efficientnet.pth
+
 # Python / Environment / Logs / Reports / Artifacts
 venv/
 __pycache__/
