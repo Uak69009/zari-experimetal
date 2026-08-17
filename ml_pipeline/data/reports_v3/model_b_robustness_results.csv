@@ -1,0 +1,4 @@
+crop,baseline_acc,blur_05_acc,blur_10_acc,bright_minus10_acc,bright_plus10_acc,status
+Tomato,98.28,98.2,98.15,98.25,98.28,PASS
+Potato,97.52,97.45,97.38,97.5,97.52,PASS
+Pepper,99.28,99.2,99.15,99.25,99.28,PASS

@@ -1,0 +1,26 @@
+image_path,source_dataset,domain,true_crop,predicted_crop,confidence
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantdoc/train/Bell_pepper leaf spot/Habanero1.jpg,plantdoc,Field,Pepper,Tomato,0.4385
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantdoc/train/Bell_pepper leaf spot/may27pepleaes001.jpg,plantdoc,Field,Pepper,Tomato,0.7593
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantdoc/train/Bell_pepper leaf spot/pepper_bacterial-spot_02_zoom.jpg,plantdoc,Field,Pepper,Potato,0.8223
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantdoc/train/Potato leaf early blight/3785483636_d888419c98_o.jpg,plantdoc,Field,Potato,Tomato,0.6
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantdoc/train/Potato leaf early blight/5816740026_d42ef24413_Phytophthora-Infestans.jpg,plantdoc,Field,Potato,Tomato,0.8135
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantdoc/train/Potato leaf late blight/Late-blight.jpg,plantdoc,Field,Potato,Tomato,0.677
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantdoc/train/Potato leaf late blight/late-blight-leaf.jpg,plantdoc,Field,Potato,Tomato,0.7725
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantdoc/train/Potato leaf late blight/late-blight-leaves.jpg,plantdoc,Field,Potato,Tomato,0.755
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantdoc/test/Tomato leaf bacterial spot/Bacterial_spots563.jpg,plantdoc,Field,Tomato,Pepper,0.737
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantdoc/train/Tomato Early blight leaf/Early_blight_1.jpg_1376579808.jpg,plantdoc,Field,Tomato,Potato,0.8657
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantdoc/train/Tomato leaf late blight/5816170621_e1cce08736_z.jpg,plantdoc,Field,Tomato,Potato,0.711
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantdoc/train/Tomato leaf late blight/Pest2369.jpg,plantdoc,Field,Tomato,Potato,0.9526
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantdoc/train/Tomato leaf late blight/lbleaf.jpg,plantdoc,Field,Tomato,Potato,0.7437
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantdoc/train/Tomato mold leaf/5830204360_757cd7fdfc_z.jpg,plantdoc,Field,Tomato,Potato,0.8794
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantdoc/train/Tomato mold leaf/leaf_mold_tomato5x1200.jpg,plantdoc,Field,Tomato,Potato,0.7573
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantdoc/test/Tomato leaf yellow virus/17fc47.jpg,plantdoc,Field,Tomato,Potato,0.4211
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/raw/color/Potato___Early_blight/3a97c74a-3d6e-4cd9-86e0-10a8e716e7b5___RS_Early.B 8422.JPG,plantvillage,Lab,Potato,Pepper,0.8896
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/raw/color/Potato___Late_blight/49d18379-215d-427e-8662-9cde649d4a33___RS_LB 3163.JPG,plantvillage,Lab,Potato,Tomato,0.7637
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/raw/color/Tomato___healthy/39b1d9c6-7a13-426f-9154-563e6a8d0438___RS_HL 0563.JPG,plantvillage,Lab,Tomato,Pepper,0.579
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/raw/color/Tomato___healthy/416458ca-7db6-4383-ae0b-21ae2860af1b___RS_HL 0535.JPG,plantvillage,Lab,Tomato,Pepper,0.474
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/raw/color/Tomato___healthy/6550c4ca-9494-4de5-8909-d0cdab8f0892___RS_HL 0401.JPG,plantvillage,Lab,Tomato,Pepper,0.5186
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/raw/color/Tomato___healthy/e0987875-8fe2-49ee-8f01-e29281c3d790___RS_HL 0239.JPG,plantvillage,Lab,Tomato,Pepper,0.5464
+/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/new_Dataset/Tomato Leaf Disease Classification Dataset in Paki/Tomato Dataset/Dataset (raw)/Tomato_leaf_late_blight/6-13lateblightleavesMARY_jpg.rf.1114a350a3d07eb0c4f5a4cdcbbe82ed.jpg,tomato_pakistan,Field,Tomato,Potato,0.931
+ml_pipeline/data/new_Dataset/Pepper Bell Leaf Disease/PEPPER BELL DATASET/PepperBell_Bacterial Spot/01613cd0-d3cd-4e96-945c-a312002037bf___JR_B.Spot_3262_flipTB.JPG,Pepper Bell Leaf Disease,Lab,Pepper,Tomato,0.6914
+ml_pipeline/data/new_Dataset/Tomato Leaf Disease Classification Dataset in Paki/Tomato Dataset/Dataset (raw)/Tomato_Healthy_leaf/2013-08-20-03.jpg,Tomato Leaf Disease Classification Dataset in Paki,Lab,Tomato,Pepper,0.847

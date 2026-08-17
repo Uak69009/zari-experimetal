@@ -1,0 +1,10 @@
+perturbation,accuracy,macro_f1,degradation_pct
+Clean Baseline,99.5,0.9926,0.0
+Gaussian Blur (sigma=0.5),99.64,0.9946,-0.14
+Gaussian Blur (sigma=1.0),99.6,0.9939,-0.1
+Brightness (-10%),99.36,0.9907,0.14
+Brightness (+10%),99.5,0.9925,0.0
+Contrast (-10%),99.54,0.993,-0.04
+Contrast (+10%),99.38,0.991,0.12
+Resolution Downsample (128px->256px),99.58,0.9934,-0.08
+Zoom / Framing (1.1x Center Crop),99.62,0.9941,-0.12
