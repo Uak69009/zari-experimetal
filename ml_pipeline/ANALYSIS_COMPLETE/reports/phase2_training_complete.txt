@@ -1,0 +1,58 @@
+================================================================================
+ZARI.ai — PHASE 2 EDL DOMAIN ADAPTATION COMPLETE REPORT
+================================================================================
+
+Date/Timestamp       : 2026-08-13T17:50:28Z
+Compute Hardware     : NVIDIA GeForce RTX 4090 (25.24 GB VRAM)
+Backbone Architecture: EfficientNetV2-S (tf_efficientnetv2_s.in21k_ft_in1k)
+Model Head           : Evidential Deep Learning (EDL) Dirichlet Softplus Head
+Target Field Classes : 67 Field Classes (PlantCity + NWRD)
+Training Dataset     : 65,509 images (Field Training Data)
+Validation Dataset   : 6,644 images (100% Field Validation Datasets)
+Loss Function        : EDL Adjusted Cross Entropy + Annealed KL Divergence Regularizer
+Optimizer & LR       : AdamW (lr=1e-4, weight_decay=0.01) + CosineAnnealingLR (T_max=10)
+Batch Size           : 64 (Effective Batch Size 128 via 2 Gradient Accumulation Steps)
+Mixed Precision      : FP16 / AMP enabled (torch.amp.autocast)
+
+================================================================================
+EPOCH TRAINING HISTORY SUMMARY
+================================================================================
+
+| Epoch | Train Loss | Val Loss | Val Acc | Uncertainty | Learning Rate | Time (s) | Best Tag |
+|:-----:|:----------:|:--------:|:-------:|:-----------:|:--------------:|:--------:|:--------:|
+|   1   |   1.6092   |  1.3449  | 96.60%  |   0.6909    |    0.000100    |  181.49  |  ⭐ BEST  |
+|   2   |   0.9147   |  1.0841  | 96.78%  |   0.5787    |    0.000098    |  180.03  |  ⭐ BEST  |
+|   3   |   0.7478   |  0.9942  | 97.19%  |   0.5112    |    0.000090    |  179.67  |  ⭐ BEST  |
+|   4   |   0.6502   |  0.9448  | 97.19%  |   0.4693    |    0.000079    |  182.22  |    —     |
+|   5   |   0.5820   |  0.9699  | 97.16%  |   0.4426    |    0.000065    |  179.45  |    —     |
+|   6   |   0.5329   |  1.0238  | 97.16%  |   0.4191    |    0.000050    |  190.95  |    —     |
+|   7   |   0.4919   |  1.0153  | 97.47%  |   0.4021    |    0.000035    |  185.70  |    —     |
+|   8   |   0.4633   |  1.0477  | 97.46%  |   0.3962    |    0.000021    |  179.82  |    —     |
+|   9   |   0.4472   |  1.0889  | 97.70%  |   0.3915    |    0.000010    |  184.81  |  ⭐ BEST  |
+|  10   |   0.4415   |  1.1481  | 97.58%  |   0.3929    |    0.000002    |  193.23  |    —     |
+
+================================================================================
+FINAL PERFORMANCE & ARTIFACT METRICS
+================================================================================
+
+- Total Epochs Completed     : 10 / 10
+- Early Stopping Triggered   : No
+- Best Validation Accuracy   : 97.70% (Epoch 9)
+- Final Training Loss        : 0.4415
+- Final Validation Loss      : 1.1481
+- Final Mean Uncertainty     : 0.3929
+- Total Training Time        : 30.63 minutes (1,837.36 seconds)
+
+================================================================================
+ARTIFACT VERIFICATION & PATHS
+================================================================================
+
+1. Full Model Checkpoint     : ml_pipeline/models/phase2_best.pth (EXISTS ✓)
+2. EDL Model Weights         : ml_pipeline/models/phase2_edl_model.pth (EXISTS ✓)
+3. Training History JSON     : ml_pipeline/logs/phase2_training_history.json (EXISTS ✓)
+4. Training History CSV      : ml_pipeline/logs/phase2_training_history.csv (EXISTS ✓)
+5. Training Log Text         : ml_pipeline/logs/phase2_training_log.txt (EXISTS ✓)
+
+================================================================================
+STATUS: PHASE 2 EDL FINE-TUNING COMPLETE.
+================================================================================

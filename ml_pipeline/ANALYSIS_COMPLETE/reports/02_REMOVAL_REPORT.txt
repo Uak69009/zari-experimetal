@@ -1,0 +1,19 @@
+==========================================================================================
+ZARI AI - SEVERELY IMBALANCED CLASSES REMOVAL REPORT
+==========================================================================================
+
+Generated: 2026-08-13 14:44:59
+
+CLASSES TO BE REMOVED
+------------------------------------------------------------------------------------------
+Class Name                                         Images          Reason                        
+------------------------------------------------------------------------------------------
+Tomato_Two_Spotted_Spider_Mites                    2               Severely imbalanced - less than 10 images
+Unknown_Plantdoc                                   1               Severely imbalanced - less than 10 images
+Unknown_Generated_For_Paper                        1               Severely imbalanced - less than 10 images
+
+SUMMARY                                           
+------------------------------------------------------------------------------------------
+Total Classes to Remove: 3
+Total Images to Remove: 4
+Percentage of Dataset: 0.00%

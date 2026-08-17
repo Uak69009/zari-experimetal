@@ -1,0 +1,14 @@
+ZARI.ai Final Dataset Verification Report
+=========================================
+Input CSV: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/dataset_final_training.csv
+Class Map: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/class_map_final.json
+
+✅ PASS | 1. ROW COUNT           | Total rows: 123,300 == 123,300
+✅ PASS | 2. SPLIT COUNTS        | train=110,008, val=6,644, test=6,648
+✅ PASS | 3. CLASS COUNTS        | Head classes: 67, Pretrain classes: 39
+✅ PASS | 4. HASH LEAKAGE CHECK  | 0 hashes cross split boundaries (119,969 unique hashes)
+✅ PASS | 5. FIELD-ONLY VAL/TEST | Val/Test sources: ['nwrd', 'plantcity'] (100% field images)
+✅ PASS | 6. CLASS MAPPING       | JSON verified: head_classes=67, pretrain_classes=39, merge_map=Present
+✅ PASS | 7. FILE PATH SAMPLING  | Sampled 1,000 images: 1000/1,000 exist (100.00% hit rate)
+
+Overall Verification Outcome: PASSED

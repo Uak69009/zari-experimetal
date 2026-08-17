@@ -1,0 +1,108 @@
+Unknown Folder Verification Report
+========================================
+CSV scanned: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/dataset_master_enriched.csv
+Unknown rows loaded: 21749
+Resolved image files verified: 21749
+Missing image files: 0
+Corrupted/unreadable image files: 0
+
+By source dataset
+- plantvillage: 19299
+- plantcity: 2449
+- plantdoc: 1
+
+By category
+- CANDIDATE_HEALTHY: 630
+- CANDIDATE_DISEASED: 1819
+- CANDIDATE_UNKNOWN: 0
+- NEEDS_REVIEW: 19300
+
+Healthy candidate sample grid
+- Healthy candidate rows found: 630
+- Healthy sample images written to grid: 100
+- Grid path: /home/hammad/Desktop/project zari - experimental/ml_pipeline/ANALYSIS_COMPLETE/reports/healthy_sample_grid.jpg
+
+Disease candidate folder names
+- lokat Leaf_spot: 990
+- persimmons Brown_spot: 829
+
+Unknown candidate folder names
+- None found
+
+Needs-review folder names
+- 15: 2013
+- 35: 2000
+- 24: 1784
+- 16: 826
+- 28: 760
+- 30: 660
+- 25: 649
+- 33: 640
+- 32: 587
+- 37: 560
+- 3: 554
+- 19: 544
+- 34: 468
+- 4: 468
+- 12: 465
+- 10: 433
+- 8: 432
+- 5: 409
+- 11: 407
+- 26: 380
+- 13: 379
+- 20: 377
+- 21: 372
+- 9: 354
+- 6: 334
+- 29: 331
+- 18: 287
+- 31: 286
+- 23: 224
+- 0: 221
+- 1: 199
+- 7: 187
+- 27: 184
+- 14: 146
+- 36: 143
+- 2: 99
+- 17: 95
+- 22: 41
+- plantdoc: 1
+- generated_for_paper: 1
+
+Top raw-folder names across all Unknown rows
+- 15: 2013
+- 35: 2000
+- 24: 1784
+- lokat Leaf_spot: 990
+- persimmons Brown_spot: 829
+- 16: 826
+- 28: 760
+- 30: 660
+- 25: 649
+- 33: 640
+- Lokat Normal leaf: 630
+- 32: 587
+- 37: 560
+- 3: 554
+- 19: 544
+- 34: 468
+- 4: 468
+- 12: 465
+- 10: 433
+- 8: 432
+- 5: 409
+- 11: 407
+- 26: 380
+- 13: 379
+- 20: 377
+
+Distinct folder counts
+- Disease candidate folders: 2
+- Unknown candidate folders: 0
+- Needs-review folders: 40
+
+Important note
+- This script only reports what is actually present in the folder names and images. It does not relabel any rows.
+- Numeric or generic folders were intentionally left in NEEDS_REVIEW.

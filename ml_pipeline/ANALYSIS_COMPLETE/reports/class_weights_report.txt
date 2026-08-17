@@ -1,0 +1,213 @@
+ZARI.ai Class Imbalance & Weight Computation Report
+============================================================
+Input CSV: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/dataset_final_training.csv
+Output JSON: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/class_weights.json
+
+1. Pretrain Phase (106 Classes)
+----------------------------------------
+Total Train Samples: 110,008
+Total Classes: 106
+Min Class Count: 62 | Max Class Count: 5,507
+Mean Count: 1037.81 | Median Count: 775.50
+Imbalance Ratio: 88.82x
+Clipped Weight Range: [0.1000, 7.1562]
+Classes with < 30 samples: []
+Classes with > 5000 samples: ['Orange_Haunglongbing_Greening', 'Soybean_Healthy', 'Tomato_Yellow_Curl_Virus']
+High Extreme Weights (> 5.0): {'Apple_Rust': 5.0418, 'Pepper_Unknown': 7.1562, 'Soybean_Unknown': 6.8259, 'Tomato_Unknown': 7.0426}
+Low Extreme Weights (< 0.2): {'Orange_Haunglongbing_Greening': 0.1, 'Peach_Bacterial_Spot': 0.1932, 'Soybean_Healthy': 0.1, 'Tomato_Bacterial_Spot': 0.1232, 'Tomato_Early_Blight': 0.1688, 'Tomato_Healthy': 0.1433, 'Tomato_Late_Blight': 0.141, 'Tomato_Mold': 0.1724, 'Tomato_Septoria': 0.1386, 'Tomato_Yellow_Curl_Virus': 0.1}
+
+2. Head Fine-Tuning Phase (67 Field Classes)
+----------------------------------------
+Total Field Train Samples: 53,131
+Total Head Classes: 67
+Min Class Count: 241 | Max Class Count: 1,541
+Mean Count: 793.00 | Median Count: 729.00
+Imbalance Ratio: 6.39x
+Clipped Weight Range: [0.4224, 2.7006]
+Classes with < 30 samples: []
+Classes with > 5000 samples: []
+High Extreme Weights (> 5.0): {}
+Low Extreme Weights (< 0.2): {}
+
+3. Loss Function Recommendation
+----------------------------------------
+Outcome: RECOMMEND WEIGHTED CROSS ENTROPY LOSS (Imbalance ratio <= 500:1, standard weighted CE is optimal)
+
+Pretrain Full Class Distribution Table
+------------------------------------------------------------
+[  0] Apple_Black_Rot                               | count:   621 | weight: 0.7145
+[  1] Apple_Black_Spot                              | count:   451 | weight: 0.9838
+[  2] Apple_Brown_Spot                              | count:  1061 | weight: 0.4182
+[  3] Apple_Cedar_Rust                              | count:   275 | weight: 1.6134
+[  4] Apple_Healthy                                 | count:  1645 | weight: 0.2697
+[  5] Apple_Rust                                    | count:    88 | weight: 5.0418
+[  6] Apple_Scab                                    | count:   724 | weight: 0.6128
+[  7] Apple_Unknown                                 | count:   915 | weight: 0.4849
+[  8] Apricot_Blight                                | count:   322 | weight: 1.3779
+[  9] Apricot_Shot_Hole                             | count:   832 | weight: 0.5333
+[ 10] Apricot_Unknown                               | count:   651 | weight: 0.6815
+[ 11] Bean_Fungal                                   | count:   776 | weight: 0.5718
+[ 12] Bean_Rust                                     | count:   500 | weight: 0.8874
+[ 13] Bean_Shot_Hole                                | count:   392 | weight: 1.1318
+[ 14] Bean_Unknown                                  | count:   899 | weight: 0.4935
+[ 15] Blueberry_Healthy                             | count:  1502 | weight: 0.2954
+[ 16] Blueberry_Unknown                             | count:   115 | weight: 3.8581
+[ 17] Cherry_Brown_Spot                             | count:   968 | weight: 0.4583
+[ 18] Cherry_Healthy                                | count:   854 | weight: 0.5195
+[ 19] Cherry_Powdery_Mildew                         | count:  1052 | weight: 0.4218
+[ 20] Cherry_Purple_Spot                            | count:   981 | weight: 0.4523
+[ 21] Cherry_Scorch                                 | count:  1106 | weight: 0.4012
+[ 22] Cherry_Shot_Hole                              | count:   440 | weight: 1.0084
+[ 23] Cherry_Unknown                                | count:   556 | weight: 0.7980
+[ 24] Corn_Blight                                   | count:   188 | weight: 2.3600
+[ 25] Corn_Common_Rust                              | count:  1308 | weight: 0.3392
+[ 26] Corn_Fungal                                   | count:   331 | weight: 1.3404
+[ 27] Corn_Gray_Spot                                | count:  1109 | weight: 0.4001
+[ 28] Corn_Healthy                                  | count:  1162 | weight: 0.3818
+[ 29] Corn_Holcus_Spot                              | count:   432 | weight: 1.0270
+[ 30] Corn_Northern_Blight                          | count:   985 | weight: 0.4504
+[ 31] Corn_Unknown                                  | count:   568 | weight: 0.7811
+[ 32] Fig_Blight                                    | count:   764 | weight: 0.5807
+[ 33] Fig_Brown_Spot                                | count:   427 | weight: 1.0391
+[ 34] Fig_Rust                                      | count:   501 | weight: 0.8856
+[ 35] Fig_Unknown                                   | count:   600 | weight: 0.7395
+[ 36] Grape_Anthracnose                             | count:   997 | weight: 0.4450
+[ 37] Grape_Black_Rot                               | count:  1244 | weight: 0.3567
+[ 38] Grape_Blight_Isariopsis_Spot                  | count:  1076 | weight: 0.4123
+[ 39] Grape_Brown_Spot                              | count:   640 | weight: 0.6933
+[ 40] Grape_Downy_Mildew                            | count:   623 | weight: 0.7122
+[ 41] Grape_Esca_Black_Measles                      | count:  1383 | weight: 0.3208
+[ 42] Grape_Healthy                                 | count:   423 | weight: 1.0489
+[ 43] Grape_Mites                                   | count:   501 | weight: 0.8856
+[ 44] Grape_Powdery_Mildew                          | count:  1207 | weight: 0.3676
+[ 45] Grape_Shot_Hole                               | count:   853 | weight: 0.5201
+[ 46] Grape_Unknown                                 | count:  1555 | weight: 0.2853
+[ 47] Lokat_Healthy                                 | count:   504 | weight: 0.8803
+[ 48] Lokat_Leaf_Spot                               | count:   792 | weight: 0.5602
+[ 49] Orange_Haunglongbing_Greening                 | count:  5507 | weight: 0.1000
+[ 50] Peach_Bacterial_Spot                          | count:  2297 | weight: 0.1932
+[ 51] Peach_Healthy                                 | count:   360 | weight: 1.2324
+[ 52] Peach_Unknown                                 | count:   111 | weight: 3.9971
+[ 53] Pear_Black_Spot                               | count:   904 | weight: 0.4908
+[ 54] Pear_Fire_Blight                              | count:   379 | weight: 1.1707
+[ 55] Pear_Unknown                                  | count:   763 | weight: 0.5815
+[ 56] Pepper_Bacterial_Spot                         | count:  1068 | weight: 0.4154
+[ 57] Pepper_Healthy                                | count:  1478 | weight: 0.3002
+[ 58] Pepper_Unknown                                | count:    62 | weight: 7.1562
+[ 59] Persimmons_Brown_Spot                         | count:   663 | weight: 0.6692
+[ 60] Potato_Early_Blight                           | count:  1116 | weight: 0.3976
+[ 61] Potato_Healthy                                | count:   152 | weight: 2.9190
+[ 62] Potato_Late_Blight                            | count:  1105 | weight: 0.4015
+[ 63] Raspberry_Healthy                             | count:   371 | weight: 1.1959
+[ 64] Raspberry_Unknown                             | count:   119 | weight: 3.7284
+[ 65] Soybean_Healthy                               | count:  5090 | weight: 0.1000
+[ 66] Soybean_Unknown                               | count:    65 | weight: 6.8259
+[ 67] Squash_Powdery_Mildew                         | count:  1965 | weight: 0.2258
+[ 68] Strawberry_Healthy                            | count:   456 | weight: 0.9730
+[ 69] Strawberry_Scorch                             | count:  1109 | weight: 0.4001
+[ 70] Strawberry_Unknown                            | count:    96 | weight: 4.6217
+[ 71] Tomato_Bacterial_Spot                         | count:  3602 | weight: 0.1232
+[ 72] Tomato_Curl                                   | count:  1514 | weight: 0.2931
+[ 73] Tomato_Early_Blight                           | count:  2629 | weight: 0.1688
+[ 74] Tomato_Fusarium_Wilt                          | count:   325 | weight: 1.3652
+[ 75] Tomato_Healthy                                | count:  3097 | weight: 0.1433
+[ 76] Tomato_Late_Blight                            | count:  3147 | weight: 0.1410
+[ 77] Tomato_Miner                                  | count:  1517 | weight: 0.2925
+[ 78] Tomato_Mold                                   | count:  2573 | weight: 0.1724
+[ 79] Tomato_Mosaic_Virus                           | count:   427 | weight: 1.0391
+[ 80] Tomato_Septoria                               | count:  3202 | weight: 0.1386
+[ 81] Tomato_Spider_Mites                           | count:  2185 | weight: 0.2031
+[ 82] Tomato_Target_Spot                            | count:  1404 | weight: 0.3160
+[ 83] Tomato_Unknown                                | count:    63 | weight: 7.0426
+[ 84] Tomato_Verticillium_Wilt                      | count:   419 | weight: 1.0589
+[ 85] Tomato_Yellow_Curl_Virus                      | count:  5433 | weight: 0.1000
+[ 86] Walnut_Anthracnose                            | count:   648 | weight: 0.6847
+[ 87] Walnut_Blotch                                 | count:  1355 | weight: 0.3274
+[ 88] Walnut_Gall_Mite                              | count:   392 | weight: 1.1318
+[ 89] Walnut_Shot_Hole                              | count:   917 | weight: 0.4838
+[ 90] Walnut_Unknown                                | count:   713 | weight: 0.6223
+[ 91] Wheat_Aphid                                   | count:   775 | weight: 0.5725
+[ 92] Wheat_Black_Rust                              | count:   510 | weight: 0.8700
+[ 93] Wheat_Blast                                   | count:   576 | weight: 0.7703
+[ 94] Wheat_Brown_Rust                              | count:  1068 | weight: 0.4154
+[ 95] Wheat_Common_Root_Rot                         | count:   544 | weight: 0.8156
+[ 96] Wheat_Fusarium_Head_Blight                    | count:   545 | weight: 0.8141
+[ 97] Wheat_Healthy                                 | count:   857 | weight: 0.5177
+[ 98] Wheat_Leaf_Blight                             | count:   729 | weight: 0.6086
+[ 99] Wheat_Mildew                                  | count:   920 | weight: 0.4823
+[100] Wheat_Mite                                    | count:   702 | weight: 0.6320
+[101] Wheat_Septoria                                | count:   976 | weight: 0.4546
+[102] Wheat_Smut                                    | count:  1105 | weight: 0.4015
+[103] Wheat_Stem_Fly                                | count:   241 | weight: 1.8410
+[104] Wheat_Tan_Spot                                | count:   668 | weight: 0.6642
+[105] Wheat_Yellow_Rust                             | count:  1095 | weight: 0.4052
+
+Head Full Class Distribution Table
+------------------------------------------------------------
+[ 0] Apple_Black_Spot                              | count:   451 | weight: 1.4431
+[ 1] Apple_Brown_Spot                              | count:  1061 | weight: 0.6134
+[ 2] Apple_Unknown                                 | count:   824 | weight: 0.7899
+[ 3] Apricot_Blight                                | count:   322 | weight: 2.0213
+[ 4] Apricot_Shot_Hole                             | count:   832 | weight: 0.7823
+[ 5] Apricot_Unknown                               | count:   651 | weight: 0.9998
+[ 6] Bean_Fungal                                   | count:   776 | weight: 0.8387
+[ 7] Bean_Rust                                     | count:   500 | weight: 1.3017
+[ 8] Bean_Shot_Hole                                | count:   392 | weight: 1.6603
+[ 9] Bean_Unknown                                  | count:   899 | weight: 0.7240
+[10] Cherry_Brown_Spot                             | count:   968 | weight: 0.6724
+[11] Cherry_Purple_Spot                            | count:   981 | weight: 0.6635
+[12] Cherry_Scorch                                 | count:  1106 | weight: 0.5885
+[13] Cherry_Shot_Hole                              | count:   440 | weight: 1.4792
+[14] Cherry_Unknown                                | count:   499 | weight: 1.3043
+[15] Corn_Fungal                                   | count:   331 | weight: 1.9663
+[16] Corn_Gray_Spot                                | count:   528 | weight: 1.2327
+[17] Corn_Holcus_Spot                              | count:   432 | weight: 1.5066
+[18] Corn_Unknown                                  | count:   568 | weight: 1.1459
+[19] Fig_Blight                                    | count:   764 | weight: 0.8519
+[20] Fig_Brown_Spot                                | count:   427 | weight: 1.5242
+[21] Fig_Rust                                      | count:   501 | weight: 1.2991
+[22] Fig_Unknown                                   | count:   600 | weight: 1.0848
+[23] Grape_Anthracnose                             | count:   997 | weight: 0.6528
+[24] Grape_Brown_Spot                              | count:   640 | weight: 1.0170
+[25] Grape_Downy_Mildew                            | count:   623 | weight: 1.0447
+[26] Grape_Mites                                   | count:   501 | weight: 1.2991
+[27] Grape_Powdery_Mildew                          | count:  1207 | weight: 0.5392
+[28] Grape_Shot_Hole                               | count:   853 | weight: 0.7630
+[29] Grape_Unknown                                 | count:  1485 | weight: 0.4383
+[30] Lokat_Healthy                                 | count:   504 | weight: 1.2914
+[31] Lokat_Leaf_Spot                               | count:   792 | weight: 0.8218
+[32] Pear_Black_Spot                               | count:   904 | weight: 0.7200
+[33] Pear_Fire_Blight                              | count:   379 | weight: 1.7173
+[34] Pear_Unknown                                  | count:   763 | weight: 0.8530
+[35] Persimmons_Brown_Spot                         | count:   663 | weight: 0.9817
+[36] Tomato_Bacterial_Spot                         | count:  1365 | weight: 0.4768
+[37] Tomato_Curl                                   | count:  1514 | weight: 0.4299
+[38] Tomato_Early_Blight                           | count:  1541 | weight: 0.4224
+[39] Tomato_Fusarium_Wilt                          | count:   325 | weight: 2.0026
+[40] Tomato_Healthy                                | count:  1506 | weight: 0.4322
+[41] Tomato_Late_Blight                            | count:  1127 | weight: 0.5775
+[42] Tomato_Miner                                  | count:  1517 | weight: 0.4290
+[43] Tomato_Mold                                   | count:  1530 | weight: 0.4254
+[44] Tomato_Septoria                               | count:  1280 | weight: 0.5085
+[45] Tomato_Spider_Mites                           | count:   507 | weight: 1.2837
+[46] Tomato_Verticillium_Wilt                      | count:   419 | weight: 1.5533
+[47] Walnut_Anthracnose                            | count:   648 | weight: 1.0044
+[48] Walnut_Blotch                                 | count:  1355 | weight: 0.4803
+[49] Walnut_Gall_Mite                              | count:   392 | weight: 1.6603
+[50] Walnut_Shot_Hole                              | count:   917 | weight: 0.7098
+[51] Walnut_Unknown                                | count:   713 | weight: 0.9128
+[52] Wheat_Aphid                                   | count:   775 | weight: 0.8398
+[53] Wheat_Black_Rust                              | count:   510 | weight: 1.2762
+[54] Wheat_Blast                                   | count:   576 | weight: 1.1300
+[55] Wheat_Brown_Rust                              | count:  1068 | weight: 0.6094
+[56] Wheat_Common_Root_Rot                         | count:   544 | weight: 1.1964
+[57] Wheat_Fusarium_Head_Blight                    | count:   545 | weight: 1.1942
+[58] Wheat_Healthy                                 | count:   857 | weight: 0.7595
+[59] Wheat_Leaf_Blight                             | count:   729 | weight: 0.8928
+[60] Wheat_Mildew                                  | count:   920 | weight: 0.7074
+[61] Wheat_Mite                                    | count:   702 | weight: 0.9271
+[62] Wheat_Septoria                                | count:   976 | weight: 0.6669
+[63] Wheat_Smut                                    | count:  1105 | weight: 0.5890
+[64] Wheat_Stem_Fly                                | count:   241 | weight: 2.7006
+[65] Wheat_Tan_Spot                                | count:   668 | weight: 0.9743
+[66] Wheat_Yellow_Rust                             | count:  1095 | weight: 0.5944

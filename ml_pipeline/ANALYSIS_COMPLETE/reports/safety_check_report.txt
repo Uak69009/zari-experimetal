@@ -1,0 +1,92 @@
+================================================================================
+ZARI.ai — RAG SAFETY CHECK & CHEMICAL COMPLIANCE REPORT
+================================================================================
+Total RAG Chunks Audited    : 588
+Total Disease Classes       : 67
+
+================================================================================
+1. VIRAL DISEASE SAFETY CHECK (Tomato_Curl)
+================================================================================
+  - Tomato_Curl               : ✅ PASS (0 Fungicides, Vector Whitefly Control Enforced)
+
+================================================================================
+2. PEST SAFETY CHECK (Insecticide / Acaricide Alignment)
+================================================================================
+  - Grape_Mites               : ✅ PASS (Insecticide/Acaricide Aligned)
+  - Tomato_Miner              : ✅ PASS (Insecticide/Acaricide Aligned)
+  - Tomato_Spider_Mites       : ✅ PASS (Insecticide/Acaricide Aligned)
+  - Walnut_Gall_Mite          : ✅ PASS (Insecticide/Acaricide Aligned)
+  - Wheat_Aphid               : ✅ PASS (Insecticide/Acaricide Aligned)
+  - Wheat_Mite                : ✅ PASS (Insecticide/Acaricide Aligned)
+  - Wheat_Stem_Fly            : ✅ PASS (Insecticide/Acaricide Aligned)
+
+================================================================================
+3. BACTERIAL DISEASE SAFETY CHECK (Bactericide / Copper Alignment)
+================================================================================
+  - Corn_Holcus_Spot          : ✅ PASS (Copper/Bactericide Aligned)
+  - Pear_Fire_Blight          : ✅ PASS (Copper/Bactericide Aligned)
+  - Tomato_Bacterial_Spot     : ✅ PASS (Copper/Bactericide Aligned)
+  - Walnut_Blotch             : ✅ PASS (Copper/Bactericide Aligned)
+
+================================================================================
+4. FUNGAL DISEASE SAFETY CHECK (~42 Fungal Classes)
+================================================================================
+  - Apple_Black_Spot             : ✅ PASS (Fungicide / Protectant Aligned)
+  - Apple_Brown_Spot             : ✅ PASS (Fungicide / Protectant Aligned)
+  - Apricot_Blight               : ✅ PASS (Fungicide / Protectant Aligned)
+  - Apricot_Shot_Hole            : ✅ PASS (Fungicide / Protectant Aligned)
+  - Bean_Fungal                  : ✅ PASS (Fungicide / Protectant Aligned)
+  - Bean_Rust                    : ✅ PASS (Fungicide / Protectant Aligned)
+  - Bean_Shot_Hole               : ✅ PASS (Fungicide / Protectant Aligned)
+  - Cherry_Brown_Spot            : ✅ PASS (Fungicide / Protectant Aligned)
+  - Cherry_Purple_Spot           : ✅ PASS (Fungicide / Protectant Aligned)
+  - Cherry_Shot_Hole             : ✅ PASS (Fungicide / Protectant Aligned)
+  - Corn_Fungal                  : ✅ PASS (Fungicide / Protectant Aligned)
+  - Corn_Gray_Spot               : ✅ PASS (Fungicide / Protectant Aligned)
+  - Fig_Blight                   : ✅ PASS (Fungicide / Protectant Aligned)
+  - Fig_Brown_Spot               : ✅ PASS (Fungicide / Protectant Aligned)
+  - Fig_Rust                     : ✅ PASS (Fungicide / Protectant Aligned)
+  - Grape_Anthracnose            : ✅ PASS (Fungicide / Protectant Aligned)
+  - Grape_Brown_Spot             : ✅ PASS (Fungicide / Protectant Aligned)
+  - Grape_Downy_Mildew           : ✅ PASS (Fungicide / Protectant Aligned)
+  - Grape_Powdery_Mildew         : ✅ PASS (Fungicide / Protectant Aligned)
+  - Grape_Shot_Hole              : ✅ PASS (Fungicide / Protectant Aligned)
+  - Lokat_Leaf_Spot              : ✅ PASS (Fungicide / Protectant Aligned)
+  - Pear_Black_Spot              : ✅ PASS (Fungicide / Protectant Aligned)
+  - Persimmons_Brown_Spot        : ✅ PASS (Fungicide / Protectant Aligned)
+  - Tomato_Early_Blight          : ✅ PASS (Fungicide / Protectant Aligned)
+  - Tomato_Fusarium_Wilt         : ✅ PASS (Fungicide / Protectant Aligned)
+  - Tomato_Late_Blight           : ✅ PASS (Fungicide / Protectant Aligned)
+  - Tomato_Mold                  : ✅ PASS (Fungicide / Protectant Aligned)
+  - Tomato_Septoria              : ✅ PASS (Fungicide / Protectant Aligned)
+  - Tomato_Verticillium_Wilt     : ✅ PASS (Fungicide / Protectant Aligned)
+  - Walnut_Anthracnose           : ✅ PASS (Fungicide / Protectant Aligned)
+  - Walnut_Shot_Hole             : ✅ PASS (Fungicide / Protectant Aligned)
+  - Wheat_Black_Rust             : ✅ PASS (Fungicide / Protectant Aligned)
+  - Wheat_Blast                  : ✅ PASS (Fungicide / Protectant Aligned)
+  - Wheat_Brown_Rust             : ✅ PASS (Fungicide / Protectant Aligned)
+  - Wheat_Common_Root_Rot        : ✅ PASS (Fungicide / Protectant Aligned)
+  - Wheat_Fusarium_Head_Blight   : ✅ PASS (Fungicide / Protectant Aligned)
+  - Wheat_Leaf_Blight            : ✅ PASS (Fungicide / Protectant Aligned)
+  - Wheat_Mildew                 : ✅ PASS (Fungicide / Protectant Aligned)
+  - Wheat_Septoria               : ✅ PASS (Fungicide / Protectant Aligned)
+  - Wheat_Smut                   : ✅ PASS (Fungicide / Protectant Aligned)
+  - Wheat_Tan_Spot               : ✅ PASS (Fungicide / Protectant Aligned)
+  - Wheat_Yellow_Rust            : ✅ PASS (Fungicide / Protectant Aligned)
+
+================================================================================
+5. DOSAGE & SAFETY COMPLIANCE CHECK (No Invented Dosage / PHI)
+================================================================================
+  - Dosage & PHI Safety      : ✅ PASS (Zero invented dosage/PHI; 100% label disclaimers enforced)
+
+================================================================================
+FINAL SAFETY CHECK SUMMARY
+================================================================================
+1. Viral Disease Check (Tomato_Curl) : ✅ PASS
+2. Pest Safety Check                 : ✅ PASS
+3. Bacterial Disease Check           : ✅ PASS
+4. Fungal Disease Check              : ✅ PASS
+5. Dosage & PHI Safety               : ✅ PASS
+
+OVERALL SAFETY STATUS: ✅ ALL 5 CHECKS PASSED PERFECTLY!
+================================================================================

@@ -1,0 +1,203 @@
+==========================================================================================
+ZARI AI DATASET ANALYSIS - AFTER CLEANING
+==========================================================================================
+
+Generated: 2026-08-13 14:44:59
+
+DATASET STATISTICS
+------------------------------------------------------------------------------------------
+Total Images: 251,207
+Total Classes: 150
+Min Images per Class: 41
+Max Images per Class: 16,521
+Mean Images per Class: 1674.71
+Median Images per Class: 812
+Std Dev: 2584.64
+Imbalance Ratio (Max/Min): 402.95x
+
+CLEANING IMPACT
+------------------------------------------------------------------------------------------
+Images Removed: 4 (0.00%)
+Classes Removed: 3 (1.96%)
+Data Retained: 100.00%
+Imbalance Improvement: 97.56%
+
+TOP 20 CLASSES (AFTER CLEANING)
+------------------------------------------------------------------------------------------
+Rank   Class Name                                         Count           %         
+------------------------------------------------------------------------------------------
+1      Orange_Haunglongbing_Greening                      16,521          6.58      
+2      Tomato_Yellow_Curl_Virus                           16,071          6.40      
+3      Soybean_Healthy                                    15,270          6.08      
+4      Tomato_Bacterial_Spot                              8,196           3.26      
+5      Tomato_Late_Blight                                 7,244           2.88      
+6      Peach_Bacterial_Spot                               6,891           2.74      
+7      Tomato_Healthy                                     6,651           2.65      
+8      Squash_Powdery_Mildew                              5,635           2.24      
+9      Tomato_Septoria_Spot                               5,464           2.18      
+10     Tomato_Spider_Mites_Two_Spotted_Spider_Mite        5,028           2.00      
+11     Tomato_Early_Blight                                5,013           2.00      
+12     Apple_Healthy                                      4,935           1.96      
+13     Tomato_Mold                                        4,857           1.93      
+14     Blueberry_Healthy                                  4,506           1.79      
+15     Pepper_Healthy                                     4,434           1.77      
+16     Tomato_Target_Spot                                 4,212           1.68      
+17     Grape_Esca_Black_Measles                           4,150           1.65      
+18     Grape_Black_Rot                                    3,604           1.43      
+19     Corn_Common_Rust                                   3,576           1.42      
+20     Corn_Healthy                                       3,486           1.39      
+
+ALL REMAINING CLASSES
+------------------------------------------------------------------------------------------
+Rank   Class Name                                         Count           %         
+------------------------------------------------------------------------------------------
+1      Orange_Haunglongbing_Greening                      16,521          6.58      
+2      Tomato_Yellow_Curl_Virus                           16,071          6.40      
+3      Soybean_Healthy                                    15,270          6.08      
+4      Tomato_Bacterial_Spot                              8,196           3.26      
+5      Tomato_Late_Blight                                 7,244           2.88      
+6      Peach_Bacterial_Spot                               6,891           2.74      
+7      Tomato_Healthy                                     6,651           2.65      
+8      Squash_Powdery_Mildew                              5,635           2.24      
+9      Tomato_Septoria_Spot                               5,464           2.18      
+10     Tomato_Spider_Mites_Two_Spotted_Spider_Mite        5,028           2.00      
+11     Tomato_Early_Blight                                5,013           2.00      
+12     Apple_Healthy                                      4,935           1.96      
+13     Tomato_Mold                                        4,857           1.93      
+14     Blueberry_Healthy                                  4,506           1.79      
+15     Pepper_Healthy                                     4,434           1.77      
+16     Tomato_Target_Spot                                 4,212           1.68      
+17     Grape_Esca_Black_Measles                           4,150           1.65      
+18     Grape_Black_Rot                                    3,604           1.43      
+19     Corn_Common_Rust                                   3,576           1.42      
+20     Corn_Healthy                                       3,486           1.39      
+21     Strawberry_Scorch                                  3,327           1.32      
+22     Grape_Blight_Isariopsis_Spot                       3,228           1.28      
+23     Cherry_Powdery_Mildew                              3,156           1.26      
+24     Potato_Early_Blight                                3,116           1.24      
+25     Potato_Late_Blight                                 3,105           1.24      
+26     Pepper_Bacterial_Spot                              2,991           1.19      
+27     Corn_Northern_Blight                               2,955           1.18      
+28     Cherry_Healthy                                     2,562           1.02      
+29     Unknown_15                                         2,013           0.80      
+30     Unknown_35                                         2,000           0.80      
+31     Apple_Scab                                         1,984           0.79      
+32     Grape_Unknown                                      1,927           0.77      
+33     Tomato_Miner                                       1,897           0.76      
+34     Tomato_Curl                                        1,893           0.75      
+35     Apple_Black_Rot                                    1,863           0.74      
+36     Unknown_24                                         1,784           0.71      
+37     Walnut_Blotch                                      1,693           0.67      
+38     Tomato_Septoria                                    1,599           0.64      
+39     Corn_Cercospora_Spot_Gray_Spot                     1,539           0.61      
+40     Grape_Powdery_Mildew                               1,509           0.60      
+41     Cherry_Scorch                                      1,383           0.55      
+42     Wheat_Smut                                         1,380           0.55      
+43     Wheat_Yellow_Rust                                  1,371           0.55      
+44     Strawberry_Healthy                                 1,368           0.54      
+45     Wheat_Brown_Rust                                   1,341           0.53      
+46     Apple_Brown_Spot                                   1,325           0.53      
+47     Grape_Healthy                                      1,269           0.51      
+48     Grape_Anthracnose                                  1,245           0.50      
+49     Cherry_Purple_Spot                                 1,227           0.49      
+50     Wheat_Septoria                                     1,214           0.48      
+51     Cherry_Brown_Spot                                  1,210           0.48      
+52     Tomato_Mosaic_Virus                                1,173           0.47      
+53     Wheat_Mildew                                       1,151           0.46      
+54     Walnut_Shot_Hole                                   1,147           0.46      
+55     Pear_Black_Spot                                    1,130           0.45      
+56     Bean_Unknown                                       1,123           0.45      
+57     Apple_Unknown                                      1,121           0.45      
+58     Raspberry_Healthy                                  1,113           0.44      
+59     Peach_Healthy                                      1,080           0.43      
+60     Wheat_Healthy                                      1,070           0.43      
+61     Grape_Shot_Hole                                    1,065           0.42      
+62     Apricot_Shot_Hole                                  1,040           0.41      
+63     Unknown_Lokat_Spot                                 990             0.39      
+64     Wheat_Aphid                                        973             0.39      
+65     Bean_Fungal                                        970             0.39      
+66     Pear_Unknown                                       955             0.38      
+67     Fig_Blight                                         954             0.38      
+68     Wheat_Leaf_Blight                                  912             0.36      
+69     Walnut_Unknown                                     890             0.35      
+70     Wheat_Mite                                         870             0.35      
+71     Wheat_Tan_Spot                                     840             0.33      
+72     Unknown_Persimmons_Brown_Spot                      829             0.33      
+73     Unknown_16                                         826             0.33      
+74     Apple_Cedar_Rust                                   825             0.33      
+75     Apricot_Unknown                                    815             0.32      
+76     Walnut_Anthracnose                                 810             0.32      
+77     Grape_Brown_Spot                                   800             0.32      
+78     Grape_Downy_Mildew                                 779             0.31      
+79     Unknown_28                                         760             0.30      
+80     Fig_Unknown                                        750             0.30      
+81     Corn_Gray_Spot                                     728             0.29      
+82     Wheat_Blast                                        717             0.29      
+83     Corn_Unknown                                       710             0.28      
+84     Wheat_Common_Root_Rot                              684             0.27      
+85     Cherry_Unknown                                     682             0.27      
+86     Wheat_Fusarium_Head_Blight                         681             0.27      
+87     Unknown_30                                         660             0.26      
+88     Unknown_25                                         649             0.26      
+89     Wheat_Black_Rust                                   642             0.26      
+90     Unknown_33                                         640             0.25      
+91     Tomato_Spider_Mites                                635             0.25      
+92     Unknown_Lokat                                      630             0.25      
+93     Grape_Mites                                        625             0.25      
+94     Fig_Rust                                           625             0.25      
+95     Bean_Rust                                          624             0.25      
+96     Unknown_32                                         587             0.23      
+97     Apple_Black_Spot                                   571             0.23      
+98     Unknown_37                                         560             0.22      
+99     Unknown_3                                          554             0.22      
+100    Cherry_Shot_Hole                                   550             0.22      
+101    Unknown_19                                         544             0.22      
+102    Corn_Holcus_Spot                                   540             0.21      
+103    Fig_Brown_Spot                                     535             0.21      
+104    Tomato_Verticillium_Wilt                           525             0.21      
+105    Walnut_Gall_Mite                                   490             0.20      
+106    Bean_Shot_Hole                                     490             0.20      
+107    Pear_Fire_Blight                                   475             0.19      
+108    Unknown_4                                          468             0.19      
+109    Unknown_34                                         468             0.19      
+110    Unknown_12                                         465             0.19      
+111    Potato_Healthy                                     456             0.18      
+112    Unknown_10                                         433             0.17      
+113    Unknown_8                                          432             0.17      
+114    Corn_Fungal                                        415             0.17      
+115    Unknown_5                                          409             0.16      
+116    Unknown_11                                         407             0.16      
+117    Tomato_Fusarium_Wilt                               407             0.16      
+118    Apricot_Blight                                     402             0.16      
+119    Unknown_26                                         380             0.15      
+120    Unknown_13                                         379             0.15      
+121    Unknown_20                                         377             0.15      
+122    Unknown_21                                         372             0.15      
+123    Unknown_9                                          354             0.14      
+124    Unknown_6                                          334             0.13      
+125    Unknown_29                                         331             0.13      
+126    Wheat_Stem_Fly                                     304             0.12      
+127    Unknown_18                                         287             0.11      
+128    Unknown_31                                         286             0.11      
+129    Unknown_23                                         224             0.09      
+130    Unknown_0                                          221             0.09      
+131    Unknown_1                                          199             0.08      
+132    Corn_Blight                                        188             0.07      
+133    Unknown_7                                          187             0.07      
+134    Unknown_27                                         184             0.07      
+135    Unknown_14                                         146             0.06      
+136    Unknown_36                                         143             0.06      
+137    Raspberry_Unknown                                  119             0.05      
+138    Corn_Rust                                          116             0.05      
+139    Blueberry_Unknown                                  115             0.05      
+140    Peach_Unknown                                      111             0.04      
+141    Unknown_2                                          99              0.04      
+142    Strawberry_Unknown                                 96              0.04      
+143    Unknown_17                                         95              0.04      
+144    Apple_Rust                                         88              0.04      
+145    Tomato_Yellow_Virus                                76              0.03      
+146    Pepper_Spot                                        71              0.03      
+147    Soybean_Unknown                                    65              0.03      
+148    Tomato_Unknown                                     63              0.03      
+149    Pepper_Unknown                                     62              0.02      
+150    Unknown_22                                         41              0.02      

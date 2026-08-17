@@ -1,0 +1,73 @@
+==========================================================================================
+ZARI AI DATASET ANALYSIS - BEFORE CLEANING
+==========================================================================================
+
+Generated: 2026-08-13 14:44:59
+
+DATASET STATISTICS
+------------------------------------------------------------------------------------------
+Total Images: 251,211
+Total Classes: 153
+Min Images per Class: 1
+Max Images per Class: 16,521
+Mean Images per Class: 1641.90
+Median Images per Class: 800
+Std Dev: 2569.67
+Imbalance Ratio (Max/Min): 16521.00x
+
+CLASS IMBALANCE BREAKDOWN
+------------------------------------------------------------------------------------------
+Severely Imbalanced (< 10 images): 3 classes
+Moderately Imbalanced (10-50 images): 1 classes
+Balanced (50-500 images): 45 classes
+Overrepresented (> 5000 images): 104 classes
+
+TOP 20 CLASSES
+------------------------------------------------------------------------------------------
+Rank   Class Name                                         Count           %         
+------------------------------------------------------------------------------------------
+1      Orange_Haunglongbing_Greening                      16,521          6.58      
+2      Tomato_Yellow_Curl_Virus                           16,071          6.40      
+3      Soybean_Healthy                                    15,270          6.08      
+4      Tomato_Bacterial_Spot                              8,196           3.26      
+5      Tomato_Late_Blight                                 7,244           2.88      
+6      Peach_Bacterial_Spot                               6,891           2.74      
+7      Tomato_Healthy                                     6,651           2.65      
+8      Squash_Powdery_Mildew                              5,635           2.24      
+9      Tomato_Septoria_Spot                               5,464           2.18      
+10     Tomato_Spider_Mites_Two_Spotted_Spider_Mite        5,028           2.00      
+11     Tomato_Early_Blight                                5,013           2.00      
+12     Apple_Healthy                                      4,935           1.96      
+13     Tomato_Mold                                        4,857           1.93      
+14     Blueberry_Healthy                                  4,506           1.79      
+15     Pepper_Healthy                                     4,434           1.77      
+16     Tomato_Target_Spot                                 4,212           1.68      
+17     Grape_Esca_Black_Measles                           4,150           1.65      
+18     Grape_Black_Rot                                    3,604           1.43      
+19     Corn_Common_Rust                                   3,576           1.42      
+20     Corn_Healthy                                       3,486           1.39      
+
+BOTTOM 20 CLASSES (SEVERELY IMBALANCED)
+------------------------------------------------------------------------------------------
+Class Name                                         Count           Reason                        
+------------------------------------------------------------------------------------------
+Unknown_27                                         184             184 images                    
+Unknown_14                                         146             146 images                    
+Unknown_36                                         143             143 images                    
+Raspberry_Unknown                                  119             119 images                    
+Corn_Rust                                          116             116 images                    
+Blueberry_Unknown                                  115             115 images                    
+Peach_Unknown                                      111             111 images                    
+Unknown_2                                          99              99 images                     
+Strawberry_Unknown                                 96              96 images                     
+Unknown_17                                         95              95 images                     
+Apple_Rust                                         88              88 images                     
+Tomato_Yellow_Virus                                76              76 images                     
+Pepper_Spot                                        71              71 images                     
+Soybean_Unknown                                    65              65 images                     
+Tomato_Unknown                                     63              63 images                     
+Pepper_Unknown                                     62              62 images                     
+Unknown_22                                         41              41 images                     
+Tomato_Two_Spotted_Spider_Mites                    2               < 10 images (REMOVE)          
+Unknown_Plantdoc                                   1               < 10 images (REMOVE)          
+Unknown_Generated_For_Paper                        1               < 10 images (REMOVE)          

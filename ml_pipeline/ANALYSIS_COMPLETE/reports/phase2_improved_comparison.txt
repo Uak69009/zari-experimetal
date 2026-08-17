@@ -1,0 +1,31 @@
+================================================================================
+ZARI.ai — PHASE 2 IMPROVED MODEL TEST EVALUATION & COMPARISON REPORT
+================================================================================
+Date / Timestamp           : 2026-08-15T19:14:16.602221
+Evaluation Dataset         : Test Split (6,648 Field Images)
+Evaluated Model Checkpoint : phase2_improved_model.pth
+Training Setup             : Partial Unfreeze (blocks.5, blocks.6, conv_head)
+                             Two LR Groups (Backbone: 1e-5, Head: 3e-4)
+                             Early Stopping (patience=2)
+
+METRICS COMPARISON TABLE:
+--------------------------------------------------------------------------------
+Metric                    | Current      | Improved     | Change      
+----------------------------------------------------------------------
+Overall                   |  97.32%      |  96.89%      |  -0.43%     
+Wheat_Black_Rust          |  77.14%      |  80.00%      |  +2.86%     
+Wheat_Brown_Rust          |  87.05%      |  81.29%      |  -5.76%     
+Wheat_Tan_Spot            |  66.27%      |  67.47%      |  +1.20%     
+Wheat_Leaf_Blight         |  69.32%      |  56.82%      | -12.50%     
+Wheat_Septoria            |  89.08%      |  92.44%      |  +3.36%     
+AUROC                     | 0.9527       | 0.9546       | +0.0019     
+
+================================================================================
+FINAL VERDICT & RECOMMENDATION
+================================================================================
+1. Wheat Confusion Pairs Status  : IMPROVED
+   - Wheat classes with accuracy gains: Wheat_Black_Rust, Wheat_Tan_Spot, Wheat_Septoria.
+2. Partial Unfreeze & Lower LR   : HELPFUL
+   - Overall Accuracy: 96.89% (-0.43% vs Baseline 97.32%).
+3. Model Deployment Recommendation: KEEP THIS IMPROVED MODEL
+================================================================================

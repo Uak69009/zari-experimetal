@@ -1,0 +1,66 @@
+Unknown Resolution Final Report
+========================================
+Input CSV: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/dataset_master_enriched.csv
+Output CSV: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/dataset_unknowns_resolved.csv
+
+Requested actions
+- Load dataset_master_enriched.csv
+- Relabel 630 CANDIDATE_HEALTHY rows
+- Relabel 1,819 CANDIDATE_DISEASED rows
+- Remove 19,300 NEEDS_REVIEW rows
+- Remove 377 Unknown_20 rows
+
+Actual actions
+- Healthy relabeled: 630
+- Diseased relabeled: 1819
+- NEEDS_REVIEW removed: 18923
+- Unknown_20 removed: 377
+- Rows removed total: 19300
+- Rows relabeled total: 2449
+
+Final dataset summary
+- Final row count: 123300
+- Final class count: 113
+- Healthy class count: 14
+- Healthy row count: 18662
+- Split counts: {'train': 100313, 'test': 11704, 'val': 11283}
+
+Validation
+- File paths verified: 123300/123300
+- Unresolved file paths: 0
+- Residual Unknown crop rows: 0
+- Residual Unknown class names: []
+
+Removed rows sample
+- NEEDS_REVIEW: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/train/24/caab9f4e-535b-471c-aac1-e84267024ae6.JPG
+- NEEDS_REVIEW: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/train/26/fe0dd163-4c8a-4380-b720-38b887afe245.JPG
+- NEEDS_REVIEW: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/test/35/00d0c0e0-0e9b-4812-aef8-878b0fd85974.JPG
+- NEEDS_REVIEW: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/test/10/1b104977-5c2f-4434-8ef4-b1cc86ee7cc3.JPG
+- NEEDS_REVIEW: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/train/24/b6e91db3-c941-4b5a-ac4b-b37c3ee97285.JPG
+- NEEDS_REVIEW: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/test/24/d0a6a366-017d-412d-b061-3e4b4a49b6ae.JPG
+- NEEDS_REVIEW: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/test/24/215dd224-b03e-4f75-85bf-ca6791e75e74.JPG
+- NEEDS_REVIEW: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/train/19/d4076ffd-1ddf-4d7b-86e6-39d87085ff2b.JPG
+- NEEDS_REVIEW: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/test/12/c65006bf-e3c7-4684-b183-76337feed30e.JPG
+- NEEDS_REVIEW: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/test/24/6818541d-e84c-487a-a2e5-d70a6ae89d5a.JPG
+- Unknown_20: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/test/20/cf883f6f-72a9-4bc9-ad3a-e9a9d4d453d7.JPG
+- Unknown_20: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/test/20/94f053e5-9373-480c-ae08-7dff628408cf.JPG
+- Unknown_20: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/train/20/bf63bf83-cfe5-4a16-afe3-5b4b87e8efa2.JPG
+- Unknown_20: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/test/20/3ac95bf1-8e43-457b-9818-7a286389e95a.JPG
+- Unknown_20: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/test/20/bd4c697e-7e3c-468c-8ef5-add07b38b3cf.JPG
+- Unknown_20: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/test/20/c7b3ca55-85fb-46f4-9e58-f7415c05ba20.JPG
+- Unknown_20: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/test/20/0bdf0de4-0c96-4254-9ea6-aa9654ddf13f.JPG
+- Unknown_20: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/test/20/2b713dcc-b569-45e6-ba51-ae9723c2a384.JPG
+- Unknown_20: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/test/20/b19f549f-9907-4683-8aa1-1954e5305f54.JPG
+- Unknown_20: /home/hammad/Desktop/project zari - experimental/ml_pipeline/data/raw/plantvillage/data_distribution_for_SVM/test/20/b5a3b692-cfa9-4fad-ac53-c2b3343b56eb.JPG
+
+Relabel sample
+- HEALTHY idx=48 folder=Lokat Normal leaf -> crop=Lokat, class=Lokat_Healthy
+- HEALTHY idx=83 folder=Lokat Normal leaf -> crop=Lokat, class=Lokat_Healthy
+- HEALTHY idx=124 folder=Lokat Normal leaf -> crop=Lokat, class=Lokat_Healthy
+- HEALTHY idx=166 folder=Lokat Normal leaf -> crop=Lokat, class=Lokat_Healthy
+- HEALTHY idx=318 folder=Lokat Normal leaf -> crop=Lokat, class=Lokat_Healthy
+- DISEASED idx=6 folder=lokat Leaf_spot -> crop=Lokat, class=Lokat_Leaf_Spot
+- DISEASED idx=13 folder=lokat Leaf_spot -> crop=Lokat, class=Lokat_Leaf_Spot
+- DISEASED idx=19 folder=persimmons Brown_spot -> crop=Persimmons, class=Persimmons_Brown_Spot
+- DISEASED idx=82 folder=lokat Leaf_spot -> crop=Lokat, class=Lokat_Leaf_Spot
+- DISEASED idx=107 folder=persimmons Brown_spot -> crop=Persimmons, class=Persimmons_Brown_Spot

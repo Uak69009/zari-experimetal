@@ -1,0 +1,73 @@
+==========================================================================================================
+ZARI.ai — MASTER DISEASE NOMENCLATURE & PATHOGEN REGISTRY (67 HEAD CLASSES)
+==========================================================================================================
+ID  | Class Name                   | Crop       | Scientific Name                        | Type    
+---------------------------------------------------------------------------------------------------
+0   | Apple_Black_Spot             | Apple      | Venturia inaequalis                    | Fungal  
+1   | Apple_Brown_Spot             | Apple      | Marssonina coronaria                   | Fungal  
+2   | Apple_Unknown                | Apple      | Malus domestica (Unspecified Disorder) | Unknown 
+3   | Apricot_Blight               | Apricot    | Monilinia laxa                         | Fungal  
+4   | Apricot_Shot_Hole            | Apricot    | Wilsonomyces carpophilus               | Fungal  
+5   | Apricot_Unknown              | Apricot    | Prunus armeniaca (Unspecified Disorder) | Unknown 
+6   | Bean_Fungal                  | Bean       | Colletotrichum lindemuthianum / Cercospora spp. | Fungal  
+7   | Bean_Rust                    | Bean       | Uromyces appendiculatus                | Fungal  
+8   | Bean_Shot_Hole               | Bean       | Pseudocercospora / Stigmina spp.       | Fungal  
+9   | Bean_Unknown                 | Bean       | Phaseolus vulgaris (Unspecified Disorder) | Unknown 
+10  | Cherry_Brown_Spot            | Cherry     | Blumeriella jaapii                     | Fungal  
+11  | Cherry_Purple_Spot           | Cherry     | Cercospora circumscissa                | Fungal  
+12  | Cherry_Scorch                | Cherry     | Gnomonia erythrostoma / Xylella fastidiosa | Fungal / Bacterial
+13  | Cherry_Shot_Hole             | Cherry     | Wilsonomyces carpophilus               | Fungal  
+14  | Cherry_Unknown               | Cherry     | Prunus avium (Unspecified Disorder)    | Unknown 
+15  | Corn_Fungal                  | Corn       | Bipolaris / Exserohilum spp.           | Fungal  
+16  | Corn_Gray_Spot               | Corn       | Cercospora zeae-maydis                 | Fungal  
+17  | Corn_Holcus_Spot             | Corn       | Pseudomonas syringae pv. lapsa         | Bacterial
+18  | Corn_Unknown                 | Corn       | Zea mays (Unspecified Disorder)        | Unknown 
+19  | Fig_Blight                   | Fig        | Pellicularia koleroga                  | Fungal  
+20  | Fig_Brown_Spot               | Fig        | Cercospora fici                        | Fungal  
+21  | Fig_Rust                     | Fig        | Cerotelium fici                        | Fungal  
+22  | Fig_Unknown                  | Fig        | Ficus carica (Unspecified Disorder)    | Unknown 
+23  | Grape_Anthracnose            | Grape      | Elsinoë ampelina                       | Fungal  
+24  | Grape_Brown_Spot             | Grape      | Pseudocercospora vitis                 | Fungal  
+25  | Grape_Downy_Mildew           | Grape      | Plasmopara viticola                    | Fungal  
+26  | Grape_Mites                  | Grape      | Colomerus vitis                        | Pest    
+27  | Grape_Powdery_Mildew         | Grape      | Erysiphe necator                       | Fungal  
+28  | Grape_Shot_Hole              | Grape      | Phyllosticta ampelicida                | Fungal  
+29  | Grape_Unknown                | Grape      | Vitis vinifera (Unspecified Disorder)  | Unknown 
+30  | Lokat_Healthy                | Lokat      | Eriobotrya japonica                    | Healthy 
+31  | Lokat_Leaf_Spot              | Lokat      | Entomosporium mespili                  | Fungal  
+32  | Pear_Black_Spot              | Pear       | Alternaria gaisen / Venturia pirina    | Fungal  
+33  | Pear_Fire_Blight             | Pear       | Erwinia amylovora                      | Bacterial
+34  | Pear_Unknown                 | Pear       | Pyrus communis (Unspecified Disorder)  | Unknown 
+35  | Persimmons_Brown_Spot        | Persimmon  | Cercospora kakivora / Mycosphaerella nawae | Fungal  
+36  | Tomato_Bacterial_Spot        | Tomato     | Xanthomonas perforans / vesicatoria    | Bacterial
+37  | Tomato_Curl                  | Tomato     | Tomato Yellow Leaf Curl Virus (TYLCV)  | Viral   
+38  | Tomato_Early_Blight          | Tomato     | Alternaria solani                      | Fungal  
+39  | Tomato_Fusarium_Wilt         | Tomato     | Fusarium oxysporum f. sp. lycopersici  | Fungal  
+40  | Tomato_Healthy               | Tomato     | Solanum lycopersicum                   | Healthy 
+41  | Tomato_Late_Blight           | Tomato     | Phytophthora infestans                 | Fungal  
+42  | Tomato_Miner                 | Tomato     | Tuta absoluta / Liriomyza sativae      | Pest    
+43  | Tomato_Mold                  | Tomato     | Passalora fulva (Cladosporium fulvum)  | Fungal  
+44  | Tomato_Septoria              | Tomato     | Septoria lycopersici                   | Fungal  
+45  | Tomato_Spider_Mites          | Tomato     | Tetranychus urticae                    | Pest    
+46  | Tomato_Verticillium_Wilt     | Tomato     | Verticillium dahliae                   | Fungal  
+47  | Walnut_Anthracnose           | Walnut     | Ophiognomonia leptostyla               | Fungal  
+48  | Walnut_Blotch                | Walnut     | Xanthomonas arboricola pv. juglandis   | Bacterial
+49  | Walnut_Gall_Mite             | Walnut     | Aceria erinea                          | Pest    
+50  | Walnut_Shot_Hole             | Walnut     | Wilsonomyces / Gnomonia spp.           | Fungal  
+51  | Walnut_Unknown               | Walnut     | Juglans regia (Unspecified Disorder)   | Unknown 
+52  | Wheat_Aphid                  | Wheat      | Rhopalosiphum padi / Sitobion avenae   | Pest    
+53  | Wheat_Black_Rust             | Wheat      | Puccinia graminis f. sp. tritici       | Fungal  
+54  | Wheat_Blast                  | Wheat      | Magnaporthe oryzae pathotype Triticum  | Fungal  
+55  | Wheat_Brown_Rust             | Wheat      | Puccinia triticina                     | Fungal  
+56  | Wheat_Common_Root_Rot        | Wheat      | Bipolaris sorokiniana / Fusarium spp.  | Fungal  
+57  | Wheat_Fusarium_Head_Blight   | Wheat      | Fusarium graminearum                   | Fungal  
+58  | Wheat_Healthy                | Wheat      | Triticum aestivum                      | Healthy 
+59  | Wheat_Leaf_Blight            | Wheat      | Bipolaris sorokiniana                  | Fungal  
+60  | Wheat_Mildew                 | Wheat      | Blumeria graminis f. sp. tritici       | Fungal  
+61  | Wheat_Mite                   | Wheat      | Petrobia latens                        | Pest    
+62  | Wheat_Septoria               | Wheat      | Zymoseptoria tritici                   | Fungal  
+63  | Wheat_Smut                   | Wheat      | Ustilago tritici                       | Fungal  
+64  | Wheat_Stem_Fly               | Wheat      | Atherigona soccata / Chlorops pumilionis | Pest    
+65  | Wheat_Tan_Spot               | Wheat      | Pyrenophora tritici-repentis           | Fungal  
+66  | Wheat_Yellow_Rust            | Wheat      | Puccinia striiformis f. sp. tritici    | Fungal  
+---------------------------------------------------------------------------------------------------

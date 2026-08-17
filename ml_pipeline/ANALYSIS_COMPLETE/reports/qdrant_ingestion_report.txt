@@ -1,0 +1,35 @@
+================================================================================
+ZARI.ai — PRODUCTION QDRANT RAG INGESTION REPORT
+================================================================================
+Date / Timestamp       : 2026-08-14T02:53:00Z
+Embedding Model        : sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Vector Configurations  : Dense (384-dim, Cosine) + Sparse Lexical TF
+Qdrant Storage Endpoint: Local Disk Storage (/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/qdrant_db)
+Collection Name        : zari_treatment_kb
+Total Ingested Points  : 583
+
+================================================================================
+PAYLOAD INDEXES CREATED (8 FIELDS)
+================================================================================
+  1. disease_id     (KEYWORD)
+  2. crop           (KEYWORD)
+  3. section        (KEYWORD)
+  4. country        (KEYWORD)
+  5. evidence_level (KEYWORD)
+  6. verified       (BOOL)
+  7. parent_id      (KEYWORD)
+  8. pathogen_type  (KEYWORD)
+
+================================================================================
+VERIFICATION RETRIEVAL TESTS
+================================================================================
+Test 1: Unfiltered Query 'wheat yellow rust treatment'
+  - Rank 1 Hit: Wheat_Yellow_Rust (Score: 0.6829) [PASS]
+
+Test 2: Filtered Query (crop='wheat', section='chemical_control')
+  - Hits Count: 5
+  - Filter Match Status: 100% Compliant [PASS]
+
+================================================================================
+STATUS: PRODUCTION QDRANT INGESTION COMPLETE. ALL 583 CHUNKS PROCESSED.
+================================================================================

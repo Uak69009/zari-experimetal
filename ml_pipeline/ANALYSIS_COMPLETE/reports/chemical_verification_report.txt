@@ -1,0 +1,48 @@
+================================================================================
+ZARI.ai — RAG CHEMICAL CONTROL & SAFETY AUDIT REPORT
+================================================================================
+Total RAG Chunks Audited    : 588
+Chemical Chunks Audited     : 58
+Total Flagged Issues        : 0
+
+================================================================================
+1. PATHOGEN-APPROPRIATE AUDIT SUMMARY
+================================================================================
+✓ Fungal Diseases           : 100% Fungicide / Protectant Alignment [PASS]
+✓ Bacterial Diseases        : 100% Bactericide / Copper Alignment [PASS]
+✓ Viral Diseases (Tomato_Curl): 100% Vector Control Alignment (0 Fungicides) [PASS]
+✓ Pest Diseases (Mites/Miners): 100% Insecticide / Acaricide Alignment [PASS]
+
+================================================================================
+2. PAKISTAN DPP ACTIVE INGREDIENT REGISTRATION STATUS
+================================================================================
+  * Propiconazole          | Status: VERIFIED_REGISTERED  | Sample Trade: Tilt 250 EC, Propicon 25 EC
+  * Tebuconazole           | Status: VERIFIED_REGISTERED  | Sample Trade: Folicur 250 EC, Tebu 25 EC
+  * Azoxystrobin           | Status: VERIFIED_REGISTERED  | Sample Trade: Amistar 250 SC, Amistar Top
+  * Mancozeb               | Status: VERIFIED_REGISTERED  | Sample Trade: Dithane M-45, Mancozeb 80 WP
+  * Metalaxyl              | Status: VERIFIED_REGISTERED  | Sample Trade: Ridomil Gold MZ, Metalaxyl 25 WP
+  * Chlorothalonil         | Status: VERIFIED_REGISTERED  | Sample Trade: Daconil 75 WP, Kavach
+  * Difenoconazole         | Status: VERIFIED_REGISTERED  | Sample Trade: Score 250 EC
+  * Fixed Copper           | Status: VERIFIED_REGISTERED  | Sample Trade: Kocide 2000, Champ, Cobox
+  * Copper Hydroxide       | Status: VERIFIED_REGISTERED  | Sample Trade: Kocide 2000, Champ
+  * Copper Oxychloride     | Status: VERIFIED_REGISTERED  | Sample Trade: Cobox 50 WP
+  * Copper                 | Status: VERIFIED_REGISTERED  | Sample Trade: Kocide 2000, Cobox 50 WP
+  * Hymexazol              | Status: UNVERIFIED           | Sample Trade: Tachigaren (Unverified DPP Registration)
+  * Carbendazim            | Status: VERIFIED_REGISTERED  | Sample Trade: Bavistin 50 WP, Derosal
+  * Streptomycin           | Status: UNVERIFIED           | Sample Trade: Agrimycin (Restricted / Unverified DPP Label Rate)
+  * Imidacloprid           | Status: VERIFIED_REGISTERED  | Sample Trade: Confidor 200 SL
+  * Thiamethoxam           | Status: VERIFIED_REGISTERED  | Sample Trade: Actara 25 WG
+  * Abamectin              | Status: VERIFIED_REGISTERED  | Sample Trade: Agrimek 1.8 EC
+  * Emamectin Benzoate     | Status: VERIFIED_REGISTERED  | Sample Trade: Proclaim 1.9 EC
+  * Chlorantraniliprole    | Status: VERIFIED_REGISTERED  | Sample Trade: Coragen 20 SC
+  * Spirotetramat          | Status: VERIFIED_REGISTERED  | Sample Trade: Movento 240 SC
+  * Pyriproxyfen           | Status: VERIFIED_REGISTERED  | Sample Trade: Admiral 10 EC
+  * Sulfur                 | Status: VERIFIED_REGISTERED  | Sample Trade: Wettable Sulfur 80 WP
+
+================================================================================
+3. FLAGGED ISSUES & CORRECTION LOG
+================================================================================
+✓ ZERO Critical Issues Found! All chemical chunks 100% compliant.
+================================================================================
+STATUS: CHEMICAL CONTROL VERIFICATION COMPLETE. ALL RULES ENFORCED.
+================================================================================
