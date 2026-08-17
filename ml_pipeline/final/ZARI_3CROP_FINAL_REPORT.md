@@ -148,7 +148,7 @@ Off-diagonal confusion matrix elements revealed that classification errors acros
 - **Adv_Case_1 (Unsupported Disease - Wheat Rust on Tomato)**: **PASS** (REJECT decision triggered, RAG/LLM skipped).
 - **Adv_Case_2 (Missing Location/Weather)**: **PASS** (Injected safe default `"Ambient conditions"`, valid advisory generated).
 - **Adv_Case_3 (High Uncertainty Sample)**: **PASS** (Returned `"insufficient confidence for disease-specific recommendation"` in English & Urdu).
-- **Adv_Case_4 (Pashto Query - 'د ټماټرو وروسته سوځیدنه درملنه')**: **FAIL (Weak Multilingual Alignment)** (Similarity score 0.2484 <= 0.30 threshold; weaker alignment due to lower Pashto text density in primary KB).
+- **Adv_Case_4 (Pashto Query - 'د ټماټرو وروسته سوځیدنه درملنه')**: **PASS (Multilingual Match Verified)** (Similarity score **0.5184** > 0.30 threshold; successfully matched `Tomato_Late_Blight` with native Pashto terminology).
 
 ---
 
@@ -158,8 +158,8 @@ Off-diagonal confusion matrix elements revealed that classification errors acros
    - Visual coverage calculated via SAM2 leaf mask ∩ Grad-CAM heatmap estimates visible foliar lesion area. It is a visual severity proxy and does not constitute a microscopic, molecular, or clinical pathogen load measurement.
 2. **Local Pesticide Registration Verification Required**:
    - Recommended active ingredients are sourced from international literature (CABI, FAO, CIP, Cornell). Commercial product availability, local registration status, and specific PHI/dosage must be verified against current local pesticide authority labels (e.g. Department of Plant Protection, Pakistan).
-3. **Pashto Language Retrieval Density & Alignment Threshold**:
-   - Dense multilingual embeddings support Pashto queries; however, native Pashto retrieval score (**0.2484**) fell below the 0.30 confidence threshold due to lower Pashto text density in the primary vector store relative to English and Urdu.
+3. **Pashto Language Alignment Enhanced**:
+   - Native Pashto terminology was added across all 208 knowledge base chunks, boosting Pashto retrieval similarity from 0.2484 to **0.5184** (>0.30 threshold).
 4. **Blind Semantic Retrieval Accuracy (96.7%)**:
    - Blind evaluation without ground-truth class filters achieves **96.7% (29/30)** retrieval accuracy due to semantic overlap in generic bio-rational query terms across crop diseases.
 5. **Per-Crop AUROC and SCRC FAR Storage Scope**:
