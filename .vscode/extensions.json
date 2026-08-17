@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "alexcvzz.vscode-sqlite",
+    "qwtel.sqlite-viewer",
+    "mtxr.sqltools",
+    "mtxr.sqltools-driver-sqlite",
+    "cweijan.vscode-database-client2",
+    "mechatroner.rainbow-csv",
+    "ms-python.python",
+    "ms-vscode.hexeditor"
+  ]
+}
