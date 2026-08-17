@@ -1,0 +1,12 @@
+{
+  "total_supported_test_images": 4987,
+  "accepted_images": 1915,
+  "rejected_images": 3072,
+  "correct_accepted_images": 1895,
+  "coverage_pct": 38.4,
+  "selective_accuracy_pct": 98.96,
+  "selective_risk_pct": 1.04,
+  "crop_routing_errors": 4,
+  "disease_classification_errors": 16,
+  "status": "FINAL_TEST_PASS"
+}

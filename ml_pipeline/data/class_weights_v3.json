@@ -1,0 +1,64 @@
+{
+  "per_crop": {
+    "Tomato": {
+      "Tomato_Yellow_Leaf_Curl_Virus": 0.1719,
+      "Tomato_Bacterial_Spot": 0.3206,
+      "Tomato_Septoria_Leaf_Spot": 0.3525,
+      "Tomato_Healthy": 0.356,
+      "Tomato_Late_Blight": 0.3683,
+      "Tomato_Early_Blight": 0.4085,
+      "Tomato_Leaf_Mold": 0.4088,
+      "Tomato_Spider_Mites": 0.5464,
+      "Tomato_Miner": 0.6663,
+      "Tomato_Target_Spot": 0.9002,
+      "Tomato_Verticillium_Wilt": 2.4352,
+      "Tomato_Mosaic_Virus": 2.9599,
+      "Tomato_Fusarium_Wilt": 3.1054
+    },
+    "Potato": {
+      "Potato_Early_Blight": 0.1,
+      "Potato_Late_Blight": 0.1,
+      "Potato_Healthy": 0.1,
+      "Potato_Viral_Leaf_Roll": 0.2521,
+      "Potato_Bacterial_Soft_Rot": 1.1884,
+      "Potato_Viral_PVX": 1.3865,
+      "Potato_Viral_PVY": 4.1595
+    },
+    "Pepper": {
+      "Pepper_Bacterial_Spot": 0.1281,
+      "Pepper_Cercospora_Leaf_Spot": 0.3417,
+      "Pepper_Healthy": 0.3487,
+      "Pepper_Nutrition_Deficiency": 1.1976,
+      "Pepper_Leaf_Curl": 1.2571,
+      "Pepper_Powdery_Mildew": 2.7268
+    }
+  },
+  "global": {
+    "Tomato_Yellow_Leaf_Curl_Virus": 0.1,
+    "Pepper_Bacterial_Spot": 0.1,
+    "Tomato_Bacterial_Spot": 0.1,
+    "Tomato_Septoria_Leaf_Spot": 0.1,
+    "Tomato_Healthy": 0.1,
+    "Tomato_Late_Blight": 0.1,
+    "Tomato_Early_Blight": 0.1,
+    "Tomato_Leaf_Mold": 0.1,
+    "Potato_Early_Blight": 0.1,
+    "Potato_Late_Blight": 0.1,
+    "Tomato_Spider_Mites": 0.1,
+    "Tomato_Miner": 0.1,
+    "Pepper_Cercospora_Leaf_Spot": 0.1,
+    "Pepper_Healthy": 0.1,
+    "Tomato_Target_Spot": 0.1,
+    "Potato_Healthy": 0.1,
+    "Tomato_Verticillium_Wilt": 0.1,
+    "Pepper_Nutrition_Deficiency": 0.1,
+    "Tomato_Mosaic_Virus": 0.1,
+    "Pepper_Leaf_Curl": 0.1,
+    "Tomato_Fusarium_Wilt": 0.1,
+    "Pepper_Powdery_Mildew": 0.1545,
+    "Potato_Viral_Leaf_Roll": 0.9129,
+    "Potato_Bacterial_Soft_Rot": 4.3039,
+    "Potato_Viral_PVX": 5.0212,
+    "Potato_Viral_PVY": 10.0
+  }
+}

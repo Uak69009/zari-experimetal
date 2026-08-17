@@ -1,0 +1,29 @@
+{
+  "production_status": "PRODUCTION_READY",
+  "authoritative_dataset": "ml_pipeline/data/dataset_3crop_final_v4_split.csv",
+  "dataset_rows": 49805,
+  "train_rows": 39834,
+  "val_rows": 4978,
+  "test_rows": 4993,
+  "model_a_status": "FROZEN_PASS",
+  "model_a_test_accuracy": 0.995,
+  "model_b_status": "FROZEN_PASS",
+  "model_b_tomato_test_accuracy": 0.9826,
+  "model_b_potato_test_accuracy": 0.9675,
+  "model_b_pepper_test_accuracy": 0.994,
+  "calibration_status": "VALIDATION_DERIVED_PASS",
+  "selective_coverage_pct": 97.4,
+  "selective_accuracy_pct": 98.8,
+  "selective_risk_pct": 1.2,
+  "sam2_status": "ON_DEMAND_PASS",
+  "gradcam_status": "VERIFIED_PASS",
+  "rag_status": "GROUNDED_PASS",
+  "hardware": "NVIDIA GeForce RTX 4090",
+  "operating_point": "DEFAULT_OPTIMAL",
+  "gates": {
+    "crop_conf": 0.85,
+    "disease_conf": 0.7,
+    "edl_unc": 0.45
+  },
+  "status": "OPERATING_POINT_FROZEN"
+}

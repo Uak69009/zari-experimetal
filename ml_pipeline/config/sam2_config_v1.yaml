@@ -1,0 +1,9 @@
+bbox_scale: 0.8
+fallback: FULL_IMAGE_GRAD_CAM_FALLBACK
+mode: ON_DEMAND_POST_CLASSIFICATION
+prompt_type: CENTRAL_BOX_PROMPT
+quality_heuristics:
+  max_area_ratio: 0.88
+  min_area_ratio: 0.1
+  min_iou_proxy: 0.8
+  min_stability: 0.85

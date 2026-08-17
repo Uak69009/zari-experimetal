@@ -1,0 +1,14 @@
+artifact_uri: file:///home/hammad/Desktop/project zari - experimental/ml_pipeline/mlruns/585170710428207103/7e47f183d871464c873fe1d22139f709/artifacts
+end_time: 1786859611805
+entry_point_name: ''
+experiment_id: '585170710428207103'
+lifecycle_stage: active
+run_id: 7e47f183d871464c873fe1d22139f709
+run_name: phase2_cnn_baseline_historical
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1786859611772
+status: 3
+tags: []
+user_id: hammad

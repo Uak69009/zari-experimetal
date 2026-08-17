@@ -1,0 +1,14 @@
+artifact_uri: file:///home/hammad/Desktop/project zari - experimental/ml_pipeline/mlruns/327932823172938179/4da0ef5325d04f2d836b92dd846a6139/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '327932823172938179'
+lifecycle_stage: active
+run_id: 4da0ef5325d04f2d836b92dd846a6139
+run_name: model_b_tomato
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1786866183922
+status: 1
+tags: []
+user_id: hammad

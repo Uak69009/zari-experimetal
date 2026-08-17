@@ -1,0 +1,14 @@
+artifact_uri: file:///home/hammad/Desktop/project zari - experimental/ml_pipeline/mlruns/502417292634066196/55a22e32e37843d9932d87e6fce755e3/artifacts
+end_time: 1786866165823
+entry_point_name: ''
+experiment_id: '502417292634066196'
+lifecycle_stage: active
+run_id: 55a22e32e37843d9932d87e6fce755e3
+run_name: model_a_crop_router
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1786865827895
+status: 3
+tags: []
+user_id: hammad

@@ -1,0 +1,16 @@
+checkpoints:
+  model_a: ml_pipeline/checkpoints/model_a/best_model_a_efficientnetv2_b2.pth
+  model_b_pepper: ml_pipeline/checkpoints/model_b/best_model_b_pepper.pth
+  model_b_potato: ml_pipeline/checkpoints/model_b/best_model_b_potato.pth
+  model_b_tomato: ml_pipeline/checkpoints/model_b/best_model_b_tomato.pth
+gates:
+  crop_confidence_min: 0.85
+  disease_confidence_min: 0.7
+  edl_uncertainty_max: 0.45
+manifest: ml_pipeline/data/dataset_3crop_final_v4_split.csv
+segmentation:
+  prompt: central_box
+  sam2_enabled: true
+severity:
+  wording: Estimated Visual Disease Coverage
+version: 1.0.0

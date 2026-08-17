@@ -1,0 +1,9 @@
+artifact_location: file:///home/hammad/Desktop/project zari - experimental/ml_pipeline/mlruns/585170710428207103
+creation_time: 1786859611751
+effective_trace_archival_retention: null
+experiment_id: '585170710428207103'
+last_update_time: 1786859611751
+lifecycle_stage: active
+name: zari-phase2
+trace_location: null
+workspace: default

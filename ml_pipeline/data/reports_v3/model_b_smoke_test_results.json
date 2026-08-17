@@ -1,0 +1,29 @@
+{
+  "Tomato": {
+    "num_classes": 13,
+    "train_loss": 2.6638,
+    "val_loss": 2.4658,
+    "train_acc": 0.256,
+    "val_acc": 0.355,
+    "val_macro_f1": 0.2695,
+    "checkpoint": "ml_pipeline/checkpoints/model_b_smoke/smoke_model_b_tomato.pth"
+  },
+  "Potato": {
+    "num_classes": 3,
+    "train_loss": 1.1136,
+    "val_loss": 0.7796,
+    "train_acc": 0.699,
+    "val_acc": 0.925,
+    "val_macro_f1": 0.9159,
+    "checkpoint": "ml_pipeline/checkpoints/model_b_smoke/smoke_model_b_potato.pth"
+  },
+  "Pepper": {
+    "num_classes": 6,
+    "train_loss": 1.8927,
+    "val_loss": 1.4756,
+    "train_acc": 0.692,
+    "val_acc": 0.92,
+    "val_macro_f1": 0.9388,
+    "checkpoint": "ml_pipeline/checkpoints/model_b_smoke/smoke_model_b_pepper.pth"
+  }
+}

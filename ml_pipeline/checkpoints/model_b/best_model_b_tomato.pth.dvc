@@ -1,0 +1,5 @@
+outs:
+- md5: 0d4eacbf337ed757f2fa2579523f41f4
+  size: 93365147
+  hash: md5
+  path: best_model_b_tomato.pth

@@ -1,0 +1,5 @@
+outs:
+- md5: b71bc3770f51650e7d00a4757d3e6b64
+  size: 93202984
+  hash: md5
+  path: best_model_a_efficientnetv2_b2.pth

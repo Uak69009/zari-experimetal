@@ -1,0 +1,11 @@
+{
+  "total_rows": 49805,
+  "train_rows": 39834,
+  "val_rows": 4978,
+  "test_rows": 4993,
+  "unique_families": 49088,
+  "cross_split_sha256_leakage": 0,
+  "cross_split_phash0_leakage": 0,
+  "cross_split_family_leakage": 0,
+  "status": "INTEGRITY_PASS"
+}

@@ -1,0 +1,36 @@
+active_operating_point: DEFAULT_OPTIMAL
+calibration:
+  method: Validation_Empirical_SCRC_Quantile
+  validation_only: true
+crop_router:
+  confidence_threshold: 0.85
+  fallback_action: REJECT_UNCERTAIN_CROP
+disease_classifier:
+  confidence_threshold: 0.7
+  edl_uncertainty_threshold: 0.45
+  fallback_action: REJECT_UNCERTAIN_DISEASE
+  target_selective_risk: 0.02
+expected_performance:
+  validation_coverage: 0.974
+  validation_selective_accuracy: 0.988
+  validation_selective_risk: 0.012
+previous_operating_points:
+  extreme_triage:
+    coverage: 0.1693
+    crop: 0.98
+    disease: 0.9
+    edl: 0.15
+    selective_risk: 0.0036
+  liberal:
+    coverage: 1.0
+    crop: 0.5
+    disease: 0.5
+    edl: 1.0
+    selective_risk: 0.0197
+  ultra_high_precision:
+    coverage: 0.384
+    crop: 0.85
+    disease: 0.7
+    edl: 0.35
+    selective_risk: 0.0104
+version: 1.1.0

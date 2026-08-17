@@ -1,0 +1,26 @@
+{
+  "production_status": "PRODUCTION_READY_WITH_LIMITATIONS",
+  "authoritative_dataset": "ml_pipeline/data/dataset_3crop_final_v4_split.csv",
+  "dataset_rows": 49805,
+  "model_a_status": "FROZEN_PASS",
+  "model_a_test_accuracy": 0.995,
+  "model_b_status": "FROZEN_PASS",
+  "model_b_tomato_test_accuracy": 0.9826,
+  "model_b_potato_test_accuracy": 0.9675,
+  "model_b_pepper_test_accuracy": 0.994,
+  "scrc_selective_risk": "1.04%",
+  "scrc_selective_accuracy": "98.96%",
+  "sam2_overall_pass_rate": "83.3%",
+  "sam2_lab_pass_rate": "94.2%",
+  "sam2_field_pass_rate": "72.6%",
+  "sam2_fallback_rate": "16.7%",
+  "severity_method": "Estimated Visual Disease Coverage Proxy",
+  "rag_status": "VERIFIED_TEST_SUITE_PASS",
+  "gpu_forward_pass_latency": "5.12 ms",
+  "total_end_to_end_latency": "43.0 ms",
+  "known_limitations": [
+    "SAM2 pass rate is 72.6% on Field images vs 94.2% on Lab images (handled via 16.7% automatic Grad-CAM fallback)",
+    "Visual coverage is a heuristic image-space proxy, not a biological pathogen infection rate",
+    "Rare Tier-D Potato diseases are handled via EDL uncertainty SCRC rejection, not supervised outputs"
+  ]
+}

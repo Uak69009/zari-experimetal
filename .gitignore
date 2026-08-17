@@ -8,15 +8,13 @@ data/*
 *.csv
 !*.dvc
 
-
-
-
 # Model Weights and Checkpoints
 *.pt
 *.pth
 *.ckpt
-weights/
-checkpoints/
+weights/*.pth
+checkpoints/*.pth
+ml_pipeline/checkpoints/**/*.pth
 
 # Python / Environment / Logs / Reports / Artifacts
 venv/
@@ -24,14 +22,10 @@ __pycache__/
 *.pyc
 runs/
 logs/
-mlruns/
-ml_pipeline/mlruns/
+mlruns/.trash
 .ipynb_checkpoints/
 ml_pipeline/.tmp.driveupload/
 
 ml_pipeline/ANALYSIS_COMPLETE/
-ml_pipeline/reports/
-ml_pipeline/eda_artifacts/
 frontend/node_modules/
 frontend/.next/
-

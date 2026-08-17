@@ -1,0 +1,94 @@
+{
+    "classes": {
+        "0": {
+            "canonical_name": "Wheat_Healthy",
+            "urdu_name": "صحت مند گندم",
+            "sources": [
+                "nwrd",
+                "plantdoc"
+            ]
+        },
+        "1": {
+            "canonical_name": "Wheat_Leaf_Rust",
+            "urdu_name": "گندم کا پتوں کا زنگ",
+            "sources": [
+                "nwrd",
+                "plantdoc"
+            ]
+        },
+        "2": {
+            "canonical_name": "Wheat_Loose_Smut",
+            "urdu_name": "گندم کی کانگیاری",
+            "sources": [
+                "nwrd"
+            ]
+        },
+        "3": {
+            "canonical_name": "Wheat_Crown_Root_Rot",
+            "urdu_name": "گندم کی جڑ کا سڑنا",
+            "sources": [
+                "nwrd"
+            ]
+        },
+        "4": {
+            "canonical_name": "Tomato_Healthy",
+            "urdu_name": "صحت مند ٹماٹر",
+            "sources": [
+                "plantvillage",
+                "plantcity",
+                "plantdoc"
+            ]
+        },
+        "5": {
+            "canonical_name": "Tomato_Early_Blight",
+            "urdu_name": "ٹماٹر کا اگیتا جھلساؤ",
+            "sources": [
+                "plantvillage",
+                "plantcity",
+                "plantdoc"
+            ]
+        },
+        "6": {
+            "canonical_name": "Maize_Healthy",
+            "urdu_name": "صحت مند مکئی",
+            "sources": [
+                "plantvillage",
+                "plantcity",
+                "plantdoc"
+            ]
+        },
+        "7": {
+            "canonical_name": "Maize_Fall_Armyworm",
+            "urdu_name": "مکئی کا فال آرمی ورم",
+            "sources": [
+                "plantcity"
+            ]
+        }
+    },
+    "dataset_mapping": {
+        "nwrd": {
+            "healthy": 0,
+            "leaf_rust": 1,
+            "loose_smut": 2,
+            "crown_and_root_rot": 3
+        },
+        "plantvillage": {
+            "Tomato___healthy": 4,
+            "Tomato___Early_blight": 5,
+            "Corn_(maize)___healthy": 6
+        },
+        "plantcity": {
+            "Tomato_Healthy": 4,
+            "Tomato_Early_Blight": 5,
+            "Maize_Healthy_Leaf": 6,
+            "Maize_Armyworm_Damage": 7
+        },
+        "plantdoc": {
+            "wheat leaf": 0,
+            "wheat leaf rust": 1,
+            "tomato leaf": 4,
+            "tomato early blight leaf": 5,
+            "corn leaf": 6
+        }
+    }
+}

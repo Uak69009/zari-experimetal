@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "supported_crops": [
+    "Tomato",
+    "Potato",
+    "Pepper"
+  ],
+  "total_knowledge_entries": 22,
+  "entry_fields": [
+    "crop",
+    "disease",
+    "etiology",
+    "symptoms",
+    "visual_indicators",
+    "management",
+    "prevention",
+    "escalation_caution",
+    "source_reference"
+  ]
+}

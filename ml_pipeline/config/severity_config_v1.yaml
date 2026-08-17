@@ -1,0 +1,13 @@
+categories:
+  Mild:
+    max_pct: 15.0
+    min_pct: 0.0
+  Moderate:
+    max_pct: 35.0
+    min_pct: 15.0
+  Severe:
+    max_pct: 100.0
+    min_pct: 35.0
+disclaimer: Heuristic visual estimate; not a pixel-perfect biological pathogen rate.
+method: Visual_Disease_Coverage_Proxy
+wording_policy: Estimated Visual Disease Coverage

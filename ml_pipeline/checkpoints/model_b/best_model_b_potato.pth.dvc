@@ -1,0 +1,5 @@
+outs:
+- md5: edcc6d6f8f0d57d4b262a80da7ad079b
+  size: 93195675
+  hash: md5
+  path: best_model_b_potato.pth

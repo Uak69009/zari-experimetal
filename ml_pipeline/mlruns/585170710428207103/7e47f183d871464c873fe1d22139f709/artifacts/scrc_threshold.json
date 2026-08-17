@@ -1,0 +1,11 @@
+{
+  "scrc_threshold": 0.805,
+  "target_max_false_acceptance_rate": 0.05,
+  "actual_false_acceptance_rate": 0.0127,
+  "rejection_rate": 0.0295,
+  "all_test_accuracy": 0.9732,
+  "accepted_test_accuracy": 0.9873,
+  "mean_uncertainty_correct": 0.3823,
+  "mean_uncertainty_incorrect": 0.7643,
+  "error_detection_auroc": 0.9527
+}

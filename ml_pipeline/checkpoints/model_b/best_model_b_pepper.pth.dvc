@@ -1,0 +1,5 @@
+outs:
+- md5: 9af599b3734735285278d43637edea3c
+  size: 93246491
+  hash: md5
+  path: best_model_b_pepper.pth
