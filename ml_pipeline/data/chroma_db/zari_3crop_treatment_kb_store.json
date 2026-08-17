@@ -1,0 +1,2706 @@
+[
+  {
+    "id": "zari_chunk_tomato_tomato_bacterial_spot_identity",
+    "text": "Tomato_Bacterial_Spot is caused by Xanthomonas perforans / vesicatoria. Common names: Tomato Bacterial Spot (en), \u0679\u0645\u0627\u0679\u0631 \u06a9\u0627 \u0628\u06cc\u06a9\u0679\u06cc\u0631\u06cc\u0627\u0626\u06cc \u062f\u06be\u0628\u06c1 (ur), \u062f \u067c\u0645\u0627\u067c\u0631\u0648 \u0628\u0627\u06a9\u062a\u0631\u06cc\u0627\u06cc\u064a \u067c\u0627\u067e\u064a (ps). Severe foliar and fruit disease in warm, wet climates.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/56920",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Bacterial_Spot",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_bacterial_spot_symptoms",
+    "text": "Small, dark brown, water-soaked spots on leaves, stems, and fruits. Lesions turn dark brown to black with yellow halos. Fruit lesions appear as raised scab-like spots, diminishing fruit quality.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/56920",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Bacterial_Spot",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_bacterial_spot_epidemiology",
+    "text": "Favored by high temperatures (24\u201330\u00b0C), splashing rain, overhead irrigation, and dew. Bacteria enter through stomata or mechanical wounds and survive on seed or crop debris.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/56920",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Bacterial_Spot",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_bacterial_spot_cultural_control",
+    "text": "Use disease-free certified seeds. Avoid overhead irrigation; apply drip or furrow watering. Practice a 3-year crop rotation with non-solanaceous crops and disinfect stakes and equipment.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/56920",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Bacterial_Spot",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_bacterial_spot_biological_control",
+    "text": "Apply foliar bio-fungicides containing Bacillus subtilis or Pseudomonas fluorescens at early disease onset to suppress bacterial populations.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/56920",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Bacterial_Spot",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_bacterial_spot_chemical_control",
+    "text": "Apply Copper Hydroxide mixed with Mancozeb (protectant bactericide combination). Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/56920",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Bacterial_Spot",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_bacterial_spot_prevention",
+    "text": "Sanitize tools, clear solanaceous weeds (nightshades), stake plants for improved airflow, and avoid field work when foliage is wet.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/56920",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Bacterial_Spot",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_bacterial_spot_safety",
+    "text": "Wear chemical-resistant gloves, protective coveralls, and respiratory protection during copper-mancozeb spraying operations.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/56920",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Bacterial_Spot",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_early_blight_identity",
+    "text": "Tomato_Early_Blight is caused by Alternaria solani. Common names: Tomato Early Blight (en), \u0679\u0645\u0627\u0679\u0631 \u06a9\u0627 \u0627\u06af\u06cc\u062a\u0627 \u062c\u06be\u0644\u0633\u0627\u0624 (ur), \u062f \u067c\u0645\u0627\u067c\u0631\u0648 \u062f\u0645\u062e\u0647 \u0633\u0648\u0681\u06cc\u062f\u0646\u0647 (ps). Common foliar disease affecting solanaceous crops in humid conditions.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_EarlyBlt.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Early_Blight",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_early_blight_symptoms",
+    "text": "Dark brown circular spots with characteristic concentric rings ('target-board' pattern) surrounded by yellow chlorotic halos. Older lower leaves affected first, progressing upward.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_EarlyBlt.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Early_Blight",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_early_blight_epidemiology",
+    "text": "Favored by warm temperatures (24\u201329\u00b0C) and high humidity or frequent dew. Spores travel by wind, rain splash, and tools. Overwinters in infected crop debris.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_EarlyBlt.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Early_Blight",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_early_blight_cultural_control",
+    "text": "Practice 3-year crop rotation with non-solanaceous crops. Prune lower leaves up to 30 cm from ground to prevent soil splash. Use drip irrigation and straw mulching.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_EarlyBlt.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Early_Blight",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_early_blight_biological_control",
+    "text": "Foliar application of Trichoderma harzianum or Bacillus subtilis bio-fungicide. Apply Neem seed kernel extract (5%) as a bio-rational.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_EarlyBlt.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Early_Blight",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_early_blight_chemical_control",
+    "text": "Apply contact protectant Mancozeb or systemic Difenoconazole/Azoxystrobin. Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_EarlyBlt.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Early_Blight",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_early_blight_prevention",
+    "text": "Use certified seed, stake plants for ventilation, clear nightshade weeds, and avoid overhead watering.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_EarlyBlt.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Early_Blight",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_early_blight_safety",
+    "text": "Wear protective gloves, eye goggles, and coveralls during spraying operations.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_EarlyBlt.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Early_Blight",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_fusarium_wilt_identity",
+    "text": "Tomato_Fusarium_Wilt is caused by Fusarium oxysporum f. sp. lycopersici. Common names: Fusarium Wilt (en), \u0679\u0645\u0627\u0679\u0631 \u06a9\u06cc \u0641\u0648\u0633\u0627\u0631\u06cc\u0626\u0645 \u0645\u0631\u062c\u06be\u0627\u0624 (ur), \u062f \u067c\u0645\u0627\u067c\u0631\u0648 \u0641\u06cc\u0648\u0632\u0627\u0631\u06cc\u0648\u0645 \u0645\u0693\u0627\u0648\u06cc (ps). Soil-borne vascular wilt pathogen.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/24641",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Fusarium_Wilt",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_fusarium_wilt_symptoms",
+    "text": "Yellowing and wilting starting on lower leaves, often restricted to one side of the branch or plant ('one-sided yellowing'). Vascular discoloration inside the lower stem turns reddish-brown.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/24641",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Fusarium_Wilt",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_fusarium_wilt_epidemiology",
+    "text": "Favored by warm soil temperatures (27\u201328\u00b0C) and acidic sandy soils. The fungal pathogen persists indefinitely in soil as chlamydospores and enters via roots.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/24641",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Fusarium_Wilt",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_fusarium_wilt_cultural_control",
+    "text": "Plant resistant tomato cultivars (bearing F1/F2 resistance genes). Maintain soil pH between 6.5 and 7.0 using agricultural lime. Rotate crops for 5+ years with non-hosts.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/24641",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Fusarium_Wilt",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_fusarium_wilt_biological_control",
+    "text": "Incorporate Trichoderma viride or Bacillus amyloliquefaciens into soil at transplanting to colonize root zones.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/24641",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Fusarium_Wilt",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_fusarium_wilt_chemical_control",
+    "text": "Soil drench with Carbendazim or Thiophanate-methyl at seedling stage. Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/24641",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Fusarium_Wilt",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_fusarium_wilt_prevention",
+    "text": "Soil solarization during summer months, use resistant rootstocks/varieties, and prevent movement of infested soil across fields.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/24641",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Fusarium_Wilt",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_fusarium_wilt_safety",
+    "text": "Avoid inhaling dust during lime or bio-rational application; wear protective gloves and respirator.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/24641",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Fusarium_Wilt",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_healthy_identity",
+    "text": "Tomato_Healthy represents healthy Solanum lycopersicum foliage. Common names: Healthy Tomato (en), \u0635\u062d\u062a \u0645\u0646\u062f \u0679\u0645\u0627\u0679\u0631 (ur), \u0631\u0648\u063a \u067c\u0645\u0627\u067c\u0631 (ps). Free from foliar pathogens or nutrient deficiencies.",
+    "metadata": {
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/tomato/en/",
+      "source_name": "FAO Crop Information - Tomato",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Healthy",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_healthy_symptoms",
+    "text": "Leaves exhibit uniform dark green coloration, turgid structure, and clean blade margins with no necrotic or chlorotic spots, wilting, or pest damage.",
+    "metadata": {
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/tomato/en/",
+      "source_name": "FAO Crop Information - Tomato",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Healthy",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_healthy_epidemiology",
+    "text": "Maintained under balanced soil moisture, proper solar radiation, ambient temperature (20\u201328\u00b0C), and adequate plant nutrition (N-P-K + micronutrients).",
+    "metadata": {
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/tomato/en/",
+      "source_name": "FAO Crop Information - Tomato",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Healthy",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_healthy_cultural_control",
+    "text": "Maintain routine balanced fertigation (N-P-K), scheduled drip irrigation, staking/trellising, and regular weed management.",
+    "metadata": {
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/tomato/en/",
+      "source_name": "FAO Crop Information - Tomato",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Healthy",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_healthy_biological_control",
+    "text": "Preventive soil inoculation with mycorrhizal fungi or Trichoderma spp. to enhance root nutrient uptake and systemic resilience.",
+    "metadata": {
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/tomato/en/",
+      "source_name": "FAO Crop Information - Tomato",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Healthy",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_healthy_chemical_control",
+    "text": "No synthetic chemical intervention required. Apply micronutrient foliar spray (Zinc/Boron) if soil test indicates deficiency.",
+    "metadata": {
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/tomato/en/",
+      "source_name": "FAO Crop Information - Tomato",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Healthy",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_healthy_prevention",
+    "text": "Regular field scouting, crop rotation, sanitation of farm equipment, and balanced irrigation management.",
+    "metadata": {
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/tomato/en/",
+      "source_name": "FAO Crop Information - Tomato",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Healthy",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_healthy_safety",
+    "text": "Follow standard agricultural hygiene and safe handling practices when applying organic fertilizers.",
+    "metadata": {
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/tomato/en/",
+      "source_name": "FAO Crop Information - Tomato",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Healthy",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_late_blight_identity",
+    "text": "Tomato_Late_Blight is caused by Phytophthora infestans. Common names: Tomato Late Blight (en), \u0679\u0645\u0627\u0679\u0631 \u06a9\u0627 \u067e\u0686\u06be\u06cc\u062a\u0627 \u062c\u06be\u0644\u0633\u0627\u0624 (ur), \u062f \u067c\u0645\u0627\u067c\u0631\u0648 \u0648\u0631\u0648\u0633\u062a\u0647 \u0633\u0648\u0681\u06cc\u062f\u0646\u0647 (ps). Extremely destructive oomycete pathogen.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/40970",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Late_Blight",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_late_blight_symptoms",
+    "text": "Large, irregular water-soaked pale green to dark brown oily lesions on leaves. White cottony growth appears on underside of leaves under high humidity. Dark greasy stem lesions and brown leathery rot on fruit.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/40970",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Late_Blight",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_late_blight_epidemiology",
+    "text": "Favored by cool, wet weather (15\u201322\u00b0C) with relative humidity > 90%. Windborne sporangia spread rapidly over long distances.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/40970",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Late_Blight",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_late_blight_cultural_control",
+    "text": "Destroy volunteer tomato/potato plants and infected crop residues. Space plants for maximum air circulation. Avoid overhead irrigation.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/40970",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Late_Blight",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_late_blight_biological_control",
+    "text": "Apply copper octanoate or bio-control agents such as Bacillus subtilis preventively prior to wet cool weather events.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/40970",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Late_Blight",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_late_blight_chemical_control",
+    "text": "Apply systemic oomyceticides (Metalaxyl-M + Mancozeb, Dimethomorph, or Cymoxanil). Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/40970",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Late_Blight",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_late_blight_prevention",
+    "text": "Plant resistant cultivars, monitor weather forecasts for late blight warnings, and maintain strict field hygiene.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/40970",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Late_Blight",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_late_blight_safety",
+    "text": "Wear chemical-resistant suit, neoprene gloves, and full face-shield when handling systemic oomyceticides.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/40970",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Late_Blight",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_leaf_mold_identity",
+    "text": "Tomato_Leaf_Mold is caused by Passalora fulva (syn. Fulvia fulva). Common names: Tomato Leaf Mold (en), \u0679\u0645\u0627\u0679\u0631 \u06a9\u06d2 \u067e\u062a\u06d2 \u06a9\u0627 \u067e\u06be\u067e\u06be\u0648\u0646\u062f (ur), \u062f \u067c\u0645\u0627\u067c\u0631\u0648 \u062f \u067e\u0627\u06bc\u0648 \u0645\u0648\u0644\u0689 (ps). Common greenhouse and high-tunnel disease.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_LeafMold.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Leaf_Mold",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_leaf_mold_symptoms",
+    "text": "Pale green to yellow spots on upper leaf surfaces corresponding to olive-green to dark brown velvety mold on lower leaf surfaces. Older leaves wither and die.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_LeafMold.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Leaf_Mold",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_leaf_mold_epidemiology",
+    "text": "Favored by high relative humidity (> 85%) and moderate temperatures (20\u201324\u00b0C). Common in poorly ventilated greenhouses or dense canopies.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_LeafMold.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Leaf_Mold",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_leaf_mold_cultural_control",
+    "text": "Increase greenhouse ventilation, reduce humidity using exhaust fans, space plants generously, and prune lower leaves to promote airflow.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_LeafMold.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Leaf_Mold",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_leaf_mold_biological_control",
+    "text": "Apply foliar sprays of Trichoderma harzianum or bio-rational potassium bicarbonate to inhibit spore germination.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_LeafMold.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Leaf_Mold",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_leaf_mold_chemical_control",
+    "text": "Apply protective fungicides such as Chlorothalonil or Difenoconazole at initial symptom detection. Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_LeafMold.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Leaf_Mold",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_leaf_mold_prevention",
+    "text": "Grow leaf mold-resistant varieties (carrying Cf resistance genes), manage indoor humidity, and avoid wetting foliage during irrigation.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_LeafMold.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Leaf_Mold",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_leaf_mold_safety",
+    "text": "Wear respiratory protection, eye protection, and protective clothing during greenhouse spraying.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_LeafMold.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Leaf_Mold",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_miner_identity",
+    "text": "Tomato_Miner is caused by leafminer larvae (Liriomyza spp.). Common names: Tomato Leafminer (en), \u0679\u0645\u0627\u0679\u0631 \u06a9\u0627 \u067e\u062a\u0627 \u0633\u0631\u0646\u06af \u06af\u0631 (ur), \u062f \u067c\u0645\u0627\u067c\u0631\u0648 \u062f \u067e\u0627\u06bc\u0648 \u0645\u0627\u0626\u0646\u0631 (ps). Insect pest feeding inside leaf mesophyll.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/30965",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Miner",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_miner_symptoms",
+    "text": "Winding, whitish or translucent serpentine mines/tunnels visible inside leaf blades. Severe mining reduces photosynthetic leaf area and causes premature leaf desiccation.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/30965",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Miner",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_miner_epidemiology",
+    "text": "Adult flies puncture leaves to feed and lay eggs. Larvae hatch and feed internally inside mesophyll layer. Favored by warm dry weather.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/30965",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Miner",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_miner_cultural_control",
+    "text": "Install yellow sticky traps (30\u201340 traps/hectare) to monitor and catch adult flies. Remove heavily mined lower leaves and weeds.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/30965",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Miner",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_miner_biological_control",
+    "text": "Conserve or release parasitic wasps (Diglyphus isaea or Dacnusa sibirica). Apply Neem oil (Azadirachtin 1%) foliar sprays.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/30965",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Miner",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_miner_chemical_control",
+    "text": "Apply translaminar insecticides such as Abamectin or Cyromazine. Note: Active ingredients only. Fungicides are ineffective against leafminers. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/30965",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Miner",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_miner_prevention",
+    "text": "Use insect-proof mesh in greenhouses, maintain weed-free buffer zones, and rotate insecticides to prevent resistance.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/30965",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Miner",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_miner_safety",
+    "text": "Wear protective gloves, respirator mask, and chemical coveralls during translaminar insecticide applications.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/30965",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Miner",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_mosaic_virus_identity",
+    "text": "Tomato_Mosaic_Virus is caused by Tomato mosaic virus (ToMV). Common names: Tomato Mosaic Virus (en), \u0679\u0645\u0627\u0679\u0631 \u06a9\u0627 \u0645\u0648\u0632\u06cc\u06a9 \u0648\u0627\u0626\u0631\u0633 (ur), \u062f \u067c\u0645\u0627\u067c\u0631\u0648 \u0645\u0648\u0632\u06cc\u06a9 \u0648\u0627\u0626\u0631\u0633 (ps). Highly stable mechanically transmitted tobamovirus.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/TomatoMosaicVirus.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Mosaic_Virus",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_mosaic_virus_symptoms",
+    "text": "Mottled light and dark green mosaic patterns on leaves, blistered or fern-like leaf distortion (shoestring symptom), plant stunting, and internal brown necrosis in fruits.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/TomatoMosaicVirus.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Mosaic_Virus",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_mosaic_virus_epidemiology",
+    "text": "Mechanically transmitted via contaminated hands, tools, clothing, and seed coat. Highly persistent in crop residues and soil for extended periods.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/TomatoMosaicVirus.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Mosaic_Virus",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_mosaic_virus_cultural_control",
+    "text": "Wash hands with soap or 20% non-fat dry milk solution before handling plants. Disinfect pruners in 10% trisodium phosphate (TSP). Remove infected plants immediately.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/TomatoMosaicVirus.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Mosaic_Virus",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_mosaic_virus_biological_control",
+    "text": "No direct biological cure. Use cross-protection with mild attenuated virus strains where commercially authorized.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/TomatoMosaicVirus.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Mosaic_Virus",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_mosaic_virus_chemical_control",
+    "text": "Chemical pesticides are completely ineffective against viruses. Direct chemical sprays towards vector management if insects present. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/TomatoMosaicVirus.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Mosaic_Virus",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_mosaic_virus_prevention",
+    "text": "Plant certified virus-free seed or resistant cultivars (carrying Tm-2^2 gene). Avoid tobacco product use near tomato crops.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/TomatoMosaicVirus.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Mosaic_Virus",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_mosaic_virus_safety",
+    "text": "Disinfect tools with non-corrosive sterilizers; follow standard worker safety guidelines.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/TomatoMosaicVirus.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Mosaic_Virus",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_septoria_leaf_spot_identity",
+    "text": "Tomato_Septoria_Leaf_Spot is caused by Septoria lycopersici. Common names: Septoria Leaf Spot (en), \u0633\u067e\u0679\u0648\u0631\u06cc\u0627 \u067e\u062a\u06d2 \u06a9\u0627 \u062f\u06be\u0628\u06c1 (ur), \u062f \u0633\u067e\u067c\u0648\u0631\u06cc\u0627 \u067e\u0627\u06bc\u06d0 \u067c\u0627\u067e\u064a (ps). Highly destructive foliar fungal disease.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_Septoria.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Septoria_Leaf_Spot",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_septoria_leaf_spot_symptoms",
+    "text": "Numerous small circular spots (1\u20133 mm) with dark brown margins and tan-to-gray centers containing tiny black specks (pycnidia). Lower leaves yellow and drop prematurely.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_Septoria.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Septoria_Leaf_Spot",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_septoria_leaf_spot_epidemiology",
+    "text": "Favored by warm temperatures (20\u201325\u00b0C) and high humidity or splashing rain. Pycnidiospores spread via wind-blown rain, tools, and farm workers.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_Septoria.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Septoria_Leaf_Spot",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_septoria_leaf_spot_cultural_control",
+    "text": "Practice a 3-year crop rotation. Mulch around base of plants with straw or plastic film to eliminate rain splash from soil. Stake and prune plants.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_Septoria.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Septoria_Leaf_Spot",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_septoria_leaf_spot_biological_control",
+    "text": "Foliar application of Bacillus subtilis or copper-based bio-rationals at early symptom onset.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_Septoria.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Septoria_Leaf_Spot",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_septoria_leaf_spot_chemical_control",
+    "text": "Apply protective Chlorothalonil or Mancozeb sprays, or strobilurin fungicides (Azoxystrobin). Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_Septoria.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Septoria_Leaf_Spot",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_septoria_leaf_spot_prevention",
+    "text": "Remove infected crop debris, destroy nightshade weeds, avoid working in wet fields, and maintain wide row spacing.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_Septoria.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Septoria_Leaf_Spot",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_septoria_leaf_spot_safety",
+    "text": "Wear chemical-resistant gloves, eye protection, and protective coveralls during fungicide spraying.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_Septoria.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Septoria_Leaf_Spot",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_spider_mites_identity",
+    "text": "Tomato_Spider_Mites is caused by Two-Spotted Spider Mite (Tetranychus urticae). Common names: Spider Mite (en), \u0679\u0645\u0627\u0679\u0631 \u06a9\u06cc \u0645\u06a9\u0691\u06cc (ur), \u062f \u067c\u0645\u0627\u067c\u0631\u0648 \u062f \u0645\u06a9\u0648\u0693\u0648 \u0637\u0648\u0641\u0627\u0646 (ps). Arachnid pest sucking plant cell contents.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/53359",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Spider_Mites",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_spider_mites_symptoms",
+    "text": "Fine yellow or white stippling/speckling on upper leaf surfaces. Webbing visible on underside of leaves and growing tips under high infestation. Leaves turn bronze, dry up, and drop.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/53359",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Spider_Mites",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_spider_mites_epidemiology",
+    "text": "Favored by hot, dry, dusty weather (> 30\u00b0C and low relative humidity). Mites reproduce rapidly under hot drought conditions.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/53359",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Spider_Mites",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_spider_mites_cultural_control",
+    "text": "Overhead water misting to increase canopy humidity. Keep field borders and farm roads moist to reduce dust accumulation.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/53359",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Spider_Mites",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_spider_mites_biological_control",
+    "text": "Release predatory mites (Phytoseiulus persimilis or Neoseiulus californicus). Apply insecticidal soap or horticultural mineral oil.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/53359",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Spider_Mites",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_spider_mites_chemical_control",
+    "text": "Apply selective acaricides such as Abamectin, Spiromesifen, or Bifenazate. Note: Broad-spectrum insecticides kill natural predators and worsen outbreaks. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/53359",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Spider_Mites",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_spider_mites_prevention",
+    "text": "Regular scouting with a 10x hand lens, dust control on access roads, and preserving natural predatory fauna.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/53359",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Spider_Mites",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_spider_mites_safety",
+    "text": "Wear protective goggles, gloves, and chemical mask when applying acaricides.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/53359",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Spider_Mites",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_target_spot_identity",
+    "text": "Tomato_Target_Spot is caused by Corynespora cassiicola. Common names: Target Spot (en), \u0679\u0645\u0627\u0679\u0631 \u06a9\u0627 \u06c1\u062f\u0641 \u062f\u06be\u0628\u06c1 (ur), \u062f \u067c\u0645\u0627\u067c\u0631\u0648 \u062f \u0647\u062f\u0641 \u067c\u0627\u067e\u064a (ps). Foliar and fruit fungal pathogen.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/TargetSpotTomato.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Target_Spot",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_target_spot_symptoms",
+    "text": "Small necrotic spots on leaves expanding into brown circular lesions with subtle zonate rings. Fruit lesions are brown, sunken, and crater-like.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/TargetSpotTomato.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Target_Spot",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_target_spot_epidemiology",
+    "text": "Favored by warm humid conditions (20\u201328\u00b0C) and prolonged leaf wetness. Spores are wind-dispersed.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/TargetSpotTomato.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Target_Spot",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_target_spot_cultural_control",
+    "text": "Improve canopy ventilation through wider spacing and trellising. Prune lower diseased foliage and crop residues after harvest.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/TargetSpotTomato.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Target_Spot",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_target_spot_biological_control",
+    "text": "Foliar sprays of Bacillus amyloliquefaciens or Trichoderma species.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/TargetSpotTomato.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Target_Spot",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_target_spot_chemical_control",
+    "text": "Apply protectant Chlorothalonil or systemic strobilurins/triazoles (Azoxystrobin / Difenoconazole). Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/TargetSpotTomato.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Target_Spot",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_target_spot_prevention",
+    "text": "Ensure good field drainage, crop rotation, and destruction of alternate host weeds.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/TargetSpotTomato.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Target_Spot",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_target_spot_safety",
+    "text": "Wear chemical gloves, protective clothing, and face shield when handling fungicides.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/TargetSpotTomato.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Target_Spot",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_verticillium_wilt_identity",
+    "text": "Tomato_Verticillium_Wilt is caused by Verticillium dahliae. Common names: Verticillium Wilt (en), \u0648\u0631\u0679\u06cc\u0633\u06cc\u0644\u06cc\u0645 \u0645\u0631\u062c\u06be\u0627\u0624 (ur), \u062f \u0648\u0631\u067c\u06cc\u0633\u06cc\u0644\u06cc\u0648\u0645 \u0645\u0693\u0627\u0648\u06cc (ps). Soil-borne vascular fungal disease.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/56276",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Verticillium_Wilt",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_verticillium_wilt_symptoms",
+    "text": "V-shaped yellow chlorotic wedges at leaf margins on lower leaves, later turning brown and necrotic. Vascular brown discoloration inside stem base near soil line.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/56276",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Verticillium_Wilt",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_verticillium_wilt_epidemiology",
+    "text": "Favored by cool to moderate soil temperatures (20\u201324\u00b0C). Microsclerotia survive in soil for over a decade and infect via root entry points.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/56276",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Verticillium_Wilt",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_verticillium_wilt_cultural_control",
+    "text": "Use resistant tomato cultivars (bearing Ve gene). Solarize soil during hot summer months. Rotate with non-susceptible monocot crops (corn, wheat).",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/56276",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Verticillium_Wilt",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_verticillium_wilt_biological_control",
+    "text": "Soil application of bio-fungicides containing Trichoderma harzianum or Streptomyces lydicus.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/56276",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Verticillium_Wilt",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_verticillium_wilt_chemical_control",
+    "text": "Fumigation or bio-fumigation prior to planting. Drench with Benomyl/Carbendazim derivative. Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/56276",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Verticillium_Wilt",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_verticillium_wilt_prevention",
+    "text": "Plant certified resistant stock, solarize beds with clear plastic, and avoid transferring infested field soil.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/56276",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Verticillium_Wilt",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_verticillium_wilt_safety",
+    "text": "Wear protective gear during soil treatment and handling bio-fumigants.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/56276",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Verticillium_Wilt",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_yellow_leaf_curl_virus_identity",
+    "text": "Tomato_Yellow_Leaf_Curl_Virus is caused by TYLCV (Begomovirus). Common names: Yellow Leaf Curl (en), \u0679\u0645\u0627\u0679\u0631 \u06a9\u0627 \u067e\u06cc\u0644\u0627 \u067e\u062a\u0627 \u0645\u0648\u0691 \u0648\u0627\u0626\u0631\u0633 (ur), \u062f \u067c\u0645\u0627\u067c\u0631\u0648 \u0698\u06cc\u0693 \u067e\u0627\u06bc\u06d0 \u0642\u0627\u0634 \u0648\u0627\u0626\u0631\u0633 (ps). Whitefly-transmitted virus.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55388",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Yellow_Leaf_Curl_Virus",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_yellow_leaf_curl_virus_symptoms",
+    "text": "Severe plant stunting, erect bushy growth habit, upward curling of leaf margins, interveinal chlorosis (yellowing), and complete flower abortion leading to zero fruit yield.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55388",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Yellow_Leaf_Curl_Virus",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_yellow_leaf_curl_virus_epidemiology",
+    "text": "Exclusively transmitted by the silverleaf whitefly (Bemisia tabaci). High whitefly populations lead to 100% crop loss in young fields.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55388",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Yellow_Leaf_Curl_Virus",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_yellow_leaf_curl_virus_cultural_control",
+    "text": "Install yellow sticky traps for whitefly monitoring. Cover seedbeds with 50-mesh insect-proof netting. Rogue out infected plants within 3 weeks of transplanting.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55388",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Yellow_Leaf_Curl_Virus",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_yellow_leaf_curl_virus_biological_control",
+    "text": "Release whitefly natural enemies (Encarsia formosa or Eretmocerus eremicus). Apply Neem oil or Beauveria bassiana.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55388",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Yellow_Leaf_Curl_Virus",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_yellow_leaf_curl_virus_chemical_control",
+    "text": "Control whitefly vector using systemic insecticides (Imidacloprid, Acetamiprid, or Spirotetramat). Note: Direct virucides do not exist. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55388",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Yellow_Leaf_Curl_Virus",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_yellow_leaf_curl_virus_prevention",
+    "text": "Plant TYLCV-resistant hybrid varieties (Ty-1/Ty-3 genes), use 50-mesh netting, and clear weed hosts (Abutilon, Solanum nigrum).",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55388",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Yellow_Leaf_Curl_Virus",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_tomato_tomato_yellow_leaf_curl_virus_safety",
+    "text": "Wear chemical-resistant gloves, protective clothing, and respirator during vector spray operations.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55388",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Tomato",
+      "disease_class": "Tomato_Yellow_Leaf_Curl_Virus",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_early_blight_identity",
+    "text": "Potato_Early_Blight is caused by Alternaria solani. Common names: Potato Early Blight (en), \u0622\u0644\u0648 \u06a9\u0627 \u0627\u06af\u06cc\u062a\u0627 \u062c\u06be\u0644\u0633\u0627\u0624 (ur), \u062f \u06a9\u0686\u0627\u0644\u0648 \u062f\u0645\u062e\u0647 \u0633\u0648\u0681\u06cc\u062f\u0646\u0647 (ps). Important foliar disease of potato.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/early-blight/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Early_Blight",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_early_blight_symptoms",
+    "text": "Dark brown, dry, circular spots with concentric target-ring patterns bordered by yellow leaf margins. Tuber lesions are dark, brown, circular, and dry-rotted.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/early-blight/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Early_Blight",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_early_blight_epidemiology",
+    "text": "Favored by alternating wet and dry weather, warm temperatures (24\u201330\u00b0C), and nutrient-stressed plants. Airborne spores spread by wind and rain.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/early-blight/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Early_Blight",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_early_blight_cultural_control",
+    "text": "Maintain adequate nitrogen and potassium fertilization. Practice 3-year crop rotation. Irrigate in early morning to allow canopy drying.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/early-blight/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Early_Blight",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_early_blight_biological_control",
+    "text": "Foliar applications of Trichoderma species or Bacillus subtilis bio-fungicide formulations.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/early-blight/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Early_Blight",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_early_blight_chemical_control",
+    "text": "Apply Mancozeb, Chlorothalonil, or Azoxystrobin + Difenoconazole premix. Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/early-blight/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Early_Blight",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_early_blight_prevention",
+    "text": "Use high-quality certified seed tubers, maintain vine nutrition, destroy haulms prior to harvest, and avoid tuber mechanical damage.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/early-blight/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Early_Blight",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_early_blight_safety",
+    "text": "Wear protective gloves, eye goggles, and coveralls when applying fungicides.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/early-blight/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Early_Blight",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_late_blight_identity",
+    "text": "Potato_Late_Blight is caused by Phytophthora infestans. Common names: Potato Late Blight (en), \u0622\u0644\u0648 \u06a9\u0627 \u067e\u0686\u06be\u06cc\u062a\u0627 \u062c\u06be\u0644\u0633\u0627\u0624 (ur), \u062f \u06a9\u0686\u0627\u0644\u0648 \u0648\u0631\u0648\u0633\u062a\u0647 \u0633\u0648\u0681\u06cc\u062f\u0646\u0647 (ps). Most destructive potato disease globally.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/late-blight/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Late_Blight",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_late_blight_symptoms",
+    "text": "Water-soaked dark lesions on leaves and stems that expand rapidly. White mildew growth on leaf undersides in humid weather. Tubers show reddish-brown dry rot extending into flesh.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/late-blight/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Late_Blight",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_late_blight_epidemiology",
+    "text": "Favored by cool, wet weather (15\u201320\u00b0C, RH > 90%). Sporangia are windborne and wash down into soil infecting tubers.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/late-blight/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Late_Blight",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_late_blight_cultural_control",
+    "text": "Hill soil high around potato vines to protect tubers from sporangia splash. Destroy infected vines (haulm destruction) 2 weeks before harvest.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/late-blight/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Late_Blight",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_late_blight_biological_control",
+    "text": "Apply copper octanoate or bio-control preparations (Bacillus subtilis) prior to high-risk weather windows.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/late-blight/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Late_Blight",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_late_blight_chemical_control",
+    "text": "Apply systemic and contact fungicides (Metalaxyl + Mancozeb, Cymoxanil, or Fluazinam). Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/late-blight/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Late_Blight",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_late_blight_prevention",
+    "text": "Plant certified blight-free seed tubers, use resistant varieties, eliminate cull piles, and monitor forecasting models.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/late-blight/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Late_Blight",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_late_blight_safety",
+    "text": "Wear chemical-resistant suit, neoprene gloves, and respirator when spraying late blight fungicides.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/late-blight/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Late_Blight",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_healthy_identity",
+    "text": "Potato_Healthy represents healthy Solanum tuberosum foliage. Common names: Healthy Potato (en), \u0635\u062d\u062a \u0645\u0646\u062f \u0622\u0644\u0648 (ur), \u0631\u0648\u063a \u06a9\u0686\u0627\u0644\u0648 (ps). Clean foliage free from foliar or vascular damage.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Healthy",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_healthy_symptoms",
+    "text": "Leaves show vibrant green color, uniform compound leaf canopy, smooth petioles, and zero dark spots, wilting, or stunting.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Healthy",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_healthy_epidemiology",
+    "text": "Maintained through cool-to-moderate climate (15\u201325\u00b0C), adequate soil moisture, well-drained fertile loam, and balanced nutrition.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Healthy",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_healthy_cultural_control",
+    "text": "Perform regular earthing-up (hilling), maintain scheduled drip/furrow irrigation, and apply balanced N-P-K fertilizer.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Healthy",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_healthy_biological_control",
+    "text": "Soil enrichment with bio-fertilizers (Azotobacter, PSB) and Trichoderma root inoculants.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Healthy",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_healthy_chemical_control",
+    "text": "No chemical intervention needed. Monitor routinely for early pest or disease incursions.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Healthy",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_healthy_prevention",
+    "text": "Plant clean seed, maintain weed-free fields, practice proper crop rotation, and avoid waterlogging.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Healthy",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_healthy_safety",
+    "text": "Follow safe agricultural field management guidelines.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Healthy",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_bacterial_soft_rot_identity",
+    "text": "Potato_Bacterial_Soft_Rot is caused by Pectobacterium carotovorum or Dickeya species. Common names: Soft Rot / Blackleg (en), \u0622\u0644\u0648 \u06a9\u0627 \u0646\u0631\u0645 \u0633\u0691\u0627\u0646\u062f (ur), \u062f \u06a9\u0686\u0627\u0644\u0648 \u0646\u0631\u0645 \u067e\u0648\u0633\u06cc\u062f\u06ab\u064a (ps). Bacterial tuber and stem rot.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/21946",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Bacterial_Soft_Rot",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_bacterial_soft_rot_symptoms",
+    "text": "Water-soaked mushy tuber rot with foul odor. In field, black slimy decay of lower stems (blackleg symptom), causing plant wilting and stunting.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/21946",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Bacterial_Soft_Rot",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_bacterial_soft_rot_epidemiology",
+    "text": "Favored by waterlogged soil, high temperatures (> 25\u00b0C), and tuber wounds. Spreads via handling equipment, wash water, and insects.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/21946",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Bacterial_Soft_Rot",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_bacterial_soft_rot_cultural_control",
+    "text": "Plant seed tubers intact (avoid cutting seed). Ensure well-drained soils. Dry tubers thoroughly before storage and maintain cold ventilated storage (4\u20136\u00b0C).",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/21946",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Bacterial_Soft_Rot",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_bacterial_soft_rot_biological_control",
+    "text": "Apply copper-based seed treatments or bio-bactericides containing Bacillus subtilis prior to storage.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/21946",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Bacterial_Soft_Rot",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_bacterial_soft_rot_chemical_control",
+    "text": "No effective curative chemical bactericide available. Copper Hydroxide soil drench offers minor protection. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/21946",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Bacterial_Soft_Rot",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_bacterial_soft_rot_prevention",
+    "text": "Use certified disease-free seed, sanitize storage bins and potato machinery, avoid harvesting wet soils, and handle tubers gently.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/21946",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Bacterial_Soft_Rot",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_bacterial_soft_rot_safety",
+    "text": "Wear protective gloves and mask when applying sanitizing agents to storage facilities.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/21946",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Bacterial_Soft_Rot",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_leaf_roll_identity",
+    "text": "Potato_Viral_Leaf_Roll is caused by Potato leafroll virus (PLRV). Common names: Potato Leafroll Virus (en), \u0622\u0644\u0648 \u06a9\u0627 \u067e\u062a\u0627 \u0645\u0648\u0691 \u0648\u0627\u0626\u0631\u0633 (ur), \u062f \u06a9\u0686\u0627\u0644\u0648 \u067e\u0627\u06bc\u06d0 \u062a\u0627\u0648\u06d0\u062f\u0648 \u0648\u0627\u0626\u0631\u0633 (ps). Aphid-transmitted luteovirus.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/43637",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_Leaf_Roll",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_leaf_roll_symptoms",
+    "text": "Upward rolling of leaf margins starting on lower leaves (primary infection) or upper leaves (secondary infection). Leaves become thick, leathery, and brittle. Net necrosis inside tubers.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/43637",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_Leaf_Roll",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_leaf_roll_epidemiology",
+    "text": "Transmitted in a persistent manner by green peach aphids (Myzus persicae). Systemically infects tubers, perpetuating through seed generations.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/43637",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_Leaf_Roll",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_leaf_roll_cultural_control",
+    "text": "Rogue out infected plants and destroy seed tubers. Use virus-tested nuclear seed stock. Destroy aphid host weeds near potato fields.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/43637",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_Leaf_Roll",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_leaf_roll_biological_control",
+    "text": "Conserve natural aphid predators (ladybird beetles, lacewings, parasitoid wasps). Apply Neem oil or insecticidal soap.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/43637",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_Leaf_Roll",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_leaf_roll_chemical_control",
+    "text": "Apply systemic aphicides (Imidacloprid, Thiamethoxam, or Flonicamid) to control aphid vector. Note: Direct virucides do not exist. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/43637",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_Leaf_Roll",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_leaf_roll_prevention",
+    "text": "Plant certified virus-tested seed tubers, manage aphid vectors early, and rogue diseased plants.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/43637",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_Leaf_Roll",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_leaf_roll_safety",
+    "text": "Wear chemical-resistant gloves, coveralls, and face shield when applying systemic aphicides.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/43637",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_Leaf_Roll",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_pvx_identity",
+    "text": "Potato_Viral_PVX is caused by Potato virus X (PVX). Common names: Potato Virus X / Latent Mosaic (en), \u0622\u0644\u0648 \u06a9\u0627 \u0627\u06cc\u06a9\u0633 \u0648\u0627\u0626\u0631\u0633 (ur), \u062f \u06a9\u0686\u0627\u0644\u0648 \u0627\u06cc\u06a9\u0633 \u0648\u0627\u0626\u0631\u0633 (ps). Highly contagious potexvirus.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/43647",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_PVX",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_pvx_symptoms",
+    "text": "Faint mild green mosaic mottling on leaves, often latent (symptomless). When co-infected with Potato Virus Y (PVY), causes severe rugose mosaic and plant collapse.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/43647",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_PVX",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_pvx_epidemiology",
+    "text": "Mechanically transmitted by plant-to-plant contact, machinery, tools, livestock, and infected seed tubers. No insect vector required.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/43647",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_PVX",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_pvx_cultural_control",
+    "text": "Disinfect tractor tires, cutting knives, and machinery with 10% trisodium phosphate or bleach. Rogue out symptomatic plants.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/43647",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_PVX",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_pvx_biological_control",
+    "text": "No biological control agent available for PVX. Maintain high field hygiene.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/43647",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_PVX",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_pvx_chemical_control",
+    "text": "Chemical pesticides are ineffective against plant viruses. Direct field efforts toward sanitation. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/43647",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_PVX",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_pvx_prevention",
+    "text": "Use certified PVX-free seed tubers, sanitize cutting blades, and avoid mechanical injury during cultivation.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/43647",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_PVX",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_pvx_safety",
+    "text": "Follow equipment sanitation safety guidelines.",
+    "metadata": {
+      "source_url": "https://www.cabi.org/isc/datasheet/43647",
+      "source_name": "CABI Compendium",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_PVX",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_pvy_identity",
+    "text": "Potato_Viral_PVY is caused by Potato virus Y (PVY). Common names: Potato Virus Y / Rugose Mosaic (en), \u0622\u0644\u0648 \u06a9\u0627 \u0648\u0627\u0626\u06cc \u0648\u0627\u0626\u0631\u0633 (ur), \u062f \u06a9\u0686\u0627\u0644\u0648 \u0648\u0627\u06cc \u0648\u0627\u0626\u0631\u0633 (ps). Non-persistently aphid-transmitted potyvirus.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/pvy/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_PVY",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_pvy_symptoms",
+    "text": "Severe mosaic mottling, crinkling/rugosity of leaves, leaf dropping (streak symptom), and Potato Tuber Necrotic Ringspot Disease (PTNRD) on tubers.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/pvy/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_PVY",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_pvy_epidemiology",
+    "text": "Transmitted non-persistently within seconds by numerous aphid species. Also transmitted systemically via infected seed tubers.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/pvy/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_PVY",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_pvy_cultural_control",
+    "text": "Plant PVY-resistant potato varieties. Apply mineral crop oils to leaf canopy to interfere with aphid virus transmission during probing.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/pvy/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_PVY",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_pvy_biological_control",
+    "text": "Encourage natural aphid predators (Chrysoperla carnea, Coccinella septempunctata).",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/pvy/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_PVY",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_pvy_chemical_control",
+    "text": "Apply mineral oil sprays (1\u20132%) weekly. Systemic insecticides have limited effect on non-persistent transmission but control aphid populations. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/pvy/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_PVY",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_pvy_prevention",
+    "text": "Use certified PVY-tested seed, isolation of seed production fields, and early haulm destruction.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/pvy/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_PVY",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_potato_potato_viral_pvy_safety",
+    "text": "Wear protective clothing and goggles when applying agricultural mineral oil sprays.",
+    "metadata": {
+      "source_url": "https://cipotato.org/potato/pvy/",
+      "source_name": "CIP International Potato Center",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Potato",
+      "disease_class": "Potato_Viral_PVY",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_bacterial_spot_identity",
+    "text": "Pepper_Bacterial_Spot is caused by Xanthomonas euvesicatoria. Common names: Pepper Bacterial Spot (en), \u0634\u0645\u0644\u06c1 \u0645\u0631\u0686 \u06a9\u0627 \u0628\u06cc\u06a9\u0679\u06cc\u0631\u06cc\u0627\u0626\u06cc \u062f\u06be\u0628\u06c1 (ur), \u062f \u0645\u0631\u0686\u06a9\u0648 \u0628\u0627\u06a9\u062a\u0631\u06cc\u0627\u06cc\u064a \u067c\u0627\u067e\u064a (ps). Serious bacterial disease of sweet and hot peppers.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Bacterial_Spot",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_bacterial_spot_symptoms",
+    "text": "Small, water-soaked, dark green to brown spots on leaves and fruit. Leaves yellow and drop prematurely, exposing fruit to sunscald. Fruit spots appear raised and scab-like.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Bacterial_Spot",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_bacterial_spot_epidemiology",
+    "text": "Favored by warm temperatures (24\u201330\u00b0C) and high humidity or wind-driven rain. Bacteria persist on seed coats, crop debris, and nightshade weeds.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Bacterial_Spot",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_bacterial_spot_cultural_control",
+    "text": "Use certified disease-free seed. Practice 2\u20133 year crop rotation. Avoid overhead irrigation and work in fields only when foliage is dry.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Bacterial_Spot",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_bacterial_spot_biological_control",
+    "text": "Foliar spray of Bacillus subtilis or bacteriophage products specific to Xanthomonas euvesicatoria.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Bacterial_Spot",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_bacterial_spot_chemical_control",
+    "text": "Apply Copper Hydroxide combined with Mancozeb at early disease onset. Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Bacterial_Spot",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_bacterial_spot_prevention",
+    "text": "Hot water seed treatment (50\u00b0C for 25 min), crop rotation, weed management, and drip irrigation.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Bacterial_Spot",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_bacterial_spot_safety",
+    "text": "Wear chemical gloves, protective suit, and eye protection during copper spraying.",
+    "metadata": {
+      "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+      "source_name": "Cornell University Extension Vegetable MD Online",
+      "evidence_level": "B1",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Bacterial_Spot",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_cercospora_leaf_spot_identity",
+    "text": "Pepper_Cercospora_Leaf_Spot is caused by Cercospora capsici. Common names: Frogeye Leaf Spot (en), \u0641\u0631\u06af \u0622\u0626\u06cc \u062f\u06be\u0628\u06c1 (ur), \u062f \u0641\u0631\u06ab \u0622\u06cc \u067c\u0627\u067e\u064a (ps). Fungal leaf spot of pepper.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/12443",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Cercospora_Leaf_Spot",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_cercospora_leaf_spot_symptoms",
+    "text": "Circular spots with light gray to white centers and dark reddish-brown margins ('frogeye' appearance) on leaves and stems. Severe infection causes leaf yellowing and defoliation.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/12443",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Cercospora_Leaf_Spot",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_cercospora_leaf_spot_epidemiology",
+    "text": "Favored by warm temperatures (25\u201330\u00b0C) and high humidity or leaf wetness. Wind and rain splash spread conidia.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/12443",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Cercospora_Leaf_Spot",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_cercospora_leaf_spot_cultural_control",
+    "text": "Prune lower foliage, space plants properly, avoid overhead sprinklers, and destroy crop residues post-harvest.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/12443",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Cercospora_Leaf_Spot",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_cercospora_leaf_spot_biological_control",
+    "text": "Foliar application of Trichoderma harzianum or bio-rational copper compounds.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/12443",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Cercospora_Leaf_Spot",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_cercospora_leaf_spot_chemical_control",
+    "text": "Apply Chlorothalonil, Mancozeb, or Azoxystrobin protectant fungicides. Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/12443",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Cercospora_Leaf_Spot",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_cercospora_leaf_spot_prevention",
+    "text": "Crop rotation for 2 years, certified seed, balanced fertilization, and good soil drainage.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/12443",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Cercospora_Leaf_Spot",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_cercospora_leaf_spot_safety",
+    "text": "Wear protective gloves, mask, and goggles during fungicide spraying.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/12443",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Cercospora_Leaf_Spot",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_healthy_identity",
+    "text": "Pepper_Healthy represents healthy Capsicum annuum foliage. Common names: Healthy Pepper (en), \u0635\u062d\u062a \u0645\u0646\u062f \u0634\u0645\u0644\u06c1 \u0645\u0631\u0686 (ur), \u0631\u0648\u063a \u0645\u0631\u0686\u06a9 (ps). Disease-free green pepper plant.",
+    "metadata": {
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/pepper/en/",
+      "source_name": "FAO Crop Information - Pepper",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Healthy",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_healthy_symptoms",
+    "text": "Leaves display rich dark green glossy color, smooth intact margins, turgid structure, and freedom from chlorosis, spotting, or insect damage.",
+    "metadata": {
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/pepper/en/",
+      "source_name": "FAO Crop Information - Pepper",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Healthy",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_healthy_epidemiology",
+    "text": "Maintained in warm sunny environments (21\u201328\u00b0C), moist well-drained soil, and balanced macro/micronutrient supply.",
+    "metadata": {
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/pepper/en/",
+      "source_name": "FAO Crop Information - Pepper",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Healthy",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_healthy_cultural_control",
+    "text": "Maintain drip irrigation, weed control, regular balanced N-P-K fertigation, and staking where necessary.",
+    "metadata": {
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/pepper/en/",
+      "source_name": "FAO Crop Information - Pepper",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Healthy",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_healthy_biological_control",
+    "text": "Incorporate mycorrhizae or beneficial rhizobacteria into soil to support vigor.",
+    "metadata": {
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/pepper/en/",
+      "source_name": "FAO Crop Information - Pepper",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Healthy",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_healthy_chemical_control",
+    "text": "No chemical application required. Monitor fields weekly for pests.",
+    "metadata": {
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/pepper/en/",
+      "source_name": "FAO Crop Information - Pepper",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Healthy",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_healthy_prevention",
+    "text": "Field sanitation, certified seed, proper drainage, and crop rotation.",
+    "metadata": {
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/pepper/en/",
+      "source_name": "FAO Crop Information - Pepper",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Healthy",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_healthy_safety",
+    "text": "Follow safe farming and worker protection procedures.",
+    "metadata": {
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/pepper/en/",
+      "source_name": "FAO Crop Information - Pepper",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Healthy",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_leaf_curl_identity",
+    "text": "Pepper_Leaf_Curl is caused by Chilli leaf curl virus (ChiLCV). Common names: Chilli Leaf Curl (en), \u0645\u0631\u0686 \u06a9\u0627 \u067e\u062a\u0627 \u0645\u0648\u0691 \u0648\u0627\u0626\u0631\u0633 (ur), \u062f \u0645\u0631\u0686\u06a9\u0648 \u067e\u0627\u06bc\u06d0 \u0642\u0627\u0634 \u0648\u0627\u0626\u0631\u0633 (ps). Whitefly-transmitted begomovirus.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55389",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Leaf_Curl",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_leaf_curl_symptoms",
+    "text": "Upward curling and puckering of leaves, vein yellowing, severe leaf size reduction, shortened internodes (stunted bushy appearance), and flower drop.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55389",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Leaf_Curl",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_leaf_curl_epidemiology",
+    "text": "Transmitted persistently by whiteflies (Bemisia tabaci). Widespread in tropical and sub-tropical chilli and bell pepper growing regions.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55389",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Leaf_Curl",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_leaf_curl_cultural_control",
+    "text": "Use 50-mesh insect netting on nurseries. Install yellow sticky traps. Rogue infected plants early. Eradicate weed hosts.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55389",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Leaf_Curl",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_leaf_curl_biological_control",
+    "text": "Release predatory mites or lacewings. Apply Neem oil (10,000 ppm) or entomopathogenic fungi (Beauveria bassiana).",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55389",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Leaf_Curl",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_leaf_curl_chemical_control",
+    "text": "Control whitefly vector using systemic insecticides (Imidacloprid, Acetamiprid, or Spirotetramat). Note: Direct virucides do not exist. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55389",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Leaf_Curl",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_leaf_curl_prevention",
+    "text": "Grow resistant cultivars, use 50-mesh nursery nets, and control whitefly populations proactively.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55389",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Leaf_Curl",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_leaf_curl_safety",
+    "text": "Wear chemical-resistant gloves, suit, and face shield when applying vector insecticides.",
+    "metadata": {
+      "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55389",
+      "source_name": "CABI PlantwisePlus Knowledge Bank",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Leaf_Curl",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_nutrition_deficiency_identity",
+    "text": "Pepper_Nutrition_Deficiency is an abiotic physiological disorder caused by inadequate Nitrogen, Phosphorus, Potassium, Calcium, or Magnesium supply. Common names: Nutrient Deficiency (en), \u063a\u0630\u0627\u0626\u06cc \u06a9\u06cc\u0645\u06cc\u0627\u0626\u06cc \u06a9\u0645\u06cc (ur), \u062f \u063a\u0630\u0627\u06cc\u064a \u062a\u0648\u06a9\u0648 \u06a9\u0645\u069a\u062a (ps).",
+    "metadata": {
+      "source_url": "https://www.fao.org/3/x5649e/x5649e04.htm",
+      "source_name": "FAO Soil and Plant Nutrition Manual",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Nutrition_Deficiency",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_nutrition_deficiency_symptoms",
+    "text": "Nitrogen: General pale yellowing (chlorosis) of older lower leaves. Phosphorus: Dark purple/reddish discoloration along leaf veins. Potassium: Marginal leaf scorching/browning. Calcium: Blossom end rot on fruit.",
+    "metadata": {
+      "source_url": "https://www.fao.org/3/x5649e/x5649e04.htm",
+      "source_name": "FAO Soil and Plant Nutrition Manual",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Nutrition_Deficiency",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_nutrition_deficiency_epidemiology",
+    "text": "Caused by poor soil fertility, extreme soil pH (< 5.5 or > 7.5), waterlogging, or root damage preventing nutrient uptake.",
+    "metadata": {
+      "source_url": "https://www.fao.org/3/x5649e/x5649e04.htm",
+      "source_name": "FAO Soil and Plant Nutrition Manual",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Nutrition_Deficiency",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_nutrition_deficiency_cultural_control",
+    "text": "Conduct soil and foliar tissue testing. Adjust soil pH using lime (for acid soils) or sulfur (for alkaline soils). Apply well-rotted farmyard manure.",
+    "metadata": {
+      "source_url": "https://www.fao.org/3/x5649e/x5649e04.htm",
+      "source_name": "FAO Soil and Plant Nutrition Manual",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Nutrition_Deficiency",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_nutrition_deficiency_biological_control",
+    "text": "Inoculate soil with Azotobacter (nitrogen fixer) and Phosphate Solubilizing Bacteria (PSB).",
+    "metadata": {
+      "source_url": "https://www.fao.org/3/x5649e/x5649e04.htm",
+      "source_name": "FAO Soil and Plant Nutrition Manual",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Nutrition_Deficiency",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_nutrition_deficiency_chemical_control",
+    "text": "Apply balanced soil fertilizers (NPK 15-15-15) or foliar micronutrient sprays (Fe, Zn, Mn, Ca). Pesticides are NOT applicable. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://www.fao.org/3/x5649e/x5649e04.htm",
+      "source_name": "FAO Soil and Plant Nutrition Manual",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Nutrition_Deficiency",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_nutrition_deficiency_prevention",
+    "text": "Regular soil testing, balanced fertigation, organic matter addition, and optimal irrigation management.",
+    "metadata": {
+      "source_url": "https://www.fao.org/3/x5649e/x5649e04.htm",
+      "source_name": "FAO Soil and Plant Nutrition Manual",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Nutrition_Deficiency",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_nutrition_deficiency_safety",
+    "text": "Wear gloves and dust mask when handling inorganic synthetic fertilizers.",
+    "metadata": {
+      "source_url": "https://www.fao.org/3/x5649e/x5649e04.htm",
+      "source_name": "FAO Soil and Plant Nutrition Manual",
+      "evidence_level": "A2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Nutrition_Deficiency",
+      "section": "safety"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_powdery_mildew_identity",
+    "text": "Pepper_Powdery_Mildew is caused by Leveillula taurica (syn. Oidiopsis taurica). Common names: Pepper Powdery Mildew (en), \u067e\u0627\u0624\u0688\u0631\u06cc \u0645\u0644\u0688\u06cc\u0648 (ur), \u062f \u0645\u0631\u0686\u06a9\u0648 \u0633\u067e\u06cc\u0646 \u062e\u0627\u06a9\u0633\u062a\u0631\u064a (ps). Endophytic powdery mildew fungal pathogen.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/PowderyMildewPepper.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Powdery_Mildew",
+      "section": "identity"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_powdery_mildew_symptoms",
+    "text": "Bright yellow chlorotic patches on upper leaf surfaces corresponding to white powdery fungal growth on leaf undersides. Severe infection causes extensive leaf drop.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/PowderyMildewPepper.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Powdery_Mildew",
+      "section": "symptoms"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_powdery_mildew_epidemiology",
+    "text": "Favored by warm dry climate with high relative humidity (20\u201335\u00b0C, RH > 70%). Unlike most fungi, does not require free water on leaves for infection.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/PowderyMildewPepper.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Powdery_Mildew",
+      "section": "epidemiology"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_powdery_mildew_cultural_control",
+    "text": "Avoid overcrowding plants. Remove and destroy infected lower leaves. Ensure adequate field ventilation.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/PowderyMildewPepper.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Powdery_Mildew",
+      "section": "cultural_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_powdery_mildew_biological_control",
+    "text": "Apply bio-rationals such as Potassium Bicarbonate, Sulfur dusting, or Neem oil (1%).",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/PowderyMildewPepper.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Powdery_Mildew",
+      "section": "biological_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_powdery_mildew_chemical_control",
+    "text": "Apply systemic triazole or strobilurin fungicides (Myclobutanil, Penconazole, or Azoxystrobin). Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/PowderyMildewPepper.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Powdery_Mildew",
+      "section": "chemical_control"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_powdery_mildew_prevention",
+    "text": "Plant resistant pepper varieties, monitor undersides of leaves, and apply preventive sulfur early.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/PowderyMildewPepper.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Powdery_Mildew",
+      "section": "prevention"
+    }
+  },
+  {
+    "id": "zari_chunk_pepper_pepper_powdery_mildew_safety",
+    "text": "Wear chemical mask, protective suit, and eye goggles during sulfur or fungicide dusting.",
+    "metadata": {
+      "source_url": "https://www.apsnet.org/edcenter/disbypath/Pages/PowderyMildewPepper.aspx",
+      "source_name": "APSnet Plant Pathology",
+      "evidence_level": "B2",
+      "retrieved_at": "2026-08-17T07:45:45Z",
+      "crop": "Pepper",
+      "disease_class": "Pepper_Powdery_Mildew",
+      "section": "safety"
+    }
+  }
+]

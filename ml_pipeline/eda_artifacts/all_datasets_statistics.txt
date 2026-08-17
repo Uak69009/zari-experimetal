@@ -1,0 +1,192 @@
+======================================================================
+  DATASET COMPARISON (Rows, Columns, and Class Distribution)
+======================================================================
+
+[PLANTCITY]
+--------------------------------------------------
+Total Images  : 52273
+Total Classes : 52
+Dimensions    : 800 Rows x 1000 Columns (Fixed Size)
+
+Class Distribution:
+  - tomato_early_blight                               : 1925 images
+  - tomato_leaf_mold                                  : 1910 images
+  - tomato_leaf_miner                                 : 1897 images
+  - tomato_leaf_curl                                  : 1893 images
+  - tomato_healthy_leaf                               : 1878 images
+  - Grape Normal_leaf                                 : 1857 images
+  - tomato_bacterial_spot                             : 1705 images
+  - Walnut Blotch_leaf disease                        : 1693 images
+  - tomato_septoria_leaf                              : 1599 images
+  - Grape Powdery_mildew leaf                         : 1509 images
+  - tomato_late_blight                                : 1406 images
+  - Cherry Leaf Scorch                                : 1383 images
+  - Apple Brown_spot                                  : 1325 images
+  - Grape Anthracnose leaf                            : 1245 images
+  - Cherry purple leaf spot                           : 1227 images
+  - Cherry brown_spot                                 : 1210 images
+  - Walnut Shot_hole                                  : 1147 images
+  - Pear Black spot _ leaf disease                    : 1130 images
+  - Bean Normal leaf                                  : 1123 images
+  - Grape shot hole leaf disease                      : 1065 images
+  - Apricot shot_hole                                 : 1040 images
+  - Apple Normal                                      : 1030 images
+  - lokat Leaf_spot                                   : 990 images
+  - Bean Fungal_leaf disease                          : 970 images
+  - Pear Normal _leaf                                 : 955 images
+  - Fig Blight_leaf disease                           : 954 images
+  - Walnut Normal_leaf                                : 890 images
+  - persimmons Brown_spot                             : 829 images
+  - Apricot Normal                                    : 815 images
+  - Walnut Anthracnose_leaf disease                   : 810 images
+  - Grape Brown spot leaf                             : 800 images
+  - Grape Downy mildew leaf                           : 779 images
+  - Fig normal leaf                                   : 750 images
+  - Corn Normal leaf                                  : 710 images
+  - Corn gray leaf spot                               : 660 images
+  - tomato spider mites                               : 635 images
+  - Lokat Normal leaf                                 : 630 images
+  - Cherry Normal leaf                                : 625 images
+  - Fig_rust leaf                                     : 625 images
+  - Grape Mites_leaf disease                          : 625 images
+  - Bean bean rust image                              : 624 images
+  - Apple black_spot                                  : 571 images
+  - Cherry_shot hole disease                          : 550 images
+  - Corn holcus_ leaf spot                            : 540 images
+  - Fig Brown spot                                    : 535 images
+  - tomato verticillium wilt                          : 525 images
+  - Bean shot_hole                                    : 490 images
+  - Walnut leaf gall mite                             : 490 images
+  - Pear fire blight                                  : 475 images
+  - Corn Fungal leaf                                  : 415 images
+  - tomato Fusarium Wilt                              : 407 images
+  - Apricot blight leaf disease                       : 402 images
+
+======================================================================
+
+[PLANTDOC]
+--------------------------------------------------
+Total Images  : 2573
+Total Classes : 29
+Dimensions    : Variable sizes (Average ~1044 Rows x 1126 Columns)
+
+Class Distribution:
+  - Corn leaf blight                                  : 188 images
+  - Tomato Septoria leaf spot                         : 151 images
+  - Squash Powdery mildew leaf                        : 130 images
+  - Raspberry leaf                                    : 119 images
+  - Corn rust leaf                                    : 116 images
+  - Potato leaf early blight                          : 116 images
+  - Blueberry leaf                                    : 115 images
+  - Peach leaf                                        : 111 images
+  - Tomato leaf late blight                           : 111 images
+  - Tomato leaf bacterial spot                        : 110 images
+  - Potato leaf late blight                           : 105 images
+  - Strawberry leaf                                   : 96 images
+  - Apple Scab Leaf                                   : 94 images
+  - Apple leaf                                        : 91 images
+  - Tomato mold leaf                                  : 91 images
+  - Apple rust leaf                                   : 88 images
+  - Tomato Early blight leaf                          : 88 images
+  - Tomato leaf yellow virus                          : 76 images
+  - Bell_pepper leaf spot                             : 71 images
+  - grape leaf                                        : 70 images
+  - Corn Gray leaf spot                               : 68 images
+  - Soyabean leaf                                     : 65 images
+  - grape leaf black rot                              : 64 images
+  - Tomato leaf                                       : 63 images
+  - Bell_pepper leaf                                  : 62 images
+  - Cherry leaf                                       : 57 images
+  - Tomato leaf mosaic virus                          : 54 images
+  - Tomato two spotted spider mites leaf              : 2 images
+  - plantdoc                                          : 1 images
+
+======================================================================
+
+[PLANTVILLAGE]
+--------------------------------------------------
+Total Images  : 182215
+Total Classes : 77
+Dimensions    : 256 Rows x 256 Columns (Fixed Size)
+
+Class Distribution:
+  - Orange___Haunglongbing_(Citrus_greening)          : 16521 images
+  - Tomato___Tomato_Yellow_Leaf_Curl_Virus            : 16071 images
+  - Soybean___healthy                                 : 15270 images
+  - Peach___Bacterial_spot                            : 6891 images
+  - Tomato___Bacterial_spot                           : 6381 images
+  - Tomato___Late_blight                              : 5727 images
+  - Squash___Powdery_mildew                           : 5505 images
+  - Tomato___Septoria_leaf_spot                       : 5313 images
+  - Tomato___Spider_mites Two-spotted_spider_mite     : 5028 images
+  - Apple___healthy                                   : 4935 images
+  - Tomato___healthy                                  : 4773 images
+  - Blueberry___healthy                               : 4506 images
+  - Pepper,_bell___healthy                            : 4434 images
+  - Tomato___Target_Spot                              : 4212 images
+  - Grape___Esca_(Black_Measles)                      : 4150 images
+  - Corn_(maize)___Common_rust_                       : 3576 images
+  - Grape___Black_rot                                 : 3540 images
+  - Corn_(maize)___healthy                            : 3486 images
+  - Strawberry___Leaf_scorch                          : 3327 images
+  - Grape___Leaf_blight_(Isariopsis_Leaf_Spot)        : 3228 images
+  - Cherry_(including_sour)___Powdery_mildew          : 3156 images
+  - Potato___Early_blight                             : 3000 images
+  - Potato___Late_blight                              : 3000 images
+  - Tomato___Early_blight                             : 3000 images
+  - Pepper,_bell___Bacterial_spot                     : 2991 images
+  - Corn_(maize)___Northern_Leaf_Blight               : 2955 images
+  - Tomato___Leaf_Mold                                : 2856 images
+  - Cherry_(including_sour)___healthy                 : 2562 images
+  - 15                                                : 2013 images
+  - 35                                                : 2000 images
+  - Apple___Apple_scab                                : 1890 images
+  - Apple___Black_rot                                 : 1863 images
+  - 24                                                : 1784 images
+  - Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot: 1539 images
+  - Strawberry___healthy                              : 1368 images
+  - Grape___healthy                                   : 1269 images
+  - Tomato___Tomato_mosaic_virus                      : 1119 images
+  - Raspberry___healthy                               : 1113 images
+  - Peach___healthy                                   : 1080 images
+  - 16                                                : 826 images
+  - Apple___Cedar_apple_rust                          : 825 images
+  - 28                                                : 760 images
+  - 30                                                : 660 images
+  - 25                                                : 649 images
+  - 33                                                : 640 images
+  - 32                                                : 587 images
+  - 37                                                : 560 images
+  - 3                                                 : 554 images
+  - 19                                                : 544 images
+  - 34                                                : 468 images
+  - 4                                                 : 468 images
+  - 12                                                : 465 images
+  - Potato___healthy                                  : 456 images
+  - 10                                                : 433 images
+  - 8                                                 : 432 images
+  - 5                                                 : 409 images
+  - 11                                                : 407 images
+  - 26                                                : 380 images
+  - 13                                                : 379 images
+  - 20                                                : 377 images
+  - 21                                                : 372 images
+  - 9                                                 : 354 images
+  - 6                                                 : 334 images
+  - 29                                                : 331 images
+  - 18                                                : 287 images
+  - 31                                                : 286 images
+  - 23                                                : 224 images
+  - 0                                                 : 221 images
+  - 1                                                 : 199 images
+  - 7                                                 : 187 images
+  - 27                                                : 184 images
+  - 14                                                : 146 images
+  - 36                                                : 143 images
+  - 2                                                 : 99 images
+  - 17                                                : 95 images
+  - 22                                                : 41 images
+  - generated_for_paper                               : 1 images
+
+======================================================================
+
