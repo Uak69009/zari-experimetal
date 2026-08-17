@@ -1,0 +1,602 @@
+{
+  "Tomato": {
+    "best_epoch": 19,
+    "latency_ms": 3.22504237992689,
+    "val": {
+      "acc": 0.9819794050343249,
+      "bal_acc": 0.9841115286972404,
+      "macro_f1": 0.9790441318432266,
+      "auroc": 0.9988361803904662,
+      "unc_correct": 0.03067704662680626,
+      "unc_incorrect": 0.33954840898513794,
+      "per_class": {
+        "Tomato_Bacterial_Spot": {
+          "support": 394,
+          "precision": 0.9438,
+          "recall": 0.9797,
+          "f1": 0.9614
+        },
+        "Tomato_Early_Blight": {
+          "support": 309,
+          "precision": 0.977,
+          "recall": 0.9644,
+          "f1": 0.9707
+        },
+        "Tomato_Fusarium_Wilt": {
+          "support": 40,
+          "precision": 0.9756,
+          "recall": 1.0,
+          "f1": 0.9877
+        },
+        "Tomato_Healthy": {
+          "support": 355,
+          "precision": 0.9916,
+          "recall": 1.0,
+          "f1": 0.9958
+        },
+        "Tomato_Late_Blight": {
+          "support": 343,
+          "precision": 0.9941,
+          "recall": 0.9767,
+          "f1": 0.9853
+        },
+        "Tomato_Leaf_Mold": {
+          "support": 309,
+          "precision": 0.9869,
+          "recall": 0.9741,
+          "f1": 0.9805
+        },
+        "Tomato_Miner": {
+          "support": 189,
+          "precision": 0.9947,
+          "recall": 1.0,
+          "f1": 0.9974
+        },
+        "Tomato_Mosaic_Virus": {
+          "support": 42,
+          "precision": 0.9111,
+          "recall": 0.9762,
+          "f1": 0.9425
+        },
+        "Tomato_Septoria_Leaf_Spot": {
+          "support": 358,
+          "precision": 0.9721,
+          "recall": 0.9721,
+          "f1": 0.9721
+        },
+        "Tomato_Spider_Mites": {
+          "support": 231,
+          "precision": 1.0,
+          "recall": 0.9697,
+          "f1": 0.9846
+        },
+        "Tomato_Target_Spot": {
+          "support": 140,
+          "precision": 0.9789,
+          "recall": 0.9929,
+          "f1": 0.9858
+        },
+        "Tomato_Verticillium_Wilt": {
+          "support": 51,
+          "precision": 0.9444,
+          "recall": 1.0,
+          "f1": 0.9714
+        },
+        "Tomato_Yellow_Leaf_Curl_Virus": {
+          "support": 735,
+          "precision": 0.9973,
+          "recall": 0.9878,
+          "f1": 0.9925
+        }
+      }
+    },
+    "test": {
+      "acc": 0.9826359237119271,
+      "bal_acc": 0.979217776485302,
+      "macro_f1": 0.9804455205362885,
+      "auroc": 0.9991160244736624,
+      "unc_correct": 0.03101661428809166,
+      "unc_incorrect": 0.42842844128608704,
+      "per_class": {
+        "Tomato_Bacterial_Spot": {
+          "support": 395,
+          "precision": 0.9601,
+          "recall": 0.9747,
+          "f1": 0.9673
+        },
+        "Tomato_Early_Blight": {
+          "support": 310,
+          "precision": 0.9558,
+          "recall": 0.9774,
+          "f1": 0.9665
+        },
+        "Tomato_Fusarium_Wilt": {
+          "support": 42,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Tomato_Healthy": {
+          "support": 355,
+          "precision": 0.9916,
+          "recall": 0.9972,
+          "f1": 0.9944
+        },
+        "Tomato_Late_Blight": {
+          "support": 344,
+          "precision": 0.9882,
+          "recall": 0.9738,
+          "f1": 0.981
+        },
+        "Tomato_Leaf_Mold": {
+          "support": 310,
+          "precision": 0.9837,
+          "recall": 0.9742,
+          "f1": 0.9789
+        },
+        "Tomato_Miner": {
+          "support": 191,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Tomato_Mosaic_Virus": {
+          "support": 44,
+          "precision": 0.9524,
+          "recall": 0.9091,
+          "f1": 0.9302
+        },
+        "Tomato_Septoria_Leaf_Spot": {
+          "support": 360,
+          "precision": 0.9779,
+          "recall": 0.9833,
+          "f1": 0.9806
+        },
+        "Tomato_Spider_Mites": {
+          "support": 232,
+          "precision": 1.0,
+          "recall": 0.9698,
+          "f1": 0.9847
+        },
+        "Tomato_Target_Spot": {
+          "support": 141,
+          "precision": 0.9592,
+          "recall": 1.0,
+          "f1": 0.9792
+        },
+        "Tomato_Verticillium_Wilt": {
+          "support": 53,
+          "precision": 1.0,
+          "recall": 0.9811,
+          "f1": 0.9905
+        },
+        "Tomato_Yellow_Leaf_Curl_Virus": {
+          "support": 736,
+          "precision": 0.9959,
+          "recall": 0.9891,
+          "f1": 0.9925
+        }
+      }
+    },
+    "confusion_matrix_test": [
+      [
+        385,
+        3,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        303,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        3,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        42,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        354,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        0,
+        1,
+        335,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        6,
+        0,
+        0,
+        1,
+        1,
+        302,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        191,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        40,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        354,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        225,
+        5,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        141,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        0
+      ],
+      [
+        5,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        728
+      ]
+    ]
+  },
+  "Potato": {
+    "best_epoch": 8,
+    "latency_ms": 3.0940062800073065,
+    "val": {
+      "acc": 0.984472049689441,
+      "bal_acc": 0.9874571805006588,
+      "macro_f1": 0.9873555951491465,
+      "auroc": 0.9995108514728924,
+      "unc_correct": 0.024968601763248444,
+      "unc_incorrect": 0.12642505764961243,
+      "per_class": {
+        "Potato_Early_Blight": {
+          "support": 275,
+          "precision": 0.9853,
+          "recall": 0.9782,
+          "f1": 0.9818
+        },
+        "Potato_Late_Blight": {
+          "support": 253,
+          "precision": 0.9765,
+          "recall": 0.9842,
+          "f1": 0.9803
+        },
+        "Potato_Healthy": {
+          "support": 116,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "test": {
+      "acc": 0.9799072642967542,
+      "bal_acc": 0.9838017510584899,
+      "macro_f1": 0.9835726004185826,
+      "auroc": 0.9989535022954349,
+      "unc_correct": 0.024649128317832947,
+      "unc_incorrect": 0.15818163752555847,
+      "per_class": {
+        "Potato_Early_Blight": {
+          "support": 274,
+          "precision": 0.9851,
+          "recall": 0.9672,
+          "f1": 0.9761
+        },
+        "Potato_Late_Blight": {
+          "support": 254,
+          "precision": 0.9653,
+          "recall": 0.9843,
+          "f1": 0.9747
+        },
+        "Potato_Healthy": {
+          "support": 119,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "confusion_matrix_test": [
+      [
+        265,
+        9,
+        0
+      ],
+      [
+        4,
+        250,
+        0
+      ],
+      [
+        0,
+        0,
+        119
+      ]
+    ]
+  },
+  "Pepper": {
+    "best_epoch": 10,
+    "latency_ms": 3.1921615899773315,
+    "val": {
+      "acc": 0.9975961538461539,
+      "bal_acc": 0.9978632478632479,
+      "macro_f1": 0.9985288483641099,
+      "auroc": 0.9987928360504768,
+      "unc_correct": 0.024970829486846924,
+      "unc_incorrect": 0.03458458185195923,
+      "per_class": {
+        "Pepper_Bacterial_Spot": {
+          "support": 420,
+          "precision": 0.9953,
+          "recall": 1.0,
+          "f1": 0.9976
+        },
+        "Pepper_Cercospora_Leaf_Spot": {
+          "support": 156,
+          "precision": 1.0,
+          "recall": 0.9872,
+          "f1": 0.9935
+        },
+        "Pepper_Healthy": {
+          "support": 152,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Pepper_Leaf_Curl": {
+          "support": 41,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Pepper_Nutrition_Deficiency": {
+          "support": 43,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Pepper_Powdery_Mildew": {
+          "support": 20,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "test": {
+      "acc": 0.9963724304715841,
+      "bal_acc": 0.9967320261437909,
+      "macro_f1": 0.9974275140611774,
+      "auroc": 0.9999932012124321,
+      "unc_correct": 0.024572715163230896,
+      "unc_incorrect": 0.09951076656579971,
+      "per_class": {
+        "Pepper_Bacterial_Spot": {
+          "support": 406,
+          "precision": 0.9951,
+          "recall": 1.0,
+          "f1": 0.9975
+        },
+        "Pepper_Cercospora_Leaf_Spot": {
+          "support": 162,
+          "precision": 0.9939,
+          "recall": 1.0,
+          "f1": 0.9969
+        },
+        "Pepper_Healthy": {
+          "support": 153,
+          "precision": 1.0,
+          "recall": 0.9804,
+          "f1": 0.9901
+        },
+        "Pepper_Leaf_Curl": {
+          "support": 42,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Pepper_Nutrition_Deficiency": {
+          "support": 45,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Pepper_Powdery_Mildew": {
+          "support": 19,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "confusion_matrix_test": [
+      [
+        406,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        162,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        150,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        42,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        45,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        19
+      ]
+    ]
+  }
+}

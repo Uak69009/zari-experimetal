@@ -1,0 +1,13 @@
+{
+  "total_chunks": 208,
+  "collection": "zari_3crop_treatment_kb",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "classes_count": 26,
+  "sample_chunk_ids": [
+    "zari_chunk_tomato_tomato_bacterial_spot_identity",
+    "zari_chunk_tomato_tomato_leaf_mold_identity",
+    "zari_chunk_tomato_tomato_verticillium_wilt_safety",
+    "zari_chunk_potato_potato_bacterial_soft_rot_safety",
+    "zari_chunk_pepper_pepper_leaf_curl_prevention"
+  ]
+}

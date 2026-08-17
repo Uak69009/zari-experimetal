@@ -1,0 +1,9 @@
+artifact_location: file:///home/hammad/Desktop/project zari - experimental/ml_pipeline/mlruns/590037147936694380
+creation_time: 1786969978885
+effective_trace_archival_retention: null
+experiment_id: '590037147936694380'
+last_update_time: 1786969978885
+lifecycle_stage: active
+name: zari_3crop_production_system
+trace_location: null
+workspace: default

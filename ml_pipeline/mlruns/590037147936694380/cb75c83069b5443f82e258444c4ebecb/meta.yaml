@@ -1,0 +1,14 @@
+artifact_uri: file:///home/hammad/Desktop/project zari - experimental/ml_pipeline/mlruns/590037147936694380/cb75c83069b5443f82e258444c4ebecb/artifacts
+end_time: 1786969978922
+entry_point_name: ''
+experiment_id: '590037147936694380'
+lifecycle_stage: active
+run_id: cb75c83069b5443f82e258444c4ebecb
+run_name: swin_tiny_comparison_study
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1786969978917
+status: 3
+tags: []
+user_id: hammad

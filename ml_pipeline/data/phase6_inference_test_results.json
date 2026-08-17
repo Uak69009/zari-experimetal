@@ -1,0 +1,452 @@
+[
+  {
+    "test_case": {
+      "case_id": 1,
+      "title": "Case 1: Tomato Late Blight (High Severity & Cool Wet Weather)",
+      "vision_input": {
+        "crop": "Tomato",
+        "disease": "Tomato_Late_Blight",
+        "disease_confidence": 0.985,
+        "edl_uncertainty": 0.12,
+        "decision": "ACCEPT",
+        "estimated_visual_disease_coverage": 0.45,
+        "severity_tag": "High"
+      },
+      "env_context": {
+        "temperature": 18.0,
+        "humidity": 92.0,
+        "rainfall": 12.5,
+        "season": "Spring",
+        "location": "Swat, KP, Pakistan"
+      }
+    },
+    "output": {
+      "status": "SUCCESS",
+      "decision": "ACCEPT",
+      "crop": "Tomato",
+      "diagnosis": "Tomato_Late_Blight",
+      "disease_confidence": 0.985,
+      "edl_uncertainty": 0.12,
+      "visual_coverage": 0.45,
+      "severity_tag": "High",
+      "combined_urgency_flag": true,
+      "weather_risk_note": "\ud83d\udea8 CRITICAL WEATHER RISK: Cool temperatures (15\u201322\u00b0C) combined with high relative humidity (>90%) and rain/fog create EXTREME risk for rapid Phytophthora sporangia germination and epidemic canopy destruction.",
+      "retrieved_chunks_count": 8,
+      "retrieved_chunks": [
+        {
+          "id": "zari_chunk_tomato_tomato_late_blight_identity",
+          "section": "identity",
+          "evidence_level": "A2",
+          "source_name": "CABI PlantwisePlus Knowledge Bank",
+          "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/40970",
+          "similarity_score": 0.6396
+        },
+        {
+          "id": "zari_chunk_tomato_tomato_late_blight_prevention",
+          "section": "prevention",
+          "evidence_level": "A2",
+          "source_name": "CABI PlantwisePlus Knowledge Bank",
+          "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/40970",
+          "similarity_score": 0.4385
+        },
+        {
+          "id": "zari_chunk_tomato_tomato_late_blight_cultural_control",
+          "section": "cultural_control",
+          "evidence_level": "A2",
+          "source_name": "CABI PlantwisePlus Knowledge Bank",
+          "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/40970",
+          "similarity_score": 0.3526
+        },
+        {
+          "id": "zari_chunk_tomato_tomato_late_blight_biological_control",
+          "section": "biological_control",
+          "evidence_level": "A2",
+          "source_name": "CABI PlantwisePlus Knowledge Bank",
+          "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/40970",
+          "similarity_score": 0.2945
+        },
+        {
+          "id": "zari_chunk_tomato_tomato_late_blight_chemical_control",
+          "section": "chemical_control",
+          "evidence_level": "A2",
+          "source_name": "CABI PlantwisePlus Knowledge Bank",
+          "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/40970",
+          "similarity_score": 0.2774
+        },
+        {
+          "id": "zari_chunk_tomato_tomato_late_blight_symptoms",
+          "section": "symptoms",
+          "evidence_level": "A2",
+          "source_name": "CABI PlantwisePlus Knowledge Bank",
+          "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/40970",
+          "similarity_score": 0.2133
+        },
+        {
+          "id": "zari_chunk_tomato_tomato_late_blight_safety",
+          "section": "safety",
+          "evidence_level": "A2",
+          "source_name": "CABI PlantwisePlus Knowledge Bank",
+          "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/40970",
+          "similarity_score": 0.205
+        },
+        {
+          "id": "zari_chunk_tomato_tomato_late_blight_epidemiology",
+          "section": "epidemiology",
+          "evidence_level": "A2",
+          "source_name": "CABI PlantwisePlus Knowledge Bank",
+          "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/40970",
+          "similarity_score": 0.1222
+        }
+      ],
+      "advisory_english": "=== ZARI.ai DIAGNOSTIC & ADVISORY REPORT ===\nCrop: Tomato | Diagnosis: Tomato_Late_Blight\nConfidence: 98.50% | EDL Uncertainty: 0.1200 | Status: ACCEPTED\nSeverity: High (Visual Disease Coverage: 45.0%)\nLocation: Swat, KP, Pakistan | Season: Spring\nWeather Note: \ud83d\udea8 CRITICAL WEATHER RISK: Cool temperatures (15\u201322\u00b0C) combined with high relative humidity (>90%) and rain/fog create EXTREME risk for rapid Phytophthora sporangia germination and epidemic canopy destruction.\n\n\ud83d\udea8 COMBINED URGENCY WARNING: High visual disease coverage (45.0%) combined with elevated weather risk accelerates field epidemic spread! Immediate intervention required.\n\n--- RECOMMENDED INTEGRATED PEST MANAGEMENT (IPM) PROTOCOL ---\n1. CULTURAL CONTROL [CABI PlantwisePlus Knowledge Bank - Level A2]:\n   Destroy volunteer tomato/potato plants and infected crop residues. Space plants for maximum air circulation. Avoid overhead irrigation.\n2. BIOLOGICAL & BIO-RATIONAL CONTROL [CABI PlantwisePlus Knowledge Bank - Level A2]:\n   Apply copper octanoate or bio-control agents such as Bacillus subtilis preventively prior to wet cool weather events.\n3. CHEMICAL CONTROL (Active Ingredients Only) [CABI PlantwisePlus Knowledge Bank - Level A2]:\n   Apply systemic oomyceticides (Metalaxyl-M + Mancozeb, Dimethomorph, or Cymoxanil). Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.\n   \u26a0\ufe0f Note: Active ingredients only. Specific product dosage/PHI requires current local label/authority verification.\n\nPREVENTION [CABI PlantwisePlus Knowledge Bank - Level A2]:\n   Plant resistant cultivars, monitor weather forecasts for late blight warnings, and maintain strict field hygiene.\nSAFETY [CABI PlantwisePlus Knowledge Bank - Level A2]:\n   Wear chemical-resistant suit, neoprene gloves, and full face-shield when handling systemic oomyceticides.",
+      "advisory_urdu": "=== \u0632\u0627\u0631\u06cc AI \u062a\u0634\u062e\u06cc\u0635\u06cc \u0648 \u0632\u0631\u0627\u0639\u06cc \u0631\u067e\u0648\u0631\u0679 ===\n\u0641\u0635\u0644: Tomato | \u062a\u0634\u062e\u06cc\u0635: Tomato_Late_Blight\n\u0627\u0639\u062a\u0645\u0627\u062f: 98.5% | \u063a\u06cc\u0631 \u06cc\u0642\u06cc\u0646\u06cc \u0635\u0648\u0631\u062a\u062d\u0627\u0644: 0.1200 | \u06a9\u06cc\u0641\u06cc\u0627\u062a: \u0642\u0628\u0648\u0644 \u0634\u062f\u06c1 (ACCEPTED)\n\u0634\u062f\u062a: High (\u0628\u06cc\u0645\u0627\u0631\u06cc \u06a9\u0627 \u0628\u0635\u0631\u06cc \u0631\u0642\u0628\u06c1: 45.0%)\n\u0645\u0648\u0633\u0645\u06cc \u0646\u0648\u0679: \ud83d\udea8 CRITICAL WEATHER RISK: Cool temperatures (15\u201322\u00b0C) combined with high relative humidity (>90%) and rain/fog create EXTREME risk for rapid Phytophthora sporangia germination and epidemic canopy destruction.\n\n\ud83d\udea8 \u0634\u062f\u06cc\u062f \u06c1\u0646\u06af\u0627\u0645\u06cc \u062a\u0646\u0628\u06cc\u06c1: \u0628\u06cc\u0645\u0627\u0631\u06cc \u06a9\u06d2 \u0632\u06cc\u0627\u062f\u06c1 \u067e\u06be\u06cc\u0644\u0627\u0626\u0648 (45.0%) \u0627\u0648\u0631 \u0645\u0648\u0627\u0641\u0642 \u0645\u0648\u0633\u0645 \u06a9\u06cc \u0648\u062c\u06c1 \u0633\u06d2 \u0641\u06cc\u0644\u0688 \u0645\u06cc\u06ba \u062a\u06cc\u0632\u06cc \u0633\u06d2 \u067e\u06be\u06cc\u0644\u0646\u06d2 \u06a9\u0627 \u062e\u0637\u0631\u06c1 \u06c1\u06d2! \u0641\u0648\u0631\u06cc \u0627\u0642\u062f\u0627\u0645\u0627\u062a \u0636\u0631\u0648\u0631\u06cc \u06c1\u06cc\u06ba\u06d4\n\n--- \u062a\u062c\u0648\u06cc\u0632 \u06a9\u0631\u062f\u06c1 \u062c\u0627\u0645\u0639 \u062d\u06a9\u0645\u062a \u0639\u0645\u0644\u06cc (IPM) ---\n1. \u062b\u0642\u0627\u0641\u062a\u06cc \u0627\u0648\u0631 \u0632\u0631\u0639\u06cc \u0627\u0642\u062f\u0627\u0645\u0627\u062a: Destroy volunteer tomato/potato plants and infected crop residues. Space plants for maximum air circulation. Avoid overhead irrigation.\n2. \u062d\u06cc\u0627\u062a\u06cc\u0627\u062a\u06cc \u0627\u0648\u0631 \u0646\u0627\u0645\u06cc\u0627\u062a\u06cc \u0639\u0644\u0627\u062c: Apply copper octanoate or bio-control agents such as Bacillus subtilis preventively prior to wet cool weather events.\n3. \u06a9\u06cc\u0645\u06cc\u0627\u0626\u06cc \u06a9\u0646\u0679\u0631\u0648\u0644 (\u0635\u0631\u0641 \u0641\u0639\u0627\u0644\u06cc \u0627\u062c\u0632\u0627\u0621): Apply systemic oomyceticides (Metalaxyl-M + Mancozeb, Dimethomorph, or Cymoxanil). Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.\n   \u26a0\ufe0f \u0646\u0648\u0679: \u06a9\u06cc\u0645\u06cc\u0627\u0626\u06cc \u0627\u062f\u0648\u06cc\u0627\u062a \u06a9\u06cc \u0645\u0642\u062f\u0627\u0631 \u0627\u0648\u0631 \u0648\u0642\u0641\u06c1 \u06a9\u06d2 \u0644\u06cc\u06d2 \u0645\u0642\u0627\u0645\u06cc \u0633\u0645\u06cc \u0627\u062f\u0648\u06cc\u0627\u062a \u06a9\u06d2 \u0644\u06cc\u0628\u0644 \u06a9\u06cc \u062a\u0635\u062f\u06cc\u0642 \u0644\u0627\u0632\u0645\u06cc \u06c1\u06d2\u06d4",
+      "latency_ms": 51059.8
+    }
+  },
+  {
+    "test_case": {
+      "case_id": 2,
+      "title": "Case 2: Potato Early Blight (Medium Severity, Warm Humid Weather)",
+      "vision_input": {
+        "crop": "Potato",
+        "disease": "Potato_Early_Blight",
+        "disease_confidence": 0.971,
+        "edl_uncertainty": 0.21,
+        "decision": "ACCEPT",
+        "estimated_visual_disease_coverage": 0.22,
+        "severity_tag": "Medium"
+      },
+      "env_context": {
+        "temperature": 26.0,
+        "humidity": 78.0,
+        "rainfall": 2.0,
+        "season": "Spring",
+        "location": "Okara, Punjab, Pakistan"
+      }
+    },
+    "output": {
+      "status": "SUCCESS",
+      "decision": "ACCEPT",
+      "crop": "Potato",
+      "diagnosis": "Potato_Early_Blight",
+      "disease_confidence": 0.971,
+      "edl_uncertainty": 0.21,
+      "visual_coverage": 0.22,
+      "severity_tag": "Medium",
+      "combined_urgency_flag": false,
+      "weather_risk_note": "Alternating wet and dry warm conditions (22\u201328\u00b0C) accelerate Alternaria solani secondary spore release.",
+      "retrieved_chunks_count": 8,
+      "retrieved_chunks": [
+        {
+          "id": "zari_chunk_potato_potato_early_blight_identity",
+          "section": "identity",
+          "evidence_level": "A2",
+          "source_name": "CIP International Potato Center",
+          "source_url": "https://cipotato.org/potato/early-blight/",
+          "similarity_score": 0.7208
+        },
+        {
+          "id": "zari_chunk_potato_potato_early_blight_symptoms",
+          "section": "symptoms",
+          "evidence_level": "A2",
+          "source_name": "CIP International Potato Center",
+          "source_url": "https://cipotato.org/potato/early-blight/",
+          "similarity_score": 0.2591
+        },
+        {
+          "id": "zari_chunk_potato_potato_early_blight_cultural_control",
+          "section": "cultural_control",
+          "evidence_level": "A2",
+          "source_name": "CIP International Potato Center",
+          "source_url": "https://cipotato.org/potato/early-blight/",
+          "similarity_score": 0.2398
+        },
+        {
+          "id": "zari_chunk_potato_potato_early_blight_prevention",
+          "section": "prevention",
+          "evidence_level": "A2",
+          "source_name": "CIP International Potato Center",
+          "source_url": "https://cipotato.org/potato/early-blight/",
+          "similarity_score": 0.1573
+        },
+        {
+          "id": "zari_chunk_potato_potato_early_blight_safety",
+          "section": "safety",
+          "evidence_level": "A2",
+          "source_name": "CIP International Potato Center",
+          "source_url": "https://cipotato.org/potato/early-blight/",
+          "similarity_score": 0.151
+        },
+        {
+          "id": "zari_chunk_potato_potato_early_blight_biological_control",
+          "section": "biological_control",
+          "evidence_level": "A2",
+          "source_name": "CIP International Potato Center",
+          "source_url": "https://cipotato.org/potato/early-blight/",
+          "similarity_score": 0.1228
+        },
+        {
+          "id": "zari_chunk_potato_potato_early_blight_epidemiology",
+          "section": "epidemiology",
+          "evidence_level": "A2",
+          "source_name": "CIP International Potato Center",
+          "source_url": "https://cipotato.org/potato/early-blight/",
+          "similarity_score": 0.1126
+        },
+        {
+          "id": "zari_chunk_potato_potato_early_blight_chemical_control",
+          "section": "chemical_control",
+          "evidence_level": "A2",
+          "source_name": "CIP International Potato Center",
+          "source_url": "https://cipotato.org/potato/early-blight/",
+          "similarity_score": 0.1065
+        }
+      ],
+      "advisory_english": "=== ZARI.ai DIAGNOSTIC & ADVISORY REPORT ===\nCrop: Potato | Diagnosis: Potato_Early_Blight\nConfidence: 97.10% | EDL Uncertainty: 0.2100 | Status: ACCEPTED\nSeverity: Medium (Visual Disease Coverage: 22.0%)\nLocation: Okara, Punjab, Pakistan | Season: Spring\nWeather Note: Alternating wet and dry warm conditions (22\u201328\u00b0C) accelerate Alternaria solani secondary spore release.\n\n--- RECOMMENDED INTEGRATED PEST MANAGEMENT (IPM) PROTOCOL ---\n1. CULTURAL CONTROL [CIP International Potato Center - Level A2]:\n   Maintain adequate nitrogen and potassium fertilization. Practice 3-year crop rotation. Irrigate in early morning to allow canopy drying.\n2. BIOLOGICAL & BIO-RATIONAL CONTROL [CIP International Potato Center - Level A2]:\n   Foliar applications of Trichoderma species or Bacillus subtilis bio-fungicide formulations.\n3. CHEMICAL CONTROL (Active Ingredients Only) [CIP International Potato Center - Level A2]:\n   Apply Mancozeb, Chlorothalonil, or Azoxystrobin + Difenoconazole premix. Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.\n   \u26a0\ufe0f Note: Active ingredients only. Specific product dosage/PHI requires current local label/authority verification.\n\nPREVENTION [CIP International Potato Center - Level A2]:\n   Use high-quality certified seed tubers, maintain vine nutrition, destroy haulms prior to harvest, and avoid tuber mechanical damage.\nSAFETY [CIP International Potato Center - Level A2]:\n   Wear protective gloves, eye goggles, and coveralls when applying fungicides.",
+      "advisory_urdu": "=== \u0632\u0627\u0631\u06cc AI \u062a\u0634\u062e\u06cc\u0635\u06cc \u0648 \u0632\u0631\u0627\u0639\u06cc \u0631\u067e\u0648\u0631\u0679 ===\n\u0641\u0635\u0644: Potato | \u062a\u0634\u062e\u06cc\u0635: Potato_Early_Blight\n\u0627\u0639\u062a\u0645\u0627\u062f: 97.1% | \u063a\u06cc\u0631 \u06cc\u0642\u06cc\u0646\u06cc \u0635\u0648\u0631\u062a\u062d\u0627\u0644: 0.2100 | \u06a9\u06cc\u0641\u06cc\u0627\u062a: \u0642\u0628\u0648\u0644 \u0634\u062f\u06c1 (ACCEPTED)\n\u0634\u062f\u062a: Medium (\u0628\u06cc\u0645\u0627\u0631\u06cc \u06a9\u0627 \u0628\u0635\u0631\u06cc \u0631\u0642\u0628\u06c1: 22.0%)\n\u0645\u0648\u0633\u0645\u06cc \u0646\u0648\u0679: Alternating wet and dry warm conditions (22\u201328\u00b0C) accelerate Alternaria solani secondary spore release.\n\n--- \u062a\u062c\u0648\u06cc\u0632 \u06a9\u0631\u062f\u06c1 \u062c\u0627\u0645\u0639 \u062d\u06a9\u0645\u062a \u0639\u0645\u0644\u06cc (IPM) ---\n1. \u062b\u0642\u0627\u0641\u062a\u06cc \u0627\u0648\u0631 \u0632\u0631\u0639\u06cc \u0627\u0642\u062f\u0627\u0645\u0627\u062a: Maintain adequate nitrogen and potassium fertilization. Practice 3-year crop rotation. Irrigate in early morning to allow canopy drying.\n2. \u062d\u06cc\u0627\u062a\u06cc\u0627\u062a\u06cc \u0627\u0648\u0631 \u0646\u0627\u0645\u06cc\u0627\u062a\u06cc \u0639\u0644\u0627\u062c: Foliar applications of Trichoderma species or Bacillus subtilis bio-fungicide formulations.\n3. \u06a9\u06cc\u0645\u06cc\u0627\u0626\u06cc \u06a9\u0646\u0679\u0631\u0648\u0644 (\u0635\u0631\u0641 \u0641\u0639\u0627\u0644\u06cc \u0627\u062c\u0632\u0627\u0621): Apply Mancozeb, Chlorothalonil, or Azoxystrobin + Difenoconazole premix. Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.\n   \u26a0\ufe0f \u0646\u0648\u0679: \u06a9\u06cc\u0645\u06cc\u0627\u0626\u06cc \u0627\u062f\u0648\u06cc\u0627\u062a \u06a9\u06cc \u0645\u0642\u062f\u0627\u0631 \u0627\u0648\u0631 \u0648\u0642\u0641\u06c1 \u06a9\u06d2 \u0644\u06cc\u06d2 \u0645\u0642\u0627\u0645\u06cc \u0633\u0645\u06cc \u0627\u062f\u0648\u06cc\u0627\u062a \u06a9\u06d2 \u0644\u06cc\u0628\u0644 \u06a9\u06cc \u062a\u0635\u062f\u06cc\u0642 \u0644\u0627\u0632\u0645\u06cc \u06c1\u06d2\u06d4",
+      "latency_ms": 7.5
+    }
+  },
+  {
+    "test_case": {
+      "case_id": 3,
+      "title": "Case 3: Pepper Bacterial Spot (Low Severity, Moderate Weather)",
+      "vision_input": {
+        "crop": "Pepper",
+        "disease": "Pepper_Bacterial_Spot",
+        "disease_confidence": 0.994,
+        "edl_uncertainty": 0.08,
+        "decision": "ACCEPT",
+        "estimated_visual_disease_coverage": 0.08,
+        "severity_tag": "Low"
+      },
+      "env_context": {
+        "temperature": 28.0,
+        "humidity": 65.0,
+        "rainfall": 0.0,
+        "season": "Summer",
+        "location": "Mirpurkhas, Sindh, Pakistan"
+      }
+    },
+    "output": {
+      "status": "SUCCESS",
+      "decision": "ACCEPT",
+      "crop": "Pepper",
+      "diagnosis": "Pepper_Bacterial_Spot",
+      "disease_confidence": 0.994,
+      "edl_uncertainty": 0.08,
+      "visual_coverage": 0.08,
+      "severity_tag": "Low",
+      "combined_urgency_flag": false,
+      "weather_risk_note": "Warm rainy weather (24\u201330\u00b0C) with wind-driven rain splash accelerates Xanthomonas bacterial entry through stomata and wounds.",
+      "retrieved_chunks_count": 8,
+      "retrieved_chunks": [
+        {
+          "id": "zari_chunk_pepper_pepper_bacterial_spot_identity",
+          "section": "identity",
+          "evidence_level": "B1",
+          "source_name": "Cornell University Extension Vegetable MD Online",
+          "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+          "similarity_score": 0.6759
+        },
+        {
+          "id": "zari_chunk_pepper_pepper_bacterial_spot_cultural_control",
+          "section": "cultural_control",
+          "evidence_level": "B1",
+          "source_name": "Cornell University Extension Vegetable MD Online",
+          "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+          "similarity_score": 0.3108
+        },
+        {
+          "id": "zari_chunk_pepper_pepper_bacterial_spot_chemical_control",
+          "section": "chemical_control",
+          "evidence_level": "B1",
+          "source_name": "Cornell University Extension Vegetable MD Online",
+          "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+          "similarity_score": 0.2947
+        },
+        {
+          "id": "zari_chunk_pepper_pepper_bacterial_spot_prevention",
+          "section": "prevention",
+          "evidence_level": "B1",
+          "source_name": "Cornell University Extension Vegetable MD Online",
+          "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+          "similarity_score": 0.277
+        },
+        {
+          "id": "zari_chunk_pepper_pepper_bacterial_spot_biological_control",
+          "section": "biological_control",
+          "evidence_level": "B1",
+          "source_name": "Cornell University Extension Vegetable MD Online",
+          "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+          "similarity_score": 0.2618
+        },
+        {
+          "id": "zari_chunk_pepper_pepper_bacterial_spot_safety",
+          "section": "safety",
+          "evidence_level": "B1",
+          "source_name": "Cornell University Extension Vegetable MD Online",
+          "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+          "similarity_score": 0.2541
+        },
+        {
+          "id": "zari_chunk_pepper_pepper_bacterial_spot_symptoms",
+          "section": "symptoms",
+          "evidence_level": "B1",
+          "source_name": "Cornell University Extension Vegetable MD Online",
+          "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+          "similarity_score": 0.1706
+        },
+        {
+          "id": "zari_chunk_pepper_pepper_bacterial_spot_epidemiology",
+          "section": "epidemiology",
+          "evidence_level": "B1",
+          "source_name": "Cornell University Extension Vegetable MD Online",
+          "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+          "similarity_score": 0.1344
+        }
+      ],
+      "advisory_english": "=== ZARI.ai DIAGNOSTIC & ADVISORY REPORT ===\nCrop: Pepper | Diagnosis: Pepper_Bacterial_Spot\nConfidence: 99.40% | EDL Uncertainty: 0.0800 | Status: ACCEPTED\nSeverity: Low (Visual Disease Coverage: 8.0%)\nLocation: Mirpurkhas, Sindh, Pakistan | Season: Summer\nWeather Note: Warm rainy weather (24\u201330\u00b0C) with wind-driven rain splash accelerates Xanthomonas bacterial entry through stomata and wounds.\n\n--- RECOMMENDED INTEGRATED PEST MANAGEMENT (IPM) PROTOCOL ---\n1. CULTURAL CONTROL [Cornell University Extension Vegetable MD Online - Level B1]:\n   Use certified disease-free seed. Practice 2\u20133 year crop rotation. Avoid overhead irrigation and work in fields only when foliage is dry.\n2. BIOLOGICAL & BIO-RATIONAL CONTROL [Cornell University Extension Vegetable MD Online - Level B1]:\n   Foliar spray of Bacillus subtilis or bacteriophage products specific to Xanthomonas euvesicatoria.\n3. CHEMICAL CONTROL (Active Ingredients Only) [Cornell University Extension Vegetable MD Online - Level B1]:\n   Apply Copper Hydroxide combined with Mancozeb at early disease onset. Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.\n   \u26a0\ufe0f Note: Active ingredients only. Specific product dosage/PHI requires current local label/authority verification.\n\nPREVENTION [Cornell University Extension Vegetable MD Online - Level B1]:\n   Hot water seed treatment (50\u00b0C for 25 min), crop rotation, weed management, and drip irrigation.\nSAFETY [Cornell University Extension Vegetable MD Online - Level B1]:\n   Wear chemical gloves, protective suit, and eye protection during copper spraying.",
+      "advisory_urdu": "=== \u0632\u0627\u0631\u06cc AI \u062a\u0634\u062e\u06cc\u0635\u06cc \u0648 \u0632\u0631\u0627\u0639\u06cc \u0631\u067e\u0648\u0631\u0679 ===\n\u0641\u0635\u0644: Pepper | \u062a\u0634\u062e\u06cc\u0635: Pepper_Bacterial_Spot\n\u0627\u0639\u062a\u0645\u0627\u062f: 99.4% | \u063a\u06cc\u0631 \u06cc\u0642\u06cc\u0646\u06cc \u0635\u0648\u0631\u062a\u062d\u0627\u0644: 0.0800 | \u06a9\u06cc\u0641\u06cc\u0627\u062a: \u0642\u0628\u0648\u0644 \u0634\u062f\u06c1 (ACCEPTED)\n\u0634\u062f\u062a: Low (\u0628\u06cc\u0645\u0627\u0631\u06cc \u06a9\u0627 \u0628\u0635\u0631\u06cc \u0631\u0642\u0628\u06c1: 8.0%)\n\u0645\u0648\u0633\u0645\u06cc \u0646\u0648\u0679: Warm rainy weather (24\u201330\u00b0C) with wind-driven rain splash accelerates Xanthomonas bacterial entry through stomata and wounds.\n\n--- \u062a\u062c\u0648\u06cc\u0632 \u06a9\u0631\u062f\u06c1 \u062c\u0627\u0645\u0639 \u062d\u06a9\u0645\u062a \u0639\u0645\u0644\u06cc (IPM) ---\n1. \u062b\u0642\u0627\u0641\u062a\u06cc \u0627\u0648\u0631 \u0632\u0631\u0639\u06cc \u0627\u0642\u062f\u0627\u0645\u0627\u062a: Use certified disease-free seed. Practice 2\u20133 year crop rotation. Avoid overhead irrigation and work in fields only when foliage is dry.\n2. \u062d\u06cc\u0627\u062a\u06cc\u0627\u062a\u06cc \u0627\u0648\u0631 \u0646\u0627\u0645\u06cc\u0627\u062a\u06cc \u0639\u0644\u0627\u062c: Foliar spray of Bacillus subtilis or bacteriophage products specific to Xanthomonas euvesicatoria.\n3. \u06a9\u06cc\u0645\u06cc\u0627\u0626\u06cc \u06a9\u0646\u0679\u0631\u0648\u0644 (\u0635\u0631\u0641 \u0641\u0639\u0627\u0644\u06cc \u0627\u062c\u0632\u0627\u0621): Apply Copper Hydroxide combined with Mancozeb at early disease onset. Note: Active ingredients only. Registration status: UNVERIFIED -- requires current local label check.\n   \u26a0\ufe0f \u0646\u0648\u0679: \u06a9\u06cc\u0645\u06cc\u0627\u0626\u06cc \u0627\u062f\u0648\u06cc\u0627\u062a \u06a9\u06cc \u0645\u0642\u062f\u0627\u0631 \u0627\u0648\u0631 \u0648\u0642\u0641\u06c1 \u06a9\u06d2 \u0644\u06cc\u06d2 \u0645\u0642\u0627\u0645\u06cc \u0633\u0645\u06cc \u0627\u062f\u0648\u06cc\u0627\u062a \u06a9\u06d2 \u0644\u06cc\u0628\u0644 \u06a9\u06cc \u062a\u0635\u062f\u06cc\u0642 \u0644\u0627\u0632\u0645\u06cc \u06c1\u06d2\u06d4",
+      "latency_ms": 9.2
+    }
+  },
+  {
+    "test_case": {
+      "case_id": 4,
+      "title": "Case 4: Tomato Yellow Leaf Curl Virus (High Severity & Vector Weather)",
+      "vision_input": {
+        "crop": "Tomato",
+        "disease": "Tomato_Yellow_Leaf_Curl_Virus",
+        "disease_confidence": 0.991,
+        "edl_uncertainty": 0.095,
+        "decision": "ACCEPT",
+        "estimated_visual_disease_coverage": 0.38,
+        "severity_tag": "High"
+      },
+      "env_context": {
+        "temperature": 34.0,
+        "humidity": 45.0,
+        "rainfall": 0.0,
+        "season": "Summer",
+        "location": "Faisalabad, Punjab, Pakistan"
+      }
+    },
+    "output": {
+      "status": "SUCCESS",
+      "decision": "ACCEPT",
+      "crop": "Tomato",
+      "diagnosis": "Tomato_Yellow_Leaf_Curl_Virus",
+      "disease_confidence": 0.991,
+      "edl_uncertainty": 0.095,
+      "visual_coverage": 0.38,
+      "severity_tag": "High",
+      "combined_urgency_flag": false,
+      "weather_risk_note": "\u26a0\ufe0f VECTOR WEATHER RISK: Hot dry weather (>30\u00b0C) accelerates silverleaf whitefly (Bemisia tabaci) vector reproduction and viral transmission rate.",
+      "retrieved_chunks_count": 8,
+      "retrieved_chunks": [
+        {
+          "id": "zari_chunk_tomato_tomato_yellow_leaf_curl_virus_identity",
+          "section": "identity",
+          "evidence_level": "A2",
+          "source_name": "CABI PlantwisePlus Knowledge Bank",
+          "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55388",
+          "similarity_score": 0.6883
+        },
+        {
+          "id": "zari_chunk_tomato_tomato_yellow_leaf_curl_virus_symptoms",
+          "section": "symptoms",
+          "evidence_level": "A2",
+          "source_name": "CABI PlantwisePlus Knowledge Bank",
+          "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55388",
+          "similarity_score": 0.3818
+        },
+        {
+          "id": "zari_chunk_tomato_tomato_yellow_leaf_curl_virus_prevention",
+          "section": "prevention",
+          "evidence_level": "A2",
+          "source_name": "CABI PlantwisePlus Knowledge Bank",
+          "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55388",
+          "similarity_score": 0.3258
+        },
+        {
+          "id": "zari_chunk_tomato_tomato_yellow_leaf_curl_virus_safety",
+          "section": "safety",
+          "evidence_level": "A2",
+          "source_name": "CABI PlantwisePlus Knowledge Bank",
+          "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55388",
+          "similarity_score": 0.296
+        },
+        {
+          "id": "zari_chunk_tomato_tomato_yellow_leaf_curl_virus_chemical_control",
+          "section": "chemical_control",
+          "evidence_level": "A2",
+          "source_name": "CABI PlantwisePlus Knowledge Bank",
+          "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55388",
+          "similarity_score": 0.2951
+        },
+        {
+          "id": "zari_chunk_tomato_tomato_yellow_leaf_curl_virus_cultural_control",
+          "section": "cultural_control",
+          "evidence_level": "A2",
+          "source_name": "CABI PlantwisePlus Knowledge Bank",
+          "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55388",
+          "similarity_score": 0.2856
+        },
+        {
+          "id": "zari_chunk_tomato_tomato_yellow_leaf_curl_virus_biological_control",
+          "section": "biological_control",
+          "evidence_level": "A2",
+          "source_name": "CABI PlantwisePlus Knowledge Bank",
+          "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55388",
+          "similarity_score": 0.2232
+        },
+        {
+          "id": "zari_chunk_tomato_tomato_yellow_leaf_curl_virus_epidemiology",
+          "section": "epidemiology",
+          "evidence_level": "A2",
+          "source_name": "CABI PlantwisePlus Knowledge Bank",
+          "source_url": "https://plantwiseplus.cabi.org/knowledgebank/datasheet/55388",
+          "similarity_score": 0.2162
+        }
+      ],
+      "advisory_english": "=== ZARI.ai DIAGNOSTIC & ADVISORY REPORT ===\nCrop: Tomato | Diagnosis: Tomato_Yellow_Leaf_Curl_Virus\nConfidence: 99.10% | EDL Uncertainty: 0.0950 | Status: ACCEPTED\nSeverity: High (Visual Disease Coverage: 38.0%)\nLocation: Faisalabad, Punjab, Pakistan | Season: Summer\nWeather Note: \u26a0\ufe0f VECTOR WEATHER RISK: Hot dry weather (>30\u00b0C) accelerates silverleaf whitefly (Bemisia tabaci) vector reproduction and viral transmission rate.\n\n--- RECOMMENDED INTEGRATED PEST MANAGEMENT (IPM) PROTOCOL ---\n1. CULTURAL CONTROL [CABI PlantwisePlus Knowledge Bank - Level A2]:\n   Install yellow sticky traps for whitefly monitoring. Cover seedbeds with 50-mesh insect-proof netting. Rogue out infected plants within 3 weeks of transplanting.\n2. BIOLOGICAL & BIO-RATIONAL CONTROL [CABI PlantwisePlus Knowledge Bank - Level A2]:\n   Release whitefly natural enemies (Encarsia formosa or Eretmocerus eremicus). Apply Neem oil or Beauveria bassiana.\n3. CHEMICAL CONTROL (Active Ingredients Only) [CABI PlantwisePlus Knowledge Bank - Level A2]:\n   Control whitefly vector using systemic insecticides (Imidacloprid, Acetamiprid, or Spirotetramat). Note: Direct virucides do not exist. Registration status: UNVERIFIED -- requires current local label check.\n   \u26a0\ufe0f Note: Active ingredients only. Specific product dosage/PHI requires current local label/authority verification.\n\nPREVENTION [CABI PlantwisePlus Knowledge Bank - Level A2]:\n   Plant TYLCV-resistant hybrid varieties (Ty-1/Ty-3 genes), use 50-mesh netting, and clear weed hosts (Abutilon, Solanum nigrum).\nSAFETY [CABI PlantwisePlus Knowledge Bank - Level A2]:\n   Wear chemical-resistant gloves, protective clothing, and respirator during vector spray operations.",
+      "advisory_urdu": "=== \u0632\u0627\u0631\u06cc AI \u062a\u0634\u062e\u06cc\u0635\u06cc \u0648 \u0632\u0631\u0627\u0639\u06cc \u0631\u067e\u0648\u0631\u0679 ===\n\u0641\u0635\u0644: Tomato | \u062a\u0634\u062e\u06cc\u0635: Tomato_Yellow_Leaf_Curl_Virus\n\u0627\u0639\u062a\u0645\u0627\u062f: 99.1% | \u063a\u06cc\u0631 \u06cc\u0642\u06cc\u0646\u06cc \u0635\u0648\u0631\u062a\u062d\u0627\u0644: 0.0950 | \u06a9\u06cc\u0641\u06cc\u0627\u062a: \u0642\u0628\u0648\u0644 \u0634\u062f\u06c1 (ACCEPTED)\n\u0634\u062f\u062a: High (\u0628\u06cc\u0645\u0627\u0631\u06cc \u06a9\u0627 \u0628\u0635\u0631\u06cc \u0631\u0642\u0628\u06c1: 38.0%)\n\u0645\u0648\u0633\u0645\u06cc \u0646\u0648\u0679: \u26a0\ufe0f VECTOR WEATHER RISK: Hot dry weather (>30\u00b0C) accelerates silverleaf whitefly (Bemisia tabaci) vector reproduction and viral transmission rate.\n\n--- \u062a\u062c\u0648\u06cc\u0632 \u06a9\u0631\u062f\u06c1 \u062c\u0627\u0645\u0639 \u062d\u06a9\u0645\u062a \u0639\u0645\u0644\u06cc (IPM) ---\n1. \u062b\u0642\u0627\u0641\u062a\u06cc \u0627\u0648\u0631 \u0632\u0631\u0639\u06cc \u0627\u0642\u062f\u0627\u0645\u0627\u062a: Install yellow sticky traps for whitefly monitoring. Cover seedbeds with 50-mesh insect-proof netting. Rogue out infected plants within 3 weeks of transplanting.\n2. \u062d\u06cc\u0627\u062a\u06cc\u0627\u062a\u06cc \u0627\u0648\u0631 \u0646\u0627\u0645\u06cc\u0627\u062a\u06cc \u0639\u0644\u0627\u062c: Release whitefly natural enemies (Encarsia formosa or Eretmocerus eremicus). Apply Neem oil or Beauveria bassiana.\n3. \u06a9\u06cc\u0645\u06cc\u0627\u0626\u06cc \u06a9\u0646\u0679\u0631\u0648\u0644 (\u0635\u0631\u0641 \u0641\u0639\u0627\u0644\u06cc \u0627\u062c\u0632\u0627\u0621): Control whitefly vector using systemic insecticides (Imidacloprid, Acetamiprid, or Spirotetramat). Note: Direct virucides do not exist. Registration status: UNVERIFIED -- requires current local label check.\n   \u26a0\ufe0f \u0646\u0648\u0679: \u06a9\u06cc\u0645\u06cc\u0627\u0626\u06cc \u0627\u062f\u0648\u06cc\u0627\u062a \u06a9\u06cc \u0645\u0642\u062f\u0627\u0631 \u0627\u0648\u0631 \u0648\u0642\u0641\u06c1 \u06a9\u06d2 \u0644\u06cc\u06d2 \u0645\u0642\u0627\u0645\u06cc \u0633\u0645\u06cc \u0627\u062f\u0648\u06cc\u0627\u062a \u06a9\u06d2 \u0644\u06cc\u0628\u0644 \u06a9\u06cc \u062a\u0635\u062f\u06cc\u0642 \u0644\u0627\u0632\u0645\u06cc \u06c1\u06d2\u06d4",
+      "latency_ms": 5.18
+    }
+  },
+  {
+    "test_case": {
+      "case_id": 5,
+      "title": "Case 5: Out-of-Distribution / High Uncertainty Sample (REJECTED by SCRC Gate)",
+      "vision_input": {
+        "crop": "Potato",
+        "disease": "Potato_Early_Blight",
+        "disease_confidence": 0.52,
+        "edl_uncertainty": 0.88,
+        "decision": "REJECT",
+        "estimated_visual_disease_coverage": 0.15,
+        "severity_tag": "Low"
+      },
+      "env_context": {
+        "temperature": 22.0,
+        "humidity": 70.0,
+        "rainfall": 0.0,
+        "season": "Spring",
+        "location": "Sahiwal, Punjab, Pakistan"
+      }
+    },
+    "output": {
+      "status": "REJECTED",
+      "decision": "REJECT",
+      "crop": "Potato",
+      "diagnosis": "Potato_Early_Blight",
+      "disease_confidence": 0.52,
+      "edl_uncertainty": 0.88,
+      "message": "insufficient confidence for disease-specific recommendation",
+      "advisory_english": "insufficient confidence for disease-specific recommendation. Image rejected by Selective Classification and Risk Control (SCRC) gate.",
+      "advisory_urdu": "\u0628\u06cc\u0645\u0627\u0631\u06cc \u06a9\u06d2 \u0645\u062e\u0635\u0648\u0635 \u0645\u0634\u0648\u0631\u06d2 \u06a9\u06d2 \u0644\u06cc\u06d2 \u063a\u06cc\u0631 \u06cc\u0642\u06cc\u0646\u06cc \u0635\u0648\u0631\u062a\u062d\u0627\u0644 \u06a9\u0627 \u0644\u06cc\u0648\u0644 \u0628\u06c1\u062a \u0632\u06cc\u0627\u062f\u06c1 \u06c1\u06d2\u06d4 \u062a\u0635\u0648\u06cc\u0631 SCRC \u06af\u06cc\u0679 \u0633\u06d2 \u0645\u0633\u062a\u0631\u062f \u06c1\u0648 \u06af\u0626\u06cc \u06c1\u06d2\u06d4",
+      "latency_ms": 0.0
+    }
+  }
+]

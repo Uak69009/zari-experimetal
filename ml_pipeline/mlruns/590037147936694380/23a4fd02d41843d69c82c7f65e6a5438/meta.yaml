@@ -1,0 +1,14 @@
+artifact_uri: file:///home/hammad/Desktop/project zari - experimental/ml_pipeline/mlruns/590037147936694380/23a4fd02d41843d69c82c7f65e6a5438/artifacts
+end_time: 1786969978916
+entry_point_name: ''
+experiment_id: '590037147936694380'
+lifecycle_stage: active
+run_id: 23a4fd02d41843d69c82c7f65e6a5438
+run_name: production_efficientnet_model_b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1786969978906
+status: 3
+tags: []
+user_id: hammad

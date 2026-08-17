@@ -1,0 +1,26 @@
+{
+  "Tomato": {
+    "edl_uncertainty_threshold": 1.0,
+    "coverage": 1.0,
+    "selective_accuracy": 0.982,
+    "selective_risk": 0.018,
+    "n_accepted": 3496,
+    "n_total": 3496
+  },
+  "Potato": {
+    "edl_uncertainty_threshold": 0.4761,
+    "coverage": 1.0,
+    "selective_accuracy": 0.9845,
+    "selective_risk": 0.0155,
+    "n_accepted": 644,
+    "n_total": 644
+  },
+  "Pepper": {
+    "edl_uncertainty_threshold": 0.16237,
+    "coverage": 1.0,
+    "selective_accuracy": 0.9976,
+    "selective_risk": 0.0024,
+    "n_accepted": 832,
+    "n_total": 832
+  }
+}

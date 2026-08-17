@@ -1,0 +1,198 @@
+{
+  "collection_size": 208,
+  "test_queries_count": 6,
+  "results": {
+    "Query 1 (English): 'Tomato early blight treatment'": [
+      {
+        "rank": 1,
+        "id": "zari_chunk_tomato_tomato_early_blight_chemical_control",
+        "similarity_score": 0.2609,
+        "distance": 0.7391,
+        "disease_class": "Tomato_Early_Blight",
+        "section": "chemical_control",
+        "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_EarlyBlt.htm",
+        "text_snippet": "Apply contact protectant Mancozeb or systemic Difenoconazole/Azoxystrobin. Note: Active ingredients only. Registration s..."
+      }
+    ],
+    "Query 2 (English): 'Potato viral disease management'": [
+      {
+        "rank": 1,
+        "id": "zari_chunk_potato_potato_viral_pvx_identity",
+        "similarity_score": 0.7301,
+        "distance": 0.2699,
+        "disease_class": "Potato_Viral_PVX",
+        "section": "identity",
+        "source_url": "https://www.cabi.org/isc/datasheet/43647",
+        "text_snippet": "Potato_Viral_PVX is caused by Potato virus X (PVX). Common names: Potato Virus X / Latent Mosaic (en), \u0622\u0644\u0648 \u06a9\u0627 \u0627\u06cc\u06a9\u0633 \u0648\u0627\u0626\u0631\u0633..."
+      },
+      {
+        "rank": 2,
+        "id": "zari_chunk_potato_potato_viral_pvy_identity",
+        "similarity_score": 0.7181,
+        "distance": 0.2819,
+        "disease_class": "Potato_Viral_PVY",
+        "section": "identity",
+        "source_url": "https://cipotato.org/potato/pvy/",
+        "text_snippet": "Potato_Viral_PVY is caused by Potato virus Y (PVY). Common names: Potato Virus Y / Rugose Mosaic (en), \u0622\u0644\u0648 \u06a9\u0627 \u0648\u0627\u0626\u06cc \u0648\u0627\u0626\u0631\u0633..."
+      },
+      {
+        "rank": 3,
+        "id": "zari_chunk_potato_potato_viral_leaf_roll_identity",
+        "similarity_score": 0.717,
+        "distance": 0.283,
+        "disease_class": "Potato_Viral_Leaf_Roll",
+        "section": "identity",
+        "source_url": "https://www.cabi.org/isc/datasheet/43637",
+        "text_snippet": "Potato_Viral_Leaf_Roll is caused by Potato leafroll virus (PLRV). Common names: Potato Leafroll Virus (en), \u0622\u0644\u0648 \u06a9\u0627 \u067e\u062a\u0627 \u0645..."
+      },
+      {
+        "rank": 4,
+        "id": "zari_chunk_potato_potato_late_blight_identity",
+        "similarity_score": 0.6443,
+        "distance": 0.3557,
+        "disease_class": "Potato_Late_Blight",
+        "section": "identity",
+        "source_url": "https://cipotato.org/potato/late-blight/",
+        "text_snippet": "Potato_Late_Blight is caused by Phytophthora infestans. Common names: Potato Late Blight (en), \u0622\u0644\u0648 \u06a9\u0627 \u067e\u0686\u06be\u06cc\u062a\u0627 \u062c\u06be\u0644\u0633\u0627\u0624 (ur)..."
+      },
+      {
+        "rank": 5,
+        "id": "zari_chunk_potato_potato_early_blight_identity",
+        "similarity_score": 0.5727,
+        "distance": 0.4273,
+        "disease_class": "Potato_Early_Blight",
+        "section": "identity",
+        "source_url": "https://cipotato.org/potato/early-blight/",
+        "text_snippet": "Potato_Early_Blight is caused by Alternaria solani. Common names: Potato Early Blight (en), \u0622\u0644\u0648 \u06a9\u0627 \u0627\u06af\u06cc\u062a\u0627 \u062c\u06be\u0644\u0633\u0627\u0624 (ur), \u062f ..."
+      }
+    ],
+    "Query 3 (English): 'Pepper bacterial spot prevention'": [
+      {
+        "rank": 1,
+        "id": "zari_chunk_pepper_pepper_bacterial_spot_prevention",
+        "similarity_score": 0.2675,
+        "distance": 0.7325,
+        "disease_class": "Pepper_Bacterial_Spot",
+        "section": "prevention",
+        "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+        "text_snippet": "Hot water seed treatment (50\u00b0C for 25 min), crop rotation, weed management, and drip irrigation...."
+      }
+    ],
+    "Query 4a (Urdu): '\u0679\u0645\u0627\u0679\u0631 \u06a9\u0627 \u0627\u06af\u06cc\u062a\u0627 \u062c\u06be\u0644\u0633\u0627\u0624 \u06a9\u0627 \u0639\u0644\u0627\u062c' (Tomato early blight treatment)": [
+      {
+        "rank": 1,
+        "id": "zari_chunk_tomato_tomato_early_blight_identity",
+        "similarity_score": 0.6138,
+        "distance": 0.3862,
+        "disease_class": "Tomato_Early_Blight",
+        "section": "identity",
+        "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_EarlyBlt.htm",
+        "text_snippet": "Tomato_Early_Blight is caused by Alternaria solani. Common names: Tomato Early Blight (en), \u0679\u0645\u0627\u0679\u0631 \u06a9\u0627 \u0627\u06af\u06cc\u062a\u0627 \u062c\u06be\u0644\u0633\u0627\u0624 (ur), ..."
+      },
+      {
+        "rank": 2,
+        "id": "zari_chunk_tomato_tomato_early_blight_epidemiology",
+        "similarity_score": 0.4057,
+        "distance": 0.5943,
+        "disease_class": "Tomato_Early_Blight",
+        "section": "epidemiology",
+        "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_EarlyBlt.htm",
+        "text_snippet": "Favored by warm temperatures (24\u201329\u00b0C) and high humidity or frequent dew. Spores travel by wind, rain splash, and tools...."
+      },
+      {
+        "rank": 3,
+        "id": "zari_chunk_tomato_tomato_early_blight_cultural_control",
+        "similarity_score": 0.3689,
+        "distance": 0.6311,
+        "disease_class": "Tomato_Early_Blight",
+        "section": "cultural_control",
+        "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_EarlyBlt.htm",
+        "text_snippet": "Practice 3-year crop rotation with non-solanaceous crops. Prune lower leaves up to 30 cm from ground to prevent soil spl..."
+      },
+      {
+        "rank": 4,
+        "id": "zari_chunk_tomato_tomato_early_blight_prevention",
+        "similarity_score": 0.3577,
+        "distance": 0.6423,
+        "disease_class": "Tomato_Early_Blight",
+        "section": "prevention",
+        "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_EarlyBlt.htm",
+        "text_snippet": "Use certified seed, stake plants for ventilation, clear nightshade weeds, and avoid overhead watering...."
+      },
+      {
+        "rank": 5,
+        "id": "zari_chunk_tomato_tomato_early_blight_biological_control",
+        "similarity_score": 0.3165,
+        "distance": 0.6835,
+        "disease_class": "Tomato_Early_Blight",
+        "section": "biological_control",
+        "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_EarlyBlt.htm",
+        "text_snippet": "Foliar application of Trichoderma harzianum or Bacillus subtilis bio-fungicide. Apply Neem seed kernel extract (5%) as a..."
+      }
+    ],
+    "Query 4b (Urdu): '\u0622\u0644\u0648 \u06a9\u06d2 \u0648\u0627\u0626\u0631\u0633 \u06a9\u06cc \u0628\u06cc\u0645\u0627\u0631\u06cc\u0648\u06ba \u06a9\u0627 \u0628\u0646\u062f\u0648\u0628\u0633\u062a' (Potato viral disease management)": [
+      {
+        "rank": 1,
+        "id": "zari_chunk_potato_potato_viral_pvy_identity",
+        "similarity_score": 0.5004,
+        "distance": 0.4996,
+        "disease_class": "Potato_Viral_PVY",
+        "section": "identity",
+        "source_url": "https://cipotato.org/potato/pvy/",
+        "text_snippet": "Potato_Viral_PVY is caused by Potato virus Y (PVY). Common names: Potato Virus Y / Rugose Mosaic (en), \u0622\u0644\u0648 \u06a9\u0627 \u0648\u0627\u0626\u06cc \u0648\u0627\u0626\u0631\u0633..."
+      },
+      {
+        "rank": 2,
+        "id": "zari_chunk_potato_potato_viral_leaf_roll_prevention",
+        "similarity_score": 0.5002,
+        "distance": 0.4998,
+        "disease_class": "Potato_Viral_Leaf_Roll",
+        "section": "prevention",
+        "source_url": "https://www.cabi.org/isc/datasheet/43637",
+        "text_snippet": "Plant certified virus-tested seed tubers, manage aphid vectors early, and rogue diseased plants...."
+      },
+      {
+        "rank": 3,
+        "id": "zari_chunk_potato_potato_viral_leaf_roll_identity",
+        "similarity_score": 0.4729,
+        "distance": 0.5271,
+        "disease_class": "Potato_Viral_Leaf_Roll",
+        "section": "identity",
+        "source_url": "https://www.cabi.org/isc/datasheet/43637",
+        "text_snippet": "Potato_Viral_Leaf_Roll is caused by Potato leafroll virus (PLRV). Common names: Potato Leafroll Virus (en), \u0622\u0644\u0648 \u06a9\u0627 \u067e\u062a\u0627 \u0645..."
+      },
+      {
+        "rank": 4,
+        "id": "zari_chunk_potato_potato_viral_pvx_identity",
+        "similarity_score": 0.4576,
+        "distance": 0.5424,
+        "disease_class": "Potato_Viral_PVX",
+        "section": "identity",
+        "source_url": "https://www.cabi.org/isc/datasheet/43647",
+        "text_snippet": "Potato_Viral_PVX is caused by Potato virus X (PVX). Common names: Potato Virus X / Latent Mosaic (en), \u0622\u0644\u0648 \u06a9\u0627 \u0627\u06cc\u06a9\u0633 \u0648\u0627\u0626\u0631\u0633..."
+      },
+      {
+        "rank": 5,
+        "id": "zari_chunk_potato_potato_viral_leaf_roll_cultural_control",
+        "similarity_score": 0.4318,
+        "distance": 0.5682,
+        "disease_class": "Potato_Viral_Leaf_Roll",
+        "section": "cultural_control",
+        "source_url": "https://www.cabi.org/isc/datasheet/43637",
+        "text_snippet": "Rogue out infected plants and destroy seed tubers. Use virus-tested nuclear seed stock. Destroy aphid host weeds near po..."
+      }
+    ],
+    "Query 4c (Urdu): '\u0634\u0645\u0644\u06c1 \u0645\u0631\u0686 \u06a9\u0627 \u0628\u06cc\u06a9\u0679\u06cc\u0631\u06cc\u0627\u0626\u06cc \u062f\u06be\u0628\u06d2 \u06a9\u0627 \u0628\u0686\u0627\u0624' (Pepper bacterial spot prevention)": [
+      {
+        "rank": 1,
+        "id": "zari_chunk_pepper_pepper_bacterial_spot_prevention",
+        "similarity_score": 0.1282,
+        "distance": 0.8718,
+        "disease_class": "Pepper_Bacterial_Spot",
+        "section": "prevention",
+        "source_url": "http://vegetablemdonline.ppath.cornell.edu/factsheets/Pepper_BactSpot.htm",
+        "text_snippet": "Hot water seed treatment (50\u00b0C for 25 min), crop rotation, weed management, and drip irrigation...."
+      }
+    ]
+  }
+}

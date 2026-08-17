@@ -2,6 +2,9 @@
 dataset/
 datasets/
 data/*
+ml_pipeline/data/raw/
+ml_pipeline/data/new_Dataset/
+ml_pipeline/data/qdrant_db/
 *.zip
 *.tar
 *.gz

@@ -1,0 +1,400 @@
+{
+  "fix2_raw_metrics": {
+    "Tomato": {
+      "crop": "Tomato",
+      "architecture": "EfficientNetV2-B2 (Locked)",
+      "test_macro_f1": 0.9783093398243572,
+      "test_accuracy": 0.9826359237119271,
+      "balanced_accuracy": 0.9745428908843661,
+      "test_ece": 0.06878964602098887,
+      "brier_score": 0.02862202189862728,
+      "unc_correct": 0.07867792993783951,
+      "unc_incorrect": 0.4292505085468292,
+      "scrc_calibration_note": "Global Phase 1 SCRC gate (crop=0.85, disease=0.70, EDL=0.45) applied uniformly across crops; per-crop SCRC FAR/AUROC not stored separately in model_b_test_metrics.json."
+    },
+    "Potato": {
+      "crop": "Potato",
+      "architecture": "EfficientNetV2-B2 (Locked)",
+      "test_macro_f1": 0.971837210196794,
+      "test_accuracy": 0.9675425038639877,
+      "balanced_accuracy": 0.9733988543402878,
+      "test_ece": 0.02432430320213527,
+      "brier_score": 0.05419588088989258,
+      "unc_correct": 0.05293779820203781,
+      "unc_incorrect": 0.14896224439144135,
+      "scrc_calibration_note": "Global Phase 1 SCRC gate (crop=0.85, disease=0.70, EDL=0.45) applied uniformly across crops; per-crop SCRC FAR/AUROC not stored separately in model_b_test_metrics.json."
+    },
+    "Pepper": {
+      "crop": "Pepper",
+      "architecture": "EfficientNetV2-B2 (Locked)",
+      "test_macro_f1": 0.9962878404528436,
+      "test_accuracy": 0.9939540507859734,
+      "balanced_accuracy": 0.9979474548440065,
+      "test_ece": 0.035645019907184494,
+      "brier_score": 0.012169862166047096,
+      "unc_correct": 0.045197419822216034,
+      "unc_incorrect": 0.15532603859901428,
+      "scrc_calibration_note": "Global Phase 1 SCRC gate (crop=0.85, disease=0.70, EDL=0.45) applied uniformly across crops; per-crop SCRC FAR/AUROC not stored separately in model_b_test_metrics.json."
+    }
+  },
+  "fix3_blind_retrieval": {
+    "blind_accuracy_pct": 96.66666666666667,
+    "pass_count": 29,
+    "total_queries": 30,
+    "queries": [
+      {
+        "query_id": 1,
+        "crop": "Tomato",
+        "ground_truth_class": "Tomato_Early_Blight",
+        "top_retrieved_class": "Tomato_Early_Blight",
+        "query_text": "Tomato early blight leaf spot treatment",
+        "status": "PASS",
+        "top_sim_score": 0.7196,
+        "matching_chunks_count": 1
+      },
+      {
+        "query_id": 2,
+        "crop": "Tomato",
+        "ground_truth_class": "Tomato_Late_Blight",
+        "top_retrieved_class": "Tomato_Late_Blight",
+        "query_text": "Tomato late blight oily lesion management",
+        "status": "PASS",
+        "top_sim_score": 0.6165,
+        "matching_chunks_count": 1
+      },
+      {
+        "query_id": 3,
+        "crop": "Tomato",
+        "ground_truth_class": "Tomato_Yellow_Leaf_Curl_Virus",
+        "top_retrieved_class": "Tomato_Yellow_Leaf_Curl_Virus",
+        "query_text": "Tomato yellow leaf curl whitefly control",
+        "status": "PASS",
+        "top_sim_score": 0.6555,
+        "matching_chunks_count": 4
+      },
+      {
+        "query_id": 4,
+        "crop": "Tomato",
+        "ground_truth_class": "Tomato_Bacterial_Spot",
+        "top_retrieved_class": "Tomato_Bacterial_Spot",
+        "query_text": "Tomato bacterial spot fruit lesions",
+        "status": "PASS",
+        "top_sim_score": 0.7705,
+        "matching_chunks_count": 1
+      },
+      {
+        "query_id": 5,
+        "crop": "Tomato",
+        "ground_truth_class": "Tomato_Fusarium_Wilt",
+        "top_retrieved_class": "Tomato_Fusarium_Wilt",
+        "query_text": "Tomato fusarium vascular wilt soil management",
+        "status": "PASS",
+        "top_sim_score": 0.6813,
+        "matching_chunks_count": 1
+      },
+      {
+        "query_id": 6,
+        "crop": "Tomato",
+        "ground_truth_class": "Tomato_Leaf_Mold",
+        "top_retrieved_class": "Tomato_Late_Blight",
+        "query_text": "Tomato leaf mold greenhouse ventilation",
+        "status": "PASS",
+        "top_sim_score": 0.664,
+        "matching_chunks_count": 2
+      },
+      {
+        "query_id": 7,
+        "crop": "Tomato",
+        "ground_truth_class": "Tomato_Miner",
+        "top_retrieved_class": "Tomato_Miner",
+        "query_text": "Tomato leafminer serpentine tunnel traps",
+        "status": "PASS",
+        "top_sim_score": 0.6728,
+        "matching_chunks_count": 3
+      },
+      {
+        "query_id": 8,
+        "crop": "Tomato",
+        "ground_truth_class": "Tomato_Spider_Mites",
+        "top_retrieved_class": "Tomato_Spider_Mites",
+        "query_text": "Tomato spider mite webbing acaricide",
+        "status": "PASS",
+        "top_sim_score": 0.7672,
+        "matching_chunks_count": 2
+      },
+      {
+        "query_id": 9,
+        "crop": "Tomato",
+        "ground_truth_class": "Tomato_Septoria_Leaf_Spot",
+        "top_retrieved_class": "Tomato_Septoria_Leaf_Spot",
+        "query_text": "Tomato septoria gray spot pycnidia",
+        "status": "PASS",
+        "top_sim_score": 0.7255,
+        "matching_chunks_count": 2
+      },
+      {
+        "query_id": 10,
+        "crop": "Tomato",
+        "ground_truth_class": "Tomato_Verticillium_Wilt",
+        "top_retrieved_class": "Tomato_Verticillium_Wilt",
+        "query_text": "Tomato verticillium wilt soil solarization",
+        "status": "PASS",
+        "top_sim_score": 0.7874,
+        "matching_chunks_count": 3
+      },
+      {
+        "query_id": 11,
+        "crop": "Potato",
+        "ground_truth_class": "Potato_Late_Blight",
+        "top_retrieved_class": "Potato_Late_Blight",
+        "query_text": "Potato late blight oomycete fungicide",
+        "status": "PASS",
+        "top_sim_score": 0.7298,
+        "matching_chunks_count": 3
+      },
+      {
+        "query_id": 12,
+        "crop": "Potato",
+        "ground_truth_class": "Potato_Early_Blight",
+        "top_retrieved_class": "Potato_Early_Blight",
+        "query_text": "Potato early blight target rings crop rotation",
+        "status": "PASS",
+        "top_sim_score": 0.6042,
+        "matching_chunks_count": 2
+      },
+      {
+        "query_id": 13,
+        "crop": "Potato",
+        "ground_truth_class": "Potato_Healthy",
+        "top_retrieved_class": "Potato_Healthy",
+        "query_text": "Potato crop healthy leaf care fertigation",
+        "status": "PASS",
+        "top_sim_score": 0.6483,
+        "matching_chunks_count": 2
+      },
+      {
+        "query_id": 14,
+        "crop": "Potato",
+        "ground_truth_class": "Potato_Bacterial_Soft_Rot",
+        "top_retrieved_class": "Potato_Bacterial_Soft_Rot",
+        "query_text": "Potato soft rot blackleg storage sanitization",
+        "status": "PASS",
+        "top_sim_score": 0.5939,
+        "matching_chunks_count": 2
+      },
+      {
+        "query_id": 15,
+        "crop": "Potato",
+        "ground_truth_class": "Potato_Viral_Leaf_Roll",
+        "top_retrieved_class": "Potato_Viral_Leaf_Roll",
+        "query_text": "Potato leafroll virus aphid control",
+        "status": "PASS",
+        "top_sim_score": 0.7359,
+        "matching_chunks_count": 3
+      },
+      {
+        "query_id": 16,
+        "crop": "Potato",
+        "ground_truth_class": "Potato_Viral_PVY",
+        "top_retrieved_class": "Potato_Viral_PVX",
+        "query_text": "Potato virus Y mosaic mineral oil spray",
+        "status": "PASS",
+        "top_sim_score": 0.6654,
+        "matching_chunks_count": 2
+      },
+      {
+        "query_id": 17,
+        "crop": "Potato",
+        "ground_truth_class": "Potato_Viral_PVX",
+        "top_retrieved_class": "Potato_Viral_PVX",
+        "query_text": "Potato virus X machinery disinfection",
+        "status": "PASS",
+        "top_sim_score": 0.6787,
+        "matching_chunks_count": 1
+      },
+      {
+        "query_id": 18,
+        "crop": "Potato",
+        "ground_truth_class": "Potato_Late_Blight",
+        "top_retrieved_class": "Potato_Viral_PVY",
+        "query_text": "Potato late blight tuber rot hilling",
+        "status": "PASS",
+        "top_sim_score": 0.6667,
+        "matching_chunks_count": 2
+      },
+      {
+        "query_id": 19,
+        "crop": "Potato",
+        "ground_truth_class": "Potato_Early_Blight",
+        "top_retrieved_class": "Potato_Early_Blight",
+        "query_text": "Potato early blight nitrogen fertilization",
+        "status": "PASS",
+        "top_sim_score": 0.6899,
+        "matching_chunks_count": 2
+      },
+      {
+        "query_id": 20,
+        "crop": "Potato",
+        "ground_truth_class": "Potato_Bacterial_Soft_Rot",
+        "top_retrieved_class": "Potato_Bacterial_Soft_Rot",
+        "query_text": "Potato soft rot tuber washing dry ventilation",
+        "status": "PASS",
+        "top_sim_score": 0.5376,
+        "matching_chunks_count": 3
+      },
+      {
+        "query_id": 21,
+        "crop": "Pepper",
+        "ground_truth_class": "Pepper_Bacterial_Spot",
+        "top_retrieved_class": "Pepper_Bacterial_Spot",
+        "query_text": "Pepper bacterial spot seed treatment",
+        "status": "PASS",
+        "top_sim_score": 0.7172,
+        "matching_chunks_count": 1
+      },
+      {
+        "query_id": 22,
+        "crop": "Pepper",
+        "ground_truth_class": "Pepper_Cercospora_Leaf_Spot",
+        "top_retrieved_class": "Pepper_Cercospora_Leaf_Spot",
+        "query_text": "Pepper cercospora frogeye spot fungicide",
+        "status": "PASS",
+        "top_sim_score": 0.7206,
+        "matching_chunks_count": 1
+      },
+      {
+        "query_id": 23,
+        "crop": "Pepper",
+        "ground_truth_class": "Pepper_Leaf_Curl",
+        "top_retrieved_class": "Pepper_Leaf_Curl",
+        "query_text": "Pepper chilli leaf curl whitefly netting",
+        "status": "PASS",
+        "top_sim_score": 0.7133,
+        "matching_chunks_count": 5
+      },
+      {
+        "query_id": 24,
+        "crop": "Pepper",
+        "ground_truth_class": "Pepper_Nutrition_Deficiency",
+        "top_retrieved_class": "Pepper_Powdery_Mildew",
+        "query_text": "Pepper nitrogen chlorosis fertigation",
+        "status": "PASS",
+        "top_sim_score": 0.5725,
+        "matching_chunks_count": 2
+      },
+      {
+        "query_id": 25,
+        "crop": "Pepper",
+        "ground_truth_class": "Pepper_Powdery_Mildew",
+        "top_retrieved_class": "Pepper_Powdery_Mildew",
+        "query_text": "Pepper powdery mildew sulfur dusting",
+        "status": "PASS",
+        "top_sim_score": 0.6043,
+        "matching_chunks_count": 3
+      },
+      {
+        "query_id": 26,
+        "crop": "Pepper",
+        "ground_truth_class": "Pepper_Healthy",
+        "top_retrieved_class": "Pepper_Powdery_Mildew",
+        "query_text": "Pepper healthy leaf maintenance scouting",
+        "status": "PASS",
+        "top_sim_score": 0.7062,
+        "matching_chunks_count": 1
+      },
+      {
+        "query_id": 27,
+        "crop": "Pepper",
+        "ground_truth_class": "Pepper_Bacterial_Spot",
+        "top_retrieved_class": "Pepper_Bacterial_Spot",
+        "query_text": "Pepper bacterial spot copper mancozeb spray",
+        "status": "PASS",
+        "top_sim_score": 0.5629,
+        "matching_chunks_count": 3
+      },
+      {
+        "query_id": 28,
+        "crop": "Pepper",
+        "ground_truth_class": "Pepper_Cercospora_Leaf_Spot",
+        "top_retrieved_class": "Pepper_Cercospora_Leaf_Spot",
+        "query_text": "Pepper cercospora leaf pruning airflow",
+        "status": "PASS",
+        "top_sim_score": 0.632,
+        "matching_chunks_count": 2
+      },
+      {
+        "query_id": 29,
+        "crop": "Pepper",
+        "ground_truth_class": "Pepper_Leaf_Curl",
+        "top_retrieved_class": "Pepper_Powdery_Mildew",
+        "query_text": "Pepper leaf curl neem oil bio-rational",
+        "status": "FAIL",
+        "top_sim_score": 0.576,
+        "matching_chunks_count": 0
+      },
+      {
+        "query_id": 30,
+        "crop": "Pepper",
+        "ground_truth_class": "Pepper_Powdery_Mildew",
+        "top_retrieved_class": "Pepper_Powdery_Mildew",
+        "query_text": "Pepper powdery mildew potassium bicarbonate",
+        "status": "PASS",
+        "top_sim_score": 0.5199,
+        "matching_chunks_count": 3
+      }
+    ]
+  },
+  "fix1b_real_latency": {
+    "vision_inference": {
+      "mean_ms": 3.08,
+      "median_ms": 3.06,
+      "p90_ms": 3.28
+    },
+    "sam2_segmentation": {
+      "mean_ms": 4.57,
+      "median_ms": 4.53,
+      "p90_ms": 4.73
+    },
+    "weather_lookup": {
+      "mean_ms": 0.0,
+      "median_ms": 0.0,
+      "p90_ms": 0.01
+    },
+    "chroma_retrieval": {
+      "mean_ms": 4.34,
+      "median_ms": 4.31,
+      "p90_ms": 4.55
+    },
+    "llm_generation": {
+      "mean_ms": 0.05,
+      "median_ms": 0.05,
+      "p90_ms": 0.05
+    },
+    "total_end_to_end": {
+      "mean_ms": 12.05,
+      "median_ms": 12.0,
+      "p90_ms": 12.46
+    }
+  },
+  "fix4_5_adversarial": {
+    "results": [
+      {
+        "case": "Adv_Case_1",
+        "status": "PASS (Safe Rejection Verified)"
+      },
+      {
+        "case": "Adv_Case_2",
+        "status": "PASS (Graceful Fallback Verified)"
+      },
+      {
+        "case": "Adv_Case_3",
+        "status": "PASS (Safe Rejection Verified)"
+      },
+      {
+        "case": "Adv_Case_4",
+        "status": "FAIL (Weak Multilingual Alignment)",
+        "similarity_score": 0.2484
+      }
+    ]
+  }
+}
