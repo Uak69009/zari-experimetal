@@ -11,6 +11,16 @@ ml_pipeline/data/qdrant_db/
 *.csv
 !*.dvc
 
+# Exception rules: Allow essential CSV manifests, taxonomy files, and reports for project collaborators
+!ml_pipeline/data/dataset_3crop_final_v4_split.csv
+!ml_pipeline/config/taxonomy_v3.csv
+!ml_pipeline/data/reports_v3/*.csv
+!ml_pipeline/data/reports_final/*.csv
+!ml_pipeline/models/swin_comparison/*.csv
+
+# Analysis Complete Folders
+ml_pipeline/ANALYSIS_COMPLETE/dataset_clean_final.csv
+
 # Model Weights and Checkpoints
 *.pt
 *.pth
@@ -28,7 +38,5 @@ logs/
 mlruns/.trash
 .ipynb_checkpoints/
 ml_pipeline/.tmp.driveupload/
-
-ml_pipeline/ANALYSIS_COMPLETE/
 frontend/node_modules/
 frontend/.next/
