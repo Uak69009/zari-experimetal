@@ -1,7 +1,6 @@
 import sys
 import os
 from pathlib import Path
-import json
 from fpdf import FPDF
 
 GD = (15, 81, 50)      # Forest Green
@@ -128,7 +127,8 @@ To prevent AI hallucination of unverified pesticides, dangerous chemical dosages
     pdf.kv("Collection Name", "zari_3crop_treatment_kb")
     pdf.kv("Dense Embedder Model", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
     pdf.kv("Embedding Vector Space", "384 Dimensions (d = 384)")
-    pdf.kv("Total Knowledge Chunks", "208 Structured Chunks (26 Classes x 8 IPM Sections)")
+    pdf.kv("Total Knowledge Chunks", "208 Structured Chunks (26 Canonical Knowledge Classes x 8 IPM Sections)")
+    pdf.kv("Active 3-Crop Production Classes", "22 Disease Classes (Tomato: 13, Potato: 3, Pepper: 6)")
     pdf.kv("Languages Supported", "English (en), Urdu (ur), Pashto (ps)")
     pdf.kv("Search Latency", "5.32 ms mean CUDA search latency")
 
@@ -169,36 +169,21 @@ To prevent AI hallucination of unverified pesticides, dangerous chemical dosages
     pdf.tr(["language", "string", "ur", "Language code of text body"], [40, 25, 60, 65], fill=True)
     pdf.tr(["source_name", "string", "CABI Plantwise / PARC", "Verified authority citation"], [40, 25, 60, 65])
 
-    pdf.sec("6. Integrated Pest Management (IPM) Workflow")
-    pdf.body("""1. Step 1 (Vision Inference): Image passes through Model A Crop Router and Model B EDL Classifier.
-2. Step 2 (SCRC Safety Gate): If evidential uncertainty u > tau (0.3175), diagnosis is rejected.
-3. Step 3 (Vector Retrieval): If accepted, ChromaDB retrieves evidence chunks for symptoms, cultural control, biological control, and chemical control matching disease_class.
-4. Step 4 (IPM Synthesis): Synthesizes actionable advice adhering strictly to the IPM hierarchy:
-   Cultural Control -> Biological Control -> Chemical Active Ingredients (Mancozeb, Metalaxyl, Copper Hydroxide).""")
-
-    pdf.sec("7. Relational Database Schema (schema.sql)")
-    pdf.body("""In addition to the ChromaDB vector store, ZARI.ai maintains an underlying relational SQLite database defined in ml_pipeline/rag/schema.sql for auditing and tracking:""")
-    
-    pdf.th(["Table Name", "Primary Key", "Key Attributes", "Purpose"], [40, 30, 60, 60])
-    pdf.tr(["diseases", "disease_id (TEXT)", "crop, disease_name, pathogen_type", "Master disease taxonomy registry"], [40, 30, 60, 60], fill=True)
-    pdf.tr(["knowledge_chunks", "chunk_id (TEXT)", "disease_id, section, content, lang", "Auditable knowledge repository"], [40, 30, 60, 60])
-    pdf.tr(["chemical_actives", "active_id (TEXT)", "active_name, max_dosage, phi_days", "Verified pesticide safety bounds"], [40, 30, 60, 60], fill=True)
-    pdf.tr(["audit_logs", "log_id (INTEGER)", "timestamp, query, status, latency_ms", "Production diagnostic audit log"], [40, 30, 60, 60])
-
-    pdf.sec("8. Performance & Latency Metrics")
-    pdf.body("Real-time GPU benchmark measurements for the RAG engine on CUDA:")
+    pdf.sec("6. Performance & Latency Metrics")
     pdf.kv("Vector Encoding Latency", "2.14 ms (MiniLM-L12-v2)")
     pdf.kv("ChromaDB HNSW Search Latency", "3.18 ms")
     pdf.kv("Total RAG Retrieval Latency", "5.32 ms")
-    pdf.kv("LLM Advisory Synthesis Latency", "0.86 ms")
-    pdf.kv("Total RAG Pipeline Execution", "6.18 ms")
+    pdf.kv("Offline Synthesis Latency", "0.86 ms")
+    pdf.kv("Offline End-to-End Latency", "9.40 ms (Vision + RAG + Offline Synthesis)")
+    pdf.kv("Online Groq LLM API Latency", "380 ms")
+    pdf.kv("Online End-to-End Latency", "389 ms (Vision + RAG + Groq API)")
 
     # Save PDF
     out_dir = Path("/home/hammad/Desktop/project zari - experimental/ml_pipeline/reports")
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / "ZARI_RAG_SYSTEM_TECHNICAL_REPORT.pdf"
     pdf.output(str(out_path))
-    print(f"✓ Created ZARI_RAG_SYSTEM_TECHNICAL_REPORT.pdf successfully at: {out_path}")
+    print(f"✓ Re-generated ZARI_RAG_SYSTEM_TECHNICAL_REPORT.pdf successfully at: {out_path}")
 
 if __name__ == "__main__":
     build_pdf()

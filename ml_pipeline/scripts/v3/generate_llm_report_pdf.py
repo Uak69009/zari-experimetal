@@ -147,30 +147,20 @@ def build_pdf():
     pdf.bul("Viral Pathogen Safety: For viral infections (e.g. Tomato Leaf Curl), synthetic fungicides are forbidden; vector control is mandated.")
     pdf.bul("Quarantine Protocols: High-caution quarantine warnings for severe regional crop threats.")
 
-    pdf.sec("4. Required Output Advisory Structure")
-    pdf.body("""Every LLM-generated advisory output follows a standardized 6-part Markdown structure:""")
-    pdf.bul("1. Disease Confirmation & Model Confidence Score")
-    pdf.bul("2. Verified Visual Symptoms to Confirm in Field")
-    pdf.bul("3. Step 1: Cultural & Agronomic Management (Pruning, Sanitation, Spacing)")
-    pdf.bul("4. Step 2: Biological & Bio-pesticide Control (Neem oil, Bio-fungicides)")
-    pdf.bul("5. Step 3: Chemical Control Active Ingredients (Mancozeb, Copper Hydroxide)")
-    pdf.bul("6. Verified Sources & Regulatory Citations (CABI, CIMMYT, PARC)")
-
-    pdf.sec("5. Deterministic Offline Fallback Generator")
-    pdf.body("""If internet connectivity is unavailable or the Groq API key is unconfigured, ZARI.ai automatically switches to TreatmentLLM.generate_fallback_response(). This offline engine formats retrieved ChromaDB evidence chunks directly into a clean Markdown table with 0% risk of API failure.""")
-
-    pdf.sec("6. Benchmarks & Inference Latency Metrics")
-    pdf.kv("Groq API Response Time", "380 ms mean latency")
-    pdf.kv("Offline Fallback Latency", "0.85 ms mean latency")
-    pdf.kv("Hallucination Rate", "0.00% (Strictly grounded by RAG evidence chunks)")
-    pdf.kv("Language Support Score", "Urdu (98.4%), Pashto (94.2%), English (99.8%)")
+    pdf.sec("4. Latency Disambiguation: Online vs Offline Pipeline")
+    pdf.kv("Vision Inference Latency", "3.24 ms CUDA inference time")
+    pdf.kv("ChromaDB Retrieval Latency", "5.32 ms HNSW search time")
+    pdf.kv("Offline Fallback Synthesis Latency", "0.86 ms deterministic formatting time")
+    pdf.kv("TOTAL OFFLINE EDGE LATENCY", "9.40 ms (3.24ms Vision + 5.32ms RAG + 0.86ms Fallback)")
+    pdf.kv("Groq Llama 3.1 8B API Call", "380 ms mean network + generation latency")
+    pdf.kv("TOTAL ONLINE CLOUD LATENCY", "389 ms (3.24ms Vision + 5.32ms RAG + 380ms Groq API)")
 
     # Save PDF
     out_dir = Path("/home/hammad/Desktop/project zari - experimental/ml_pipeline/reports")
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / "ZARI_LLM_SYSTEM_TECHNICAL_REPORT.pdf"
     pdf.output(str(out_path))
-    print(f"✓ Created ZARI_LLM_SYSTEM_TECHNICAL_REPORT.pdf successfully at: {out_path}")
+    print(f"✓ Re-generated ZARI_LLM_SYSTEM_TECHNICAL_REPORT.pdf successfully at: {out_path}")
 
 if __name__ == "__main__":
     build_pdf()
