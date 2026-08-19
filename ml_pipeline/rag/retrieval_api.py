@@ -65,6 +65,19 @@ def retrieve(
     """
     collection, embedder = get_retriever()
     
+    # 0. Auto-detect disease_class and crop if query contains canonical class name
+    if not disease_class and query:
+        for crop_candidate in ["Tomato", "Potato", "Pepper"]:
+            if crop_candidate in query:
+                if not crop:
+                    crop = crop_candidate
+                if "_" in query:
+                    disease_class = query
+                break
+
+    if not crop and disease_class and "_" in disease_class:
+        crop = disease_class.split("_")[0]
+
     # 1. Generate multilingual dense embedding
     query_vector = embedder.encode(query, convert_to_numpy=True).tolist()
     
@@ -91,6 +104,15 @@ def retrieve(
         where=where_filter,
         include=["documents", "metadatas", "distances"]
     )
+
+    # Fallback: if strict section/disease filter returned 0 results, retry with crop filter only
+    if (not results or not results["documents"] or len(results["documents"][0]) == 0) and crop:
+        results = collection.query(
+            query_embeddings=[query_vector],
+            n_results=k,
+            where={"crop": {"$eq": crop}},
+            include=["documents", "metadatas", "distances"]
+        )
     
     output_chunks = []
     if results and results["documents"]:
