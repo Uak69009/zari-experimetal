@@ -101,8 +101,8 @@ def build_pdf():
     pdf.sec("1. Executive Summary: Dual Dataset Scope")
     pdf.body("""This technical report presents the complete Exploratory Data Analysis (EDA) graphs and statistical distributions for both dataset paradigms in ZARI.ai:
 
-1. Full Master Dataset (Phase 1): 67 disease classes across 14 crop species (87,000+ total leaf images).
-2. Production 3-Crop Dataset (Phase 3): Focused target scope covering Tomato (13 classes), Potato (3 classes), and Pepper (6 classes) for 22 total canonical disease classes (24,500+ images).""")
+1. Full Master Raw Dataset (Phase 1 Audit): 67 disease classes across 14 crop species (87,000+ total raw leaf images).
+2. Production 3-Crop Target Dataset (Phase 3): Refined target scope covering Tomato (13 classes), Potato (3 classes), and Pepper (6 classes) for 22 total canonical disease classes (31,071 processed leaf images).""")
 
     pdf.sec("2. Full Dataset EDA (67 Classes across 14 Crops)")
     pdf.body("Exploratory analysis of the full 67-class multi-crop dataset:")
@@ -140,24 +140,24 @@ def build_pdf():
     pdf.fig(fig_dir / "15_crop_pathogen_heatmap.png", "Crop Species x Pathogen Type Cross-Tabulation Matrix", w=165)
     pdf.fig(fig_dir / "18_pathogen_pie.png", "Pathogen Taxonomy Breakdown (Fungal, Bacterial, Viral, Oomycete)", w=165)
 
-    # 3-Crop Dataset EDA Section
+    # Genuine 3-Crop Target Dataset EDA Section
     pdf.add_page()
     pdf.sec("3. Production 3-Crop Target Dataset EDA (Tomato, Potato, Pepper)")
-    pdf.body("""To maximize diagnostic precision for Pakistan's primary nightshade crops, ZARI.ai refined the dataset scope to Tomato (13 classes), Potato (3 classes), and Pepper (6 classes):""")
+    pdf.body("""To maximize diagnostic precision for Pakistan's primary nightshade crops, ZARI.ai refined the target dataset scope exclusively to Tomato (13 classes), Potato (3 classes), and Pepper (6 classes) for a total of 31,071 verified images across 22 classes:""")
 
-    pdf.fig(fig_dir / "01_class_reduction.png", "Class Scope Reduction: Filtering from 67 Classes down to 22 Target 3-Crop Classes", w=165)
-    pdf.fig(fig_dir / "02_dataset_sources.png", "Data Provenance for 3 Target Crops", w=165)
+    pdf.fig(fig_dir / "3crop_actual_01_class_distribution.png", "Production 3-Crop Target Dataset: 22 Disease Classes (31,071 Total Leaf Images)", w=165)
+    pdf.fig(fig_dir / "3crop_actual_02_crop_breakdown.png", "3-Crop Target Volume Breakdown (Tomato: 72.8%, Pepper: 20.0%, Potato: 7.2%)", w=165)
 
     pdf.add_page()
-    pdf.fig(fig_dir / "03_imbalance_distribution.png", "Class Imbalance Ratios Across 3 Target Crops (Tomato, Potato, Pepper)", w=165)
-    pdf.fig(fig_dir / "04_split_verification.png", "GroupKFold Stratified Split Verification without Data Leakage", w=165)
+    pdf.fig(fig_dir / "3crop_actual_03_imbalance_ratios.png", "Class Imbalance Ratio Across 22 Target Classes (Tomato, Potato, Pepper)", w=165)
+    pdf.fig(fig_dir / "3crop_actual_04_split_verification.png", "GroupKFold Stratified Split Verification for 22 Target Production Classes (80% / 10% / 10%)", w=165)
 
     # Save PDF
     out_dir = Path("/home/hammad/Desktop/project zari - experimental/ml_pipeline/reports")
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / "ZARI_FULL_VS_3CROP_EDA_COMPLETE_REPORT.pdf"
     pdf.output(str(out_path))
-    print(f"✓ Created ZARI_FULL_VS_3CROP_EDA_COMPLETE_REPORT.pdf successfully at: {out_path}")
+    print(f"✓ Re-generated ZARI_FULL_VS_3CROP_EDA_COMPLETE_REPORT.pdf with GENUINE 3-CROP FIGURES at: {out_path}")
 
 if __name__ == "__main__":
     build_pdf()
