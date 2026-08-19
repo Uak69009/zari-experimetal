@@ -104,6 +104,7 @@ def retrieve(
             sim_score = max(0.0, 1.0 - float(dist))
             output_chunks.append({
                 "id": doc_id,
+                "chunk_id": doc_id,
                 "text": doc,
                 "metadata": meta,
                 "distance": round(float(dist), 4),
