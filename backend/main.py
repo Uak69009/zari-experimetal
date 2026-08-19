@@ -163,11 +163,16 @@ app.mount("/temp_audio", StaticFiles(directory=str(TEMP_AUDIO_DIR)), name="temp_
 load_model_and_metadata()
 
 
+from fastapi.responses import FileResponse
+
 # --- REST API Endpoints ---
 
 @app.get("/")
-async def root() -> dict[str, Any]:
-    """Root landing endpoint displaying system status and documentation links."""
+async def root():
+    """Serves compiled Web UI HTML if available, else returns JSON system status."""
+    index_html = BASE_DIR / "frontend" / "out" / "index.html"
+    if index_html.exists():
+        return FileResponse(index_html)
     return {
         "system": "ZARI.ai Production Backend Server",
         "status": "online",
@@ -177,12 +182,6 @@ async def root() -> dict[str, Any]:
         "redoc_url": "http://127.0.0.1:8000/redoc",
         "health_check": "http://127.0.0.1:8000/health",
         "registered_classes": "http://127.0.0.1:8000/api/classes",
-        "endpoints": {
-            "POST /predict": "Main plant disease vision & RAG diagnostic endpoint",
-            "POST /api/diagnose": "Alternative diagnostic endpoint",
-            "GET /health": "System health & model status",
-            "GET /api/classes": "Master class registry"
-        }
     }
 
 
@@ -386,6 +385,13 @@ async def diagnose_voice(
         }
     except Exception as err:
         raise HTTPException(status_code=500, detail=f"Voice Diagnostic Error: {str(err)}")
+
+
+# Mount Static Compiled Web Frontend UI (if available)
+FRONTEND_OUT_DIR = BASE_DIR / "frontend" / "out"
+if FRONTEND_OUT_DIR.exists():
+    app.mount("/", StaticFiles(directory=str(FRONTEND_OUT_DIR), html=True), name="frontend_ui")
+    print(f"✓ [Backend Init] Mounted compiled Web Interface from {FRONTEND_OUT_DIR.relative_to(BASE_DIR)}")
 
 
 if __name__ == "__main__":
