@@ -165,6 +165,27 @@ load_model_and_metadata()
 
 # --- REST API Endpoints ---
 
+@app.get("/")
+async def root() -> dict[str, Any]:
+    """Root landing endpoint displaying system status and documentation links."""
+    return {
+        "system": "ZARI.ai Production Backend Server",
+        "status": "online",
+        "version": "2.0.0",
+        "device": str(DEVICE),
+        "docs_url": "http://127.0.0.1:8000/docs",
+        "redoc_url": "http://127.0.0.1:8000/redoc",
+        "health_check": "http://127.0.0.1:8000/health",
+        "registered_classes": "http://127.0.0.1:8000/api/classes",
+        "endpoints": {
+            "POST /predict": "Main plant disease vision & RAG diagnostic endpoint",
+            "POST /api/diagnose": "Alternative diagnostic endpoint",
+            "GET /health": "System health & model status",
+            "GET /api/classes": "Master class registry"
+        }
+    }
+
+
 @app.get("/health")
 @app.get("/api/health")
 async def health_check() -> dict[str, Any]:
