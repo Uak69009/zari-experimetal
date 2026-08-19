@@ -67,58 +67,98 @@ TEMP_AUDIO_DIR = BASE_DIR / "backend" / "temp_audio"
 NUM_CLASSES = 67
 DEFAULT_SCRC_THRESHOLD = 0.8050
 
+from torchvision.models import efficientnet_b2
+
+# EfficientNetV2-B2 EDL Architecture
+class EDLEfficientNetB2(nn.Module):
+    def __init__(self, num_classes: int):
+        super().__init__()
+        self.backbone = efficientnet_b2(weights=None)
+        in_features = self.backbone.classifier[1].in_features
+        self.backbone.classifier[1] = nn.Sequential(
+            nn.Dropout(p=0.30),
+            nn.Linear(in_features, num_classes)
+        )
+
+    def forward(self, x: torch.Tensor):
+        logits = self.backbone(x)
+        evidence = F.softplus(logits)
+        alpha = evidence + 1.0
+        S = torch.sum(alpha, dim=1, keepdim=True)
+        probs = alpha / S
+        uncertainty = logits.shape[1] / S
+        return logits, evidence, alpha, S, probs, uncertainty.squeeze(-1)
+
+
 # Global Model & Cache Variables
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-EDL_MODEL: nn.Module | None = None
+MODEL_A: nn.Module | None = None
+MODEL_A_MAPPING: dict[int, str] = {0: "Tomato", 1: "Potato", 2: "Pepper"}
+MODEL_B_DICT: dict[str, nn.Module] = {}
+MODEL_B_MAPPINGS: dict[str, dict[int, str]] = {}
+
 CLASS_ID_TO_NAME: dict[int, str] = {}
 CLASS_NAME_TO_ID: dict[str, int] = {}
-SCRC_THRESHOLD: float = DEFAULT_SCRC_THRESHOLD
+SCRC_THRESHOLD: float = 0.4500
 LLM_ENGINE: TreatmentLLM | None = None
 
 
 def load_model_and_metadata() -> None:
-    """Loads Phase 2 PyTorch EDL Model, Class Mapping, and SCRC Threshold."""
-    global EDL_MODEL, CLASS_ID_TO_NAME, CLASS_NAME_TO_ID, SCRC_THRESHOLD, LLM_ENGINE
+    """Loads 3-Crop EfficientNetV2-B2 Model A Crop Router and Model B EDL Classifiers."""
+    global MODEL_A, MODEL_B_DICT, MODEL_B_MAPPINGS, CLASS_ID_TO_NAME, CLASS_NAME_TO_ID, SCRC_THRESHOLD, LLM_ENGINE
 
     print(f"[Backend Init] Using compute device: {DEVICE}")
 
-    # 1. Load Class Mapping
-    if CLASS_MAP_JSON.exists():
-        with open(CLASS_MAP_JSON, "r", encoding="utf-8") as f:
-            cmap_data = json.load(f)
-            head_classes = cmap_data.get("head_classes", {})
-            for cname, cid in head_classes.items():
-                if isinstance(cid, int):
-                    CLASS_ID_TO_NAME[cid] = cname
-                    CLASS_NAME_TO_ID[cname] = cid
+    # 1. Load Model A (EfficientNetV2-B2 Crop Router)
+    model_a_path = BASE_DIR / "ml_pipeline" / "checkpoints" / "model_a" / "best_model_a_efficientnetv2_b2.pth"
+    if model_a_path.exists():
+        ckpt_a = torch.load(model_a_path, map_location=DEVICE)
+        model_a = efficientnet_b2(weights=None)
+        in_f_a = model_a.classifier[1].in_features
+        model_a.classifier[1] = nn.Sequential(nn.Dropout(p=0.20), nn.Linear(in_f_a, 3))
+        model_a.load_state_dict(ckpt_a["model_state_dict"])
+        MODEL_A = model_a.to(DEVICE).eval()
+        print(f"✓ [Backend Init] Loaded EfficientNetV2-B2 Model A (Crop Router) from {model_a_path.name}")
+    else:
+        print(f"⚠️ [Backend Warning] Model A checkpoint not found at {model_a_path}")
 
-    print(f"[Backend Init] Loaded {len(CLASS_ID_TO_NAME)} Head Classes from {CLASS_MAP_JSON.name}")
+    # 2. Load Model B (EfficientNetV2-B2 EDL Classifiers for Tomato, Potato, Pepper)
+    model_b_paths = {
+        "Tomato": BASE_DIR / "ml_pipeline" / "checkpoints" / "model_b" / "best_model_b_tomato.pth",
+        "Potato": BASE_DIR / "ml_pipeline" / "checkpoints" / "model_b" / "best_model_b_potato.pth",
+        "Pepper": BASE_DIR / "ml_pipeline" / "checkpoints" / "model_b" / "best_model_b_pepper.pth",
+    }
 
-    # 2. Load SCRC Threshold
+    cid_counter = 0
+    for crop_name, ckpt_path in model_b_paths.items():
+        if ckpt_path.exists():
+            ckpt_b = torch.load(ckpt_path, map_location=DEVICE)
+            raw_map = ckpt_b["class_mapping"]  # {'Class_Name': idx}
+            id_to_name = {v: k for k, v in raw_map.items()}
+            num_classes = len(raw_map)
+
+            model_b = EDLEfficientNetB2(num_classes=num_classes)
+            model_b.load_state_dict(ckpt_b["model_state_dict"])
+            MODEL_B_DICT[crop_name] = model_b.to(DEVICE).eval()
+            MODEL_B_MAPPINGS[crop_name] = id_to_name
+
+            for cname in raw_map.keys():
+                if cname not in CLASS_NAME_TO_ID:
+                    CLASS_NAME_TO_ID[cname] = cid_counter
+                    CLASS_ID_TO_NAME[cid_counter] = cname
+                    cid_counter += 1
+
+            print(f"✓ [Backend Init] Loaded EfficientNetV2-B2 Model B ({crop_name}) EDL Classifier with {num_classes} classes")
+
+    print(f"[Backend Init] Registered {len(CLASS_ID_TO_NAME)} 3-Crop Head Classes across Tomato, Potato, Pepper")
+
+    # 3. Load SCRC Threshold
     if SCRC_JSON_PATH.exists():
         with open(SCRC_JSON_PATH, "r", encoding="utf-8") as f:
             scrc_data = json.load(f)
-            SCRC_THRESHOLD = float(scrc_data.get("scrc_threshold", DEFAULT_SCRC_THRESHOLD))
+            SCRC_THRESHOLD = float(scrc_data.get("scrc_threshold", 0.4500))
 
     print(f"[Backend Init] SCRC Uncertainty Risk Control Threshold tau = {SCRC_THRESHOLD:.4f}")
-
-    # 3. Load Phase 2 PyTorch EDL Model
-    if timm is None:
-        raise ImportError("timm module is required to initialize EfficientNetV2 model architecture.")
-
-    model = timm.create_model("tf_efficientnetv2_s.in21k_ft_in1k", pretrained=False)
-    model.reset_classifier(0)
-    model.classifier = nn.Linear(1280, NUM_CLASSES)
-
-    model_path = EDL_MODEL_PATH if EDL_MODEL_PATH.exists() else BEST_MODEL_PATH
-    if model_path.exists():
-        state_dict = torch.load(model_path, map_location=DEVICE)
-        model.load_state_dict(state_dict)
-        model = model.to(DEVICE).eval()
-        EDL_MODEL = model
-        print(f"✓ [Backend Init] Phase 2 PyTorch EDL Model successfully loaded from {model_path.name}")
-    else:
-        print(f"⚠️ [Backend Warning] EDL Model checkpoint not found at {model_path}")
 
     # 4. Initialize LLM Generator Engine
     LLM_ENGINE = TreatmentLLM()
@@ -191,7 +231,8 @@ async def health_check() -> dict[str, Any]:
     """System health & model loading status endpoint."""
     return {
         "status": "healthy",
-        "model_loaded": EDL_MODEL is not None,
+        "model_loaded": MODEL_A is not None and len(MODEL_B_DICT) == 3,
+        "models_integrated": ["Model A (Crop Router)", "Model B (Tomato EDL)", "Model B (Potato EDL)", "Model B (Pepper EDL)"],
         "device": str(DEVICE),
         "num_classes": len(CLASS_ID_TO_NAME),
         "scrc_threshold": SCRC_THRESHOLD,
@@ -201,7 +242,7 @@ async def health_check() -> dict[str, Any]:
 
 @app.get("/api/classes")
 async def get_classes() -> dict[str, Any]:
-    """Returns master list of 67 disease classes for frontend crop selection."""
+    """Returns master list of 3-crop disease classes for frontend crop selection."""
     class_list = [
         {
             "class_id": cid,
@@ -218,28 +259,35 @@ async def get_classes() -> dict[str, Any]:
 
 
 def process_image_predict(image_bytes: bytes) -> tuple[str, int, float, float]:
-    """Runs PyTorch EDL inference & evidential uncertainty calculation."""
-    if EDL_MODEL is None:
-        raise HTTPException(status_code=500, detail="Vision EDL model is not loaded on server.")
+    """Runs 2-Stage Hierarchical EfficientNetV2-B2 Model A Router & Model B EDL inference."""
+    if MODEL_A is None or not MODEL_B_DICT:
+        raise HTTPException(status_code=500, detail="EfficientNetV2-B2 vision models are not loaded on server.")
 
     image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
     tensor = PREPROCESS_TRANSFORM(image).unsqueeze(0).to(DEVICE)
 
     with torch.no_grad():
         with torch.amp.autocast("cuda", enabled=(DEVICE.type == "cuda")):
-            logits = EDL_MODEL(tensor)
-            evidence = F.softplus(logits)
-            alpha = evidence + 1.0
-            S = torch.sum(alpha, dim=1, keepdim=True)
-            probs = alpha / S
-            uncertainty_val = float(NUM_CLASSES) / float(S.squeeze().item())
+            # Stage 1: Model A Crop Router
+            logits_a = MODEL_A(tensor)
+            probs_a = F.softmax(logits_a, dim=1)
+            crop_idx = int(probs_a.argmax(dim=1).item())
+            predicted_crop = MODEL_A_MAPPING.get(crop_idx, "Tomato")
 
-        max_prob, pred_class_id_tensor = probs.max(dim=1)
-        confidence_val = float(max_prob.item())
-        pred_class_id = int(pred_class_id_tensor.item())
+            # Stage 2: Model B Crop-Specific EDL Classifier
+            model_b = MODEL_B_DICT.get(predicted_crop, list(MODEL_B_DICT.values())[0])
+            id_to_name = MODEL_B_MAPPINGS.get(predicted_crop, list(MODEL_B_MAPPINGS.values())[0])
 
-    disease_name = CLASS_ID_TO_NAME.get(pred_class_id, "Unknown")
-    return disease_name, pred_class_id, confidence_val, uncertainty_val
+            logits, evidence, alpha, S, probs, uncertainty = model_b(tensor)
+            max_prob, pred_idx_tensor = probs.max(dim=1)
+            confidence_val = float(max_prob.item())
+            pred_idx = int(pred_idx_tensor.item())
+            uncertainty_val = float(uncertainty.squeeze().item())
+
+            disease_name = id_to_name.get(pred_idx, "Unknown")
+            class_id = CLASS_NAME_TO_ID.get(disease_name, 0)
+
+    return disease_name, class_id, confidence_val, uncertainty_val
 
 
 import json as _json
