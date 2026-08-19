@@ -259,7 +259,7 @@ async def get_classes() -> dict[str, Any]:
 
 
 def process_image_predict(image_bytes: bytes) -> tuple[str, int, float, float, str]:
-    """Runs 2-Stage Hierarchical EfficientNetV2-B2 Model A Router & Model B EDL inference."""
+    """Runs 2-Stage Hierarchical EfficientNetV2-B2 Model A Router & Model B EDL inference with strict OOD gates."""
     if MODEL_A is None or not MODEL_B_DICT:
         raise HTTPException(status_code=500, detail="EfficientNetV2-B2 vision models are not loaded on server.")
 
@@ -276,9 +276,9 @@ def process_image_predict(image_bytes: bytes) -> tuple[str, int, float, float, s
             crop_idx = int(crop_idx_tensor.item())
             predicted_crop = MODEL_A_MAPPING.get(crop_idx, "Tomato")
 
-            # Check if Model A crop router confidence is too low (Out-of-Distribution Image)
-            if crop_confidence < 0.50:
-                return "Unknown / Out-of-Distribution Image", -1, crop_confidence, 1.0000, "Unknown"
+            # Strict Safety Gate 1: Model A Crop Router Confidence (< 0.80 means Out-of-Domain Crop like Corn/Wheat)
+            if crop_confidence < 0.80:
+                return "Unsupported Crop / Out-of-Domain Image", -1, crop_confidence, 1.0000, "Unknown"
 
             # Stage 2: Model B Crop-Specific EDL Classifier
             model_b = MODEL_B_DICT.get(predicted_crop, list(MODEL_B_DICT.values())[0])
@@ -289,6 +289,10 @@ def process_image_predict(image_bytes: bytes) -> tuple[str, int, float, float, s
             confidence_val = float(max_prob.item())
             pred_idx = int(pred_idx_tensor.item())
             uncertainty_val = float(uncertainty.squeeze().item())
+
+            # Strict Safety Gate 2: Model B Disease Confidence (< 0.70 means Out-of-Domain / Ambiguous)
+            if confidence_val < 0.70:
+                return f"Uncertain {predicted_crop} Diagnosis", -1, confidence_val, 1.0000, predicted_crop
 
             disease_name = id_to_name.get(pred_idx, "Unknown")
             class_id = CLASS_NAME_TO_ID.get(disease_name, 0)
@@ -329,9 +333,14 @@ async def diagnose_crop(
         image_bytes = await file.read()
         disease_class, class_id, confidence, uncertainty, crop_name = process_image_predict(image_bytes)
 
-        # Apply SCRC Uncertainty Risk Control Threshold
-        # Accept if uncertainty <= SCRC_THRESHOLD (0.3175 / 0.4500) AND disease_class != Unknown
-        is_accepted = (uncertainty <= SCRC_THRESHOLD) and (disease_class != "Unknown / Out-of-Distribution Image")
+        # Apply SCRC Uncertainty Risk Control Threshold & Dual Safety Gates
+        # Accept if uncertainty <= SCRC_THRESHOLD (0.3175 / 0.4500) AND confidence >= 0.70 AND valid crop
+        is_accepted = (
+            (uncertainty <= SCRC_THRESHOLD)
+            and (confidence >= 0.70)
+            and not disease_class.startswith("Unsupported")
+            and not disease_class.startswith("Uncertain")
+        )
         status_str = "accept" if is_accepted else "reject"
 
         if is_accepted:
@@ -354,8 +363,8 @@ async def diagnose_crop(
                 advisory_text = f"Diagnosis: {disease_class} (Confidence: {confidence*100:.1f}%)."
                 sources_list = ["CABI Plantwise", "PARC Pakistan"]
         else:
-            # Rejected / High Uncertainty / Out-of-Distribution Image
-            disease_class = "Uncertain / Non-Dataset Image"
+            # Rejected / High Uncertainty / Unsupported Crop Image (e.g. Corn, Wheat, Cotton)
+            disease_class = "Unsupported Crop / High Uncertainty Image"
             class_id = -1
             symptoms_list = []
             prevention_list = []
@@ -363,18 +372,18 @@ async def diagnose_crop(
 
             if language == "ur":
                 advisory_text = (
-                    "⚠️ غیر یقینی یا غیر متعلقہ تصویر (Uncertain / Out-of-Distribution Image):\n"
-                    "ماڈل اس تصویر کی تشخیص میں پر اعتماد نہیں ہے۔ براہ کرم ٹماٹر، کچالو یا مرچ کے پتے کی صاف اور روشن تصویر اپلوڈ کریں۔"
+                    "⚠️ غیر متعلقہ یا غیر یقینی فصل (Unsupported Crop / High Uncertainty):\n"
+                    "ماڈل اس تصویر کی تشخیص میں پر اعتماد نہیں ہے۔ ZARI.ai اس وقت صرف ٹماٹر، کچالو اور مرچ کی بیماریوں کی تشخیص کی حمایت کرتا ہے۔ براہ کرم ان 3 فصلوں کے پتے کی صاف تصویر اپلوڈ کریں۔"
                 )
             elif language == "ps":
                 advisory_text = (
-                    "⚠️ ناڅرګنده تصویر (Uncertain Classification):\n"
-                    "مهرباني وکړئ د ټماټرو، کچالو یا مرچ پاڼې روښانه او مالي عکس اپلوډ کړئ."
+                    "⚠️ ناڅرګنده یا غیر مدعومه فصل (Unsupported Crop):\n"
+                    "ZARI.ai دا مهال یوازې د ټماټرو، کچالو او مرچ ناروغیو تشخیص کوي. مهرباني وکړئ د دې ۳ فصلونو د پاڼې روښانه عکس اپلوډ کړئ."
                 )
             else:
                 advisory_text = (
-                    "⚠️ High Uncertainty / Out-of-Domain Warning:\n"
-                    "The uploaded image could not be confidently identified as a supported target crop (Tomato, Potato, Pepper). Please upload a clear, well-lit leaf image."
+                    "⚠️ Unsupported Crop / Out-of-Domain Warning:\n"
+                    "The uploaded image (e.g., Corn, Wheat, Cotton) is not recognized as one of ZARI.ai's 3 supported crops (Tomato, Potato, Pepper). Please upload a clear leaf image of Tomato, Potato, or Pepper."
                 )
 
         # Format Response JSON matching all Frontend Expectations
