@@ -21,7 +21,7 @@ class CompleteEDAReportPDF(FPDF):
             return
         self.set_font("Helvetica", "B", 8)
         self.set_text_color(*GY)
-        self.cell(0, 8, S("ZARI.ai -- Comprehensive Exploratory Data Analysis (EDA) Report: Full Dataset vs 3-Crop Target Dataset"), border=0, new_x="LMARGIN", new_y="NEXT")
+        self.cell(0, 8, S("ZARI.ai -- Comprehensive Exploratory Data Analysis (EDA) Report: New Dataset & 3-Crop Target Dataset"), border=0, new_x="LMARGIN", new_y="NEXT")
         self.set_draw_color(226, 232, 240)
         self.line(10, 15, 200, 15)
         self.ln(3)
@@ -30,7 +30,7 @@ class CompleteEDAReportPDF(FPDF):
         self.set_y(-15)
         self.set_font("Helvetica", "I", 8)
         self.set_text_color(*GY)
-        self.cell(0, 10, S(f"Page {self.page_no()} of {{nb}}  |  ZARI.ai Dataset Intelligence & EDA Documentation"), align="C")
+        self.cell(0, 10, S(f"Page {self.page_no()} of {{nb}}  |  ZARI.ai New Dataset Intelligence & EDA Documentation"), align="C")
 
     def title_box(self, title, subtitle):
         self.set_fill_color(*GD)
@@ -96,49 +96,23 @@ def build_pdf():
 
     # Cover Page
     pdf.add_page()
-    pdf.title_box("ZARI.ai EDA Visual Analysis & Dataset Report", "Complete Side-by-Side Comparison: Full 67-Class Dataset vs 3-Crop Target Dataset")
+    pdf.title_box("ZARI.ai New Dataset & 3-Crop EDA Report", "Complete Analysis: New Dataset (v3) Breakdown & 3-Crop Target Production Distributions")
 
-    pdf.sec("1. Executive Summary: Dual Dataset Scope")
-    pdf.body("""This technical report presents the complete Exploratory Data Analysis (EDA) graphs and statistical distributions for both dataset paradigms in ZARI.ai:
+    pdf.sec("1. Executive Summary: New Dataset & Scope Refinement")
+    pdf.body("""This technical report presents the complete Exploratory Data Analysis (EDA) graphs and statistical distributions for the NEW dataset (v3) and production 3-crop target dataset in ZARI.ai:
 
-1. Full Master Raw Dataset (Phase 1 Audit): 67 disease classes across 14 crop species (87,000+ total raw leaf images).
-2. Production 3-Crop Target Dataset (Phase 3): Refined target scope covering Tomato (13 classes), Potato (3 classes), and Pepper (6 classes) for 22 total canonical disease classes (31,071 processed leaf images).""")
+1. New Dataset Analysis (Phase 3 Audit): Comprehensive breakdown of the newly integrated dataset across target nightshade crops.
+2. Production 3-Crop Target Dataset: Refined production scope covering Tomato (13 classes), Potato (3 classes), and Pepper (6 classes) for 22 total canonical disease classes (31,071 processed leaf images).""")
 
-    pdf.sec("2. Full Dataset EDA (67 Classes across 14 Crops)")
-    pdf.body("Exploratory analysis of the full 67-class multi-crop dataset:")
+    pdf.sec("2. New Dataset EDA (Class Breakdown & Augmentation)")
+    pdf.body("Exploratory analysis of the newly ingested dataset (v3):")
 
-    pdf.fig(fig_dir / "01_class_distribution.png", "Full Dataset Master 67-Class Image Volume Distribution", w=165)
-    pdf.fig(fig_dir / "02_crop_distribution.png", "14 Crop Species Breakdown Across Master Dataset", w=165)
+    pdf.fig(fig_dir / "new_dataset_class_distribution.png", "New Dataset Class Distribution Across Tomato, Potato, and Pepper Disease Classes", w=165)
     
     pdf.add_page()
-    pdf.sec("2. Full Dataset EDA (Continued)")
-
-    pdf.fig(fig_dir / "03_disease_distribution.png", "Healthy vs Diseased Leaf Sample Ratios", w=165)
-    pdf.fig(fig_dir / "04_source_distribution.png", "Multi-Source Data Provenance (PlantVillage, PlantDoc, Local Field Data)", w=165)
-
-    pdf.add_page()
-    pdf.fig(fig_dir / "05_split_distribution.png", "Stratified Train / Val / Test Split Distribution (80% / 10% / 10%)", w=165)
-    pdf.fig(fig_dir / "06_domain_distribution.png", "Lab-Controlled vs Field-Realistic Image Domain Split", w=165)
-
-    pdf.add_page()
-    pdf.fig(fig_dir / "07_healthy_vs_diseased.png", "Crop-wise Healthy vs Diseased Sample Breakdown", w=165)
-    pdf.fig(fig_dir / "08_blur_histogram.png", "Laplacian Variance Blur Distribution (Quality Screening)", w=165)
-
-    pdf.add_page()
-    pdf.fig(fig_dir / "09_brightness_histogram.png", "Mean Pixel Intensity / Brightness Distribution", w=165)
-    pdf.fig(fig_dir / "10_quality_histogram.png", "Signal-to-Noise Ratio (SNR) Quality Histogram", w=165)
-
-    pdf.add_page()
-    pdf.fig(fig_dir / "11_difficulty_histogram.png", "Sample Classification Difficulty Ratings", w=165)
-    pdf.fig(fig_dir / "12_severity_distribution.png", "Infection Severity Breakdown (Early, Moderate, Severe)", w=165)
-
-    pdf.add_page()
-    pdf.fig(fig_dir / "13_top10_pie.png", "Top-10 Dominant Classes Volume Contribution", w=165)
-    pdf.fig(fig_dir / "14_bottom30_classes.png", "Rare & Long-Tail Class Imbalance Distribution", w=165)
-
-    pdf.add_page()
-    pdf.fig(fig_dir / "15_crop_pathogen_heatmap.png", "Crop Species x Pathogen Type Cross-Tabulation Matrix", w=165)
-    pdf.fig(fig_dir / "18_pathogen_pie.png", "Pathogen Taxonomy Breakdown (Fungal, Bacterial, Viral, Oomycete)", w=165)
+    pdf.sec("2. New Dataset EDA (Continued)")
+    pdf.fig(fig_dir / "new_dataset_crop_breakdown.png", "New Dataset Volume Share by Target Crop Species (Tomato, Potato, Pepper)", w=165)
+    pdf.fig(fig_dir / "new_dataset_augmented_vs_raw.png", "New Dataset Raw Field Samples vs Synthetic Augmentation Ratios", w=165)
 
     # Genuine 3-Crop Target Dataset EDA Section
     pdf.add_page()
@@ -157,7 +131,7 @@ def build_pdf():
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / "ZARI_FULL_VS_3CROP_EDA_COMPLETE_REPORT.pdf"
     pdf.output(str(out_path))
-    print(f"✓ Re-generated ZARI_FULL_VS_3CROP_EDA_COMPLETE_REPORT.pdf with GENUINE 3-CROP FIGURES at: {out_path}")
+    print(f"✓ Re-generated ZARI_FULL_VS_3CROP_EDA_COMPLETE_REPORT.pdf with NEW DATASET FIGURES at: {out_path}")
 
 if __name__ == "__main__":
     build_pdf()
