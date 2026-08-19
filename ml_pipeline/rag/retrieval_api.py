@@ -112,6 +112,20 @@ def retrieve(
             
     return output_chunks
 
+# ── Convenience Aliases ───────────────────────────────────────────────────────
+def retrieve_symptoms(query: str, disease_class: Optional[str] = None, crop: Optional[str] = None, language: str = "en", k: int = 5) -> List[Dict[str, Any]]:
+    return retrieve(query, disease_class=disease_class, crop=crop, intent="symptoms", language=language, k=k)
+
+def retrieve_treatment(query: str, disease_class: Optional[str] = None, crop: Optional[str] = None, language: str = "en", k: int = 5) -> List[Dict[str, Any]]:
+    return retrieve(query, disease_class=disease_class, crop=crop, intent="chemical_control", language=language, k=k)
+
+def retrieve_prevention(query: str, disease_class: Optional[str] = None, crop: Optional[str] = None, language: str = "en", k: int = 5) -> List[Dict[str, Any]]:
+    return retrieve(query, disease_class=disease_class, crop=crop, intent="prevention", language=language, k=k)
+
+def retrieve_pakistan(query: str, disease_class: Optional[str] = None, crop: Optional[str] = None, language: str = "en", k: int = 5) -> List[Dict[str, Any]]:
+    return retrieve(query, disease_class=disease_class, crop=crop, intent="safety", language=language, k=k)
+
+
 # ── Test Suite Execution ──────────────────────────────────────────────────────
 def run_test_suite():
     print("=" * 75)
