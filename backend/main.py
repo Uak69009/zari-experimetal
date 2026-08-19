@@ -258,7 +258,7 @@ async def get_classes() -> dict[str, Any]:
     }
 
 
-def process_image_predict(image_bytes: bytes) -> tuple[str, int, float, float]:
+def process_image_predict(image_bytes: bytes) -> tuple[str, int, float, float, str]:
     """Runs 2-Stage Hierarchical EfficientNetV2-B2 Model A Router & Model B EDL inference."""
     if MODEL_A is None or not MODEL_B_DICT:
         raise HTTPException(status_code=500, detail="EfficientNetV2-B2 vision models are not loaded on server.")
@@ -271,8 +271,14 @@ def process_image_predict(image_bytes: bytes) -> tuple[str, int, float, float]:
             # Stage 1: Model A Crop Router
             logits_a = MODEL_A(tensor)
             probs_a = F.softmax(logits_a, dim=1)
-            crop_idx = int(probs_a.argmax(dim=1).item())
+            crop_conf, crop_idx_tensor = probs_a.max(dim=1)
+            crop_confidence = float(crop_conf.item())
+            crop_idx = int(crop_idx_tensor.item())
             predicted_crop = MODEL_A_MAPPING.get(crop_idx, "Tomato")
+
+            # Check if Model A crop router confidence is too low (Out-of-Distribution Image)
+            if crop_confidence < 0.50:
+                return "Unknown / Out-of-Distribution Image", -1, crop_confidence, 1.0000, "Unknown"
 
             # Stage 2: Model B Crop-Specific EDL Classifier
             model_b = MODEL_B_DICT.get(predicted_crop, list(MODEL_B_DICT.values())[0])
@@ -287,7 +293,7 @@ def process_image_predict(image_bytes: bytes) -> tuple[str, int, float, float]:
             disease_name = id_to_name.get(pred_idx, "Unknown")
             class_id = CLASS_NAME_TO_ID.get(disease_name, 0)
 
-    return disease_name, class_id, confidence_val, uncertainty_val
+    return disease_name, class_id, confidence_val, uncertainty_val, predicted_crop
 
 
 import json as _json
@@ -321,50 +327,54 @@ async def diagnose_crop(
     """
     try:
         image_bytes = await file.read()
-        disease_class, class_id, confidence, uncertainty = process_image_predict(image_bytes)
+        disease_class, class_id, confidence, uncertainty, crop_name = process_image_predict(image_bytes)
 
         # Apply SCRC Uncertainty Risk Control Threshold
-        # Accept if uncertainty <= SCRC_THRESHOLD (0.8050), else Reject
-        is_accepted = uncertainty <= SCRC_THRESHOLD
+        # Accept if uncertainty <= SCRC_THRESHOLD (0.3175 / 0.4500) AND disease_class != Unknown
+        is_accepted = (uncertainty <= SCRC_THRESHOLD) and (disease_class != "Unknown / Out-of-Distribution Image")
         status_str = "accept" if is_accepted else "reject"
 
-        # Retrieve RAG Evidence Chunks
-        s_chunks = retrieve_symptoms(disease_class, k=3)
-        p_chunks = retrieve_prevention(disease_class, k=3)
+        if is_accepted:
+            # Retrieve RAG Evidence Chunks for accepted diagnosis
+            s_chunks = retrieve_symptoms(disease_class, k=3)
+            p_chunks = retrieve_prevention(disease_class, k=3)
+            symptoms_list = [c.get("text", "")[:120] for c in s_chunks]
+            prevention_list = [c.get("text", "")[:120] for c in p_chunks]
 
-        symptoms_list = [c.get("text", "")[:120] for c in s_chunks]
-        prevention_list = [c.get("text", "")[:120] for c in p_chunks]
-
-        # Generate LLM advisory recommendation
-        if LLM_ENGINE is None:
-            advisory_text = f"Diagnosis: {disease_class} (Confidence: {confidence*100:.1f}%). Consult local extension officer."
-            sources_list = ["CABI Plantwise", "PARC Pakistan"]
+            if LLM_ENGINE is not None:
+                llm_result = LLM_ENGINE.generate(
+                    disease_class=disease_class,
+                    confidence=confidence,
+                    uncertainty=uncertainty,
+                    language=language,
+                )
+                advisory_text = llm_result["response"]
+                sources_list = llm_result["sources_cited"]
+            else:
+                advisory_text = f"Diagnosis: {disease_class} (Confidence: {confidence*100:.1f}%)."
+                sources_list = ["CABI Plantwise", "PARC Pakistan"]
         else:
-            llm_result = LLM_ENGINE.generate(
-                disease_class=disease_class,
-                confidence=confidence,
-                uncertainty=uncertainty,
-                language=language,
-            )
-            advisory_text = llm_result["response"]
-            sources_list = llm_result["sources_cited"]
+            # Rejected / High Uncertainty / Out-of-Distribution Image
+            disease_class = "Uncertain / Non-Dataset Image"
+            class_id = -1
+            symptoms_list = []
+            prevention_list = []
+            sources_list = ["ZARI.ai SCRC Risk Control Safety Gate"]
 
-        # If rejected due to uncertainty, override advisory text with clear warning
-        if not is_accepted:
             if language == "ur":
                 advisory_text = (
-                    "⚠️ غیر یقینی تصویر (Uncertain Classification):\n"
-                    "ماڈل اس تصویر کی تشخیص میں مکمل پر اعتماد نہیں ہے۔ براہ کرم پتے کی زیادہ صاف اور روشن تصویر اپلوڈ کریں۔"
+                    "⚠️ غیر یقینی یا غیر متعلقہ تصویر (Uncertain / Out-of-Distribution Image):\n"
+                    "ماڈل اس تصویر کی تشخیص میں پر اعتماد نہیں ہے۔ براہ کرم ٹماٹر، کچالو یا مرچ کے پتے کی صاف اور روشن تصویر اپلوڈ کریں۔"
                 )
             elif language == "ps":
                 advisory_text = (
-                    "⚠️ ناڅرګنده عکس (Uncertain Classification):\n"
-                    "مهرباني وکړئ د پاڼې روښانه او مالي عکس اپلوډ کړئ."
+                    "⚠️ ناڅرګنده تصویر (Uncertain Classification):\n"
+                    "مهرباني وکړئ د ټماټرو، کچالو یا مرچ پاڼې روښانه او مالي عکس اپلوډ کړئ."
                 )
             else:
                 advisory_text = (
-                    "⚠️ High Uncertainty Warning:\n"
-                    "The model uncertainty exceeds the safety threshold. Please provide a clearer, well-lit crop leaf image."
+                    "⚠️ High Uncertainty / Out-of-Domain Warning:\n"
+                    "The uploaded image could not be confidently identified as a supported target crop (Tomato, Potato, Pepper). Please upload a clear, well-lit leaf image."
                 )
 
         # Format Response JSON matching all Frontend Expectations
