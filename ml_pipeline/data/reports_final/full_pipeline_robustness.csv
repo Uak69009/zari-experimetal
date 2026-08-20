@@ -1,8 +1,0 @@
-perturbation,classification_acc,rejection_rate_pct,sam2_success_pct,status
-Clean Validation Baseline,98.03,2.6,94.2,PASS
-Gaussian Blur (sigma=0.5),97.95,2.8,93.8,PASS
-Gaussian Blur (sigma=1.0),97.8,3.4,92.5,PASS
-Brightness (-10%),98.0,2.7,94.0,PASS
-Brightness (+10%),98.02,2.6,94.1,PASS
-Contrast (-10%),97.88,2.9,93.5,PASS
-JPEG Quality (~75),97.98,2.7,93.9,PASS

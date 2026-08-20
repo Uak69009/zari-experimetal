@@ -1,7 +1,0 @@
-image_path,true_class,predicted_supported_class,max_probability,epistemic_uncertainty
-/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/new_Dataset/Potato Leaf Disease Dataset/Potato Leaf Disease Dataset/Viral Leaf Roll/orig_24.jpg,Potato_Viral_Leaf_Roll,Potato_Late_Blight,0.7621,0.1767
-/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/new_Dataset/Potato Leaf Disease Dataset/Potato Leaf Disease Dataset/Viral Leaf Roll/orig_0.jpg,Potato_Viral_Leaf_Roll,Potato_Late_Blight,0.9069,0.1391
-/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/new_Dataset/Potato Leaf Disease Dataset/Potato Leaf Disease Dataset/Viral Leaf Roll/orig_16.jpg,Potato_Viral_Leaf_Roll,Potato_Healthy,0.8313,0.2427
-/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/new_Dataset/Potato Leaf Disease Dataset/Potato Leaf Disease Dataset/Viral Leaf Roll/orig_5.jpg,Potato_Viral_Leaf_Roll,Potato_Healthy,0.8287,0.2384
-/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/new_Dataset/Potato Leaf Disease Dataset/Potato Leaf Disease Dataset/Bacterial Soft Rot/orig_6.jpg,Potato_Bacterial_Soft_Rot,Potato_Late_Blight,0.9575,0.0637
-/home/hammad/Desktop/project zari - experimental/ml_pipeline/data/new_Dataset/Potato Leaf Disease Dataset/Potato Leaf Disease Dataset/Viral PVX/orig_4.jpg,Potato_Viral_PVX,Potato_Late_Blight,0.7494,0.2828

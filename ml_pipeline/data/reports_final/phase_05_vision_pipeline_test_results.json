@@ -1,8 +1,0 @@
-{
-  "pipeline_status": "CALIBRATED_AND_VERIFIED",
-  "crop_confidence_gate": 0.85,
-  "disease_confidence_gate": 0.7,
-  "edl_uncertainty_gate": 0.35,
-  "validation_rejection_rate": "2.6%",
-  "validation_selective_accuracy": "98.8%"
-}

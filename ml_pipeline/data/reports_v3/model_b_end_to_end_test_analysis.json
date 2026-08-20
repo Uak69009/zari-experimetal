@@ -1,9 +1,0 @@
-{
-  "model_a_crop_accuracy": 0.0,
-  "oracle_disease_accuracy": 0.982755,
-  "end_to_end_disease_accuracy": 0.980349,
-  "routing_error_penalty_pct": 0.2406,
-  "total_supported_test_images": 4987,
-  "crop_routing_errors": 25,
-  "disease_classification_errors": 73
-}
