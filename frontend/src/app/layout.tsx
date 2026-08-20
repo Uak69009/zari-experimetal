@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import WhatsAppWidget from "./components/WhatsAppWidget";
 
 export const metadata: Metadata = {
   title: "ZARI.ai — Crop Disease Diagnosis",
@@ -38,7 +37,6 @@ export default function RootLayout({
         <main className="w-full">
           {children}
         </main>
-        <WhatsAppWidget />
       </body>
     </html>
   );

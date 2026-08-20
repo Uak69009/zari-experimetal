@@ -4,9 +4,9 @@ import { Mail, Phone, MapPin, Users } from "lucide-react";
 
 export default function TeamAndContact() {
   const team = [
-    { name: "Umair Amjad Khan", role: "AI & ML Engineer", email: "umair@zari.ai" },
-    { name: "Muhammad Hammaz Azam", role: "Software Engineer", email: "hammaz@zari.ai" },
-    { name: "Muhammad Uzair", role: "Agricultural Specialist", email: "uzair@zari.ai" }
+    { name: "Umair Amjad Khan", email: "umair@zari.ai" },
+    { name: "Muhammad Hammaz Azam", email: "hammaz@zari.ai" },
+    { name: "Muhammad Uzair", email: "uzair@zari.ai" }
   ];
 
   return (
@@ -34,7 +34,6 @@ export default function TeamAndContact() {
                       <Mail className="w-3.5 h-3.5" /> {member.email}
                     </a>
                   </div>
-                  <span className="text-emerald-300 text-sm font-semibold px-3 py-1 bg-emerald-950/50 rounded-full text-center max-w-[140px] leading-tight">{member.role}</span>
                 </div>
               ))}
             </div>
